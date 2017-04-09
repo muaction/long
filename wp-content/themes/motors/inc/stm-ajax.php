@@ -31,7 +31,7 @@ function stm_ajax_add_to_compare()
     $response['status'] = '';
     $response['empty'] = '';
     $response['empty_table'] = '';
-    $response['add_to_text'] = esc_html__('Add to compare', 'motors');
+    $response['add_to_text'] = esc_html__('So sánh xe', 'motors');
     $response['in_com_text'] = esc_html__('In compare list', 'motors');
     $response['remove_text'] = esc_html__('Remove from list', 'motors');
 

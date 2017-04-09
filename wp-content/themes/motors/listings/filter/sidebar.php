@@ -6,7 +6,7 @@
 
 		<div class="sidebar-entry-header">
 			<i class="stm-icon-car_search"></i>
-			<span class="h4"><?php _e( 'Search Options', 'motors' ); ?></span>
+			<span class="h4"><?php _e( 'Tìm Kiếm Tùy Chọn', 'motors' ); ?></span>
 		</div>
 
 		<div class="row row-pad-top-24">
@@ -53,7 +53,7 @@
 			       value="<?php _e( 'Show cars', 'motors' ); ?>"/>
 
 			<a href="<?php echo esc_url( stm_get_listing_archive_link() ); ?>"
-			   class="button"><span><?php _e( 'Reset all', 'motors' ); ?></span></a>
+			   class="button"><span><?php _e( 'Chọn Lại', 'motors' ); ?></span></a>
 		</div>
 
 		<?php do_action( 'stm_listings_filter_after' ); ?>

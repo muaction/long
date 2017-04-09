@@ -18,7 +18,7 @@
 
 		<div class="sidebar-entry-header">
 			<i class="stm-icon-car_search"></i>
-			<span class="h4"><?php _e( 'Search Options', 'motors' ); ?></span>
+			<span class="h4"><?php _e( 'Tìm Kiếm Tùy Chọn', 'motors' ); ?></span>
 		</div>
 
 		<div class="row row-pad-top-24">

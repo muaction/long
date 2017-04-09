@@ -41,7 +41,7 @@ if(!empty($fixed_header) and $fixed_header) {
 							<a
 							href="<?php echo esc_url(get_the_permalink($compare_page)); ?>"
 							title="<?php esc_html_e('Watch compared', 'motors'); ?>">
-								<span class="list-label heading-font"><?php esc_html_e('Compare', 'motors'); ?></span>
+								<span class="list-label heading-font"><?php esc_html_e('So Sánh Xe', 'motors'); ?></span>
 								<i class="list-icon stm-icon-speedometr2"></i>
 								<span class="list-badge"><span class="stm-current-cars-in-compare"><?php if(count($_COOKIE['compare_ids'])){ echo esc_attr(count($_COOKIE['compare_ids'])); } ?></span></span>
 							</a>

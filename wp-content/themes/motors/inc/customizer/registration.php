@@ -1380,11 +1380,11 @@ STM_Customizer::setSection('car_settings', array(
 ));
 
 STM_Customizer::setSection('compare', array(
-    'title' => esc_html__('Compare', 'motors'),
+    'title' => esc_html__('So Sánh Xe', 'motors'),
     'panel' => 'listing',
     'fields' => array(
         'compare_page' => array(
-            'label' => esc_html__('Compare page', 'motors'),
+            'label' => esc_html__('So Sánh Xe', 'motors'),
             'type' => 'stm-post-type',
             'post_type' => 'page',
             'description' => esc_html__('Choose landing page for compare', 'motors'),

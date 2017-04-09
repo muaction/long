@@ -76,7 +76,7 @@ if(stm_check_if_car_imported(get_the_ID()) and empty($certified_logo_1) and !emp
 						data-id="<?php echo esc_attr(get_the_ID()); ?>"
 						data-action="add">
 						<i class="stm-icon-add"></i>
-						<?php esc_html_e('Add to compare', 'motors'); ?>
+						<?php esc_html_e('So sánh xe', 'motors'); ?>
 					</a>
 				<?php endif; ?>
 			</li>
