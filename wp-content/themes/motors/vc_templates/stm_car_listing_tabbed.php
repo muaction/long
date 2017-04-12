@@ -166,7 +166,7 @@ $tab_unique = 'listing-cars-id-'.rand(0,99999);
 															<span></span>
 														</div>
 														<a class="load-more-btn" href="" onclick="loadMoreCars(jQuery(this),'<?php echo esc_js($filter_cat[0]); ?>','<?php echo esc_js($filter_cat[1]); ?>',<?php echo esc_js(intval($per_page)); ?>,<?php echo esc_js(intval($per_page)); ?>);return false;">
-															<?php esc_html_e('Load more', 'motors'); ?>
+															<?php esc_html_e('Tải Thêm', 'motors'); ?>
 														</a>
 													</div>
 												</div>

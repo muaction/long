@@ -14,7 +14,7 @@ $filter_options = stm_get_single_car_listings();
 $empty_cars = 3 - count($compare_ids);
 $counter = 0;
 
-$add_to_text = esc_html__('Add car to compare', 'motors');
+$add_to_text = esc_html__('Thêm Xe Vào So Sánh', 'motors');
 
 if(stm_is_boats()) {
     $add_to_text = esc_html__('Add boat to compare', 'motors');
@@ -22,7 +22,7 @@ if(stm_is_boats()) {
     $add_to_text = esc_html__('Add vehicle to compare', 'motors');
 }
 
-$title_text = esc_html__('Compare Vehicles', 'motors');
+$title_text = esc_html__('So Sánh Xe', 'motors');
 if(stm_is_boats()) {
     $title_text = esc_html__('Compare Boats', 'motors');
 }
@@ -81,7 +81,7 @@ if(stm_is_boats()) {
                                 data-id="<?php echo esc_attr(get_the_ID()); ?>"
                                 data-action="remove">
 								<i class="stm-icon-remove"></i>
-								<span><?php esc_html_e('Remove from list', 'motors'); ?></span>
+								<span><?php esc_html_e('Xóa', 'motors'); ?></span>
 							</span>
                         </div>
                         <a href="<?php the_permalink(); ?>" class="rmv_txt_drctn">
@@ -304,7 +304,7 @@ if(stm_is_boats()) {
         <?php if ($compares->have_posts()): ?>
             <div class="row row-4 row-compare-features hidden-xs">
                 <div class="col-md-3 col-sm-3">
-                    <h4 class="stm-compare-features"><?php esc_html_e('Additional features', 'motors'); ?></h4>
+                    <h4 class="stm-compare-features"><?php esc_html_e('Tính Năng Bổ Sung', 'motors'); ?></h4>
                 </div>
                 <?php while ($compares->have_posts()): $compares->the_post(); ?>
                     <?php $features = get_post_meta(get_the_ID(), 'additional_features', true); ?>

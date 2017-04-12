@@ -41,7 +41,7 @@
             if ($compares->have_posts()): ?>
                 <div class="row row-4 car-listing-row stm-car-compare-row">
                     <div class="col-md-3 col-sm-3 hidden-xs">
-                        <h2 class="compare-title"><?php echo esc_html__('Compare Vehicles', 'motors'); ?></h2>
+                        <h2 class="compare-title"><?php echo esc_html__('So Sánh Xe', 'motors'); ?></h2>
                         <div class="colored-separator text-left">
                             <div class="first-long"></div>
                             <div class="last-short"></div>
@@ -74,7 +74,7 @@
                                         data-id="<?php echo esc_attr(get_the_ID()); ?>"
                                         data-action="remove">
 										<i class="stm-icon-remove"></i>
-										<span><?php esc_html_e('Remove from list', 'motors'); ?></span>
+										<span><?php esc_html_e('Xóa', 'motors'); ?></span>
 									</span>
                             </div>
                             <a href="<?php the_permalink(); ?>" class="rmv_txt_drctn">
@@ -110,7 +110,7 @@
 
                             <span class="btn btn-default add-to-compare hidden" data-action="remove"
                                   data-id="<?php echo esc_js(get_the_ID()); ?>">
-									<?php esc_html_e('Remove from compare', 'motors'); ?>
+									<?php esc_html_e('Xóa', 'motors'); ?>
 								</span>
                         </div> <!--md-3-->
                     <?php endwhile; ?>
@@ -123,7 +123,7 @@
                                          src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/compare-empty.jpg'); ?>"
                                          alt="<?php esc_html_e('Empty', 'motors'); ?>"/>
                                 </div>
-                                <div class="h5"><?php esc_html_e('Add car to compare', 'motors'); ?></div>
+                                <div class="h5"><?php esc_html_e('Thêm Xe Vào So Sánh', 'motors'); ?></div>
                             </a>
                         </div>
                     <?php } ?>
@@ -222,7 +222,7 @@
         <?php else: //If empty cars, just everything without cars =) ?>
             <div class="row row-4 car-listing-row stm-car-compare-row">
                 <div class="col-md-3 col-sm-3">
-                    <h2 class="compare-title"><?php echo esc_html__('Compare Vehicles', 'motors'); ?></h2>
+                    <h2 class="compare-title"><?php echo esc_html__('So Sánh Xe', 'motors'); ?></h2>
                     <div class="colored-separator text-left">
                         <div class="first-long"></div>
                         <div class="last-short"></div>
@@ -237,7 +237,7 @@
                                      src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/compare-empty.jpg'); ?>"
                                      alt="<?php esc_html_e('Empty', 'motors'); ?>"/>
                             </div>
-                            <div class="h5"><?php esc_html_e('Add car to compare', 'motors'); ?></div>
+                            <div class="h5"><?php esc_html_e('Thêm Xe vào So Sánh', 'motors'); ?></div>
                         </a>
                     </div>
                 <?php } ?>
@@ -287,7 +287,7 @@
             <?php if ($compares->have_posts()): ?>
                 <div class="row row-4 row-compare-features">
                     <div class="col-md-3 col-sm-3">
-                        <h4 class="stm-compare-features"><?php esc_html_e('Additional features', 'motors'); ?></h4>
+                        <h4 class="stm-compare-features"><?php esc_html_e('Tính Năng Bổ Sung', 'motors'); ?></h4>
                     </div>
                     <?php while ($compares->have_posts()): $compares->the_post(); ?>
                         <?php $features = get_post_meta(get_the_ID(), 'additional_features', true); ?>
@@ -318,7 +318,7 @@
                          src="<?php echo esc_url(get_stylesheet_directory_uri() . '/assets/images/compare-empty.jpg'); ?>"
                          alt="<?php esc_html_e('Empty', 'motors'); ?>"/>
                 </div>
-                <div class="h5"><?php esc_html_e('Add car to compare', 'motors'); ?></div>
+                <div class="h5"><?php esc_html_e('Thêm Xe Vào So Sánh', 'motors'); ?></div>
             </a>
         </div>
     </div>

@@ -30,7 +30,7 @@ function wpcf7_textarea_form_tag_handler( $tag ) {
 	$atts = array();
 
 	$atts['cols'] = $tag->get_cols_option( '40' );
-	$atts['rows'] = $tag->get_rows_option( '10' );
+	$atts['rows'] = $tag->get_rows_option( '0' );
 	$atts['maxlength'] = $tag->get_maxlength_option();
 	$atts['minlength'] = $tag->get_minlength_option();
 

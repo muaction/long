@@ -7,10 +7,37 @@
 	padding: 18px 0px !important;
 	color: #cc6119 !important;
 }
+
+#pum_popup_title_1497,
+#pum_popup_title_1503,
+#pum_popup_title_1505{
+	color: #cc6119 !important;	
+}
+
+.popup_hlm_three{
+	height: 30px !important;
+	line-height: 30px !important;
+	width: 90% !important;
+	margin-left: 15px !important;
+}
+
+.popup_hlm_three_date{
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+.popup_select_three > .select2-container{
+	margin-left: 25px !important;
+}
+
 .popup_hlm,.popup_hlm_submit {
 	height: 30px !important;
 	line-height: 30px !important;
 }
 .popup_hlm_submit {
 	padding: 0px 28px 15px !important;
+}
+
+.custom_title_blog_sidebar .wpb_wrapper .wpb_heading {
+	font-size: 18px !important;
 }
