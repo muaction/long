@@ -8,7 +8,6 @@
 		</style>
 		<?php
 	}
-
 ?>
 
 <form action="<?php echo stm_listings_current_url() ?>" method="get" data-trigger="filter">
@@ -18,13 +17,12 @@
 
 		<div class="sidebar-entry-header">
 			<i class="stm-icon-car_search"></i>
-			<span class="h4"><?php _e( 'Tìm Kiếm Tùy Chọn', 'motors' ); ?></span>
+			<span class="h4"><?php _e( 'Search Options', 'motors' ); ?></span>
 		</div>
 
 		<div class="row row-pad-top-24">
 
 			<?php foreach ( $filter['filters'] as $attribute => $config ):
-
 				if($attribute == 'price') {
 					continue;
 				}
@@ -46,12 +44,6 @@
 			<?php endforeach; ?>
 
 			<?php stm_listings_load_template('filter/types/location'); ?>
-
-            <?php
-            stm_listings_load_template( 'filter/types/features', array(
-                'taxonomy' => 'stm_additional_features',
-            ) );
-            ?>
 
 		</div>
 
@@ -98,9 +90,9 @@ $stm_vehicle_listing_options = stm_get_car_filter(); ?>
 <style type="text/css">
 	<?php foreach($stm_vehicle_listing_options as $stm_vehicle_listing_option): ?>
 	<?php if(!empty($stm_vehicle_listing_option['numeric']) and $stm_vehicle_listing_option['numeric']): ?>
-	.select2-selection__rendered[title="<?php echo esc_html__('Max', 'motors').' '.esc_html__($stm_vehicle_listing_option['single_name'], 'motors'); ?>"] {
+	.select2-selection__rendered[title="<?php echo esc_html__('Max', 'motors').' '.esc_attr($stm_vehicle_listing_option['single_name']); ?>"] {
 	<?php else: ?>
-	.select2-selection__rendered[title="<?php esc_html_e($stm_vehicle_listing_option['single_name'], 'motors'); ?>"] {
+	.select2-selection__rendered[title="<?php echo esc_attr($stm_vehicle_listing_option['single_name']); ?>"] {
 	<?php endif; ?>
 		background-color: transparent !important;
 		border: 1px solid rgba(255,255,255,0.5);
@@ -108,9 +100,9 @@ $stm_vehicle_listing_options = stm_get_car_filter(); ?>
 	}
 
 	<?php if(!empty($stm_vehicle_listing_option['numeric']) and $stm_vehicle_listing_option['numeric']): ?>
-	.select2-selection__rendered[title="<?php echo esc_html__('Max', 'motors').' '.esc_html__($stm_vehicle_listing_option['single_name'], 'motors'); ?>"] + .select2-selection__arrow b {
+	.select2-selection__rendered[title="<?php echo esc_html__('Max', 'motors').' '.esc_attr($stm_vehicle_listing_option['single_name']); ?>"] + .select2-selection__arrow b {
 	<?php else: ?>
-	.select2-selection__rendered[title="<?php esc_html_e($stm_vehicle_listing_option['single_name'], 'motors'); ?>"] + .select2-selection__arrow b {
+	.select2-selection__rendered[title="<?php echo esc_attr($stm_vehicle_listing_option['single_name']); ?>"] + .select2-selection__arrow b {
 	<?php endif; ?>
 		color: rgba(255,255,255,0.5);
 	}

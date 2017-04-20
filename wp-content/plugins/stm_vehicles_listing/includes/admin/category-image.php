@@ -161,9 +161,8 @@ if (!function_exists('stm_taxonomy_listing_add_field_parent')) {
                 <option value=""><?php esc_html_e('No parent'); ?></option>
                 <?php if (!empty($taxonomy_parent)): ?>
                     <?php foreach ($taxonomy_parent as $taxonomy_parent_single): ?>
-                        <option value="<?php echo esc_attr($taxonomy_parent_single->slug) ?>">
-                            <?php echo apply_filters('stm_parent_taxonomy_option', $taxonomy_parent_single->name, $taxonomy_parent_single, $taxonomy); ?>
-                        </option>
+                        <option
+                            value="<?php echo esc_attr($taxonomy_parent_single->slug) ?>"><?php echo esc_attr($taxonomy_parent_single->name); ?></option>
                     <?php endforeach; ?>
                 <?php endif; ?>
             </select>
@@ -192,7 +191,7 @@ if (!function_exists('stm_taxonomy_listing_edit_field_parent')) {
                         <?php foreach ($taxonomy_parent as $taxonomy_parent_single): ?>
                             <option value="<?php echo esc_attr($taxonomy_parent_single->slug) ?>"
                                     <?php if ($taxonomy_parent_single->slug == $make_custom_order): ?>selected<?php endif; ?>>
-                                <?php echo apply_filters('stm_parent_taxonomy_option', $taxonomy_parent_single->name, $taxonomy_parent_single, $taxonomy); ?>
+                                <?php echo esc_attr($taxonomy_parent_single->name); ?>
                             </option>
                         <?php endforeach; ?>
                     <?php endif; ?>

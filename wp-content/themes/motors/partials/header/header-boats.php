@@ -79,7 +79,7 @@ $shopping_cart_boats = get_theme_mod('shopping_cart_boats', true);
 							class="lOffer-compare"
 							href="<?php echo esc_url(get_the_permalink($compare_page)); ?>"
 							title="<?php esc_html_e('Watch compared', 'motors'); ?>">
-							<span class="heading-font"><?php esc_html_e('So Sánh Xe', 'motors'); ?></span>
+							<span class="heading-font"><?php esc_html_e('Compare', 'motors'); ?></span>
 							<i class="list-icon stm-boats-icon-compare-boats"></i>
 							<span class="list-badge"><span class="stm-current-cars-in-compare"><?php if(!empty($_COOKIE['compare_ids']) and count($_COOKIE['compare_ids'])){ echo esc_attr(count($_COOKIE['compare_ids'])); } ?></span></span>
 						</a>

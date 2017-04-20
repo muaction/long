@@ -41,8 +41,7 @@ $terms_args = array(
 						}
 						?>
 						<?php if($number_field): ?>
-                            <?php $value = get_post_meta($id, $tax_info['slug'], true); ?>
-							<input value="<?php echo esc_attr($value); ?>" min="0" type="number" name="stm_f_s[<?php echo esc_attr($tax); ?>]" required />
+							<input min="0" type="number" name="stm_f_s[<?php echo esc_attr($tax); ?>]" required />
 						<?php else: ?>
 							<select data-class="stm_select_overflowed" name="stm_f_s[<?php echo esc_attr($tax); ?>]">
 								<option value=""><?php esc_html_e('Select', 'motors'); ?> <?php echo esc_html__(stm_get_name_by_slug($tax), 'motors'); ?></option>

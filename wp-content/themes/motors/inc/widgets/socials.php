@@ -35,7 +35,7 @@ class Stm_Socials_Widget extends WP_Widget {
 
 			foreach ( $socials as $key => $val ): ?>
 				<li>
-					<a href="<?php echo esc_url( $val ) ?>" target="_blank">
+					<a href="<?php echo esc_url( $val ) ?>">
 						<i class="fa fa-<?php echo esc_attr( $key ); ?>"></i>
 					</a>
 				</li>

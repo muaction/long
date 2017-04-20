@@ -50,12 +50,6 @@ if($tab_tax_exist) {
 
             <?php stm_listings_load_template('filter/types/location'); ?>
 
-            <?php
-            stm_listings_load_template( 'filter/types/features', array(
-                'taxonomy' => 'stm_additional_features',
-            ) );
-            ?>
-
         </div>
 
         <!--View type-->
@@ -74,7 +68,7 @@ if($tab_tax_exist) {
                    value="<?php _e('Show cars', 'motors'); ?>"/>
 
             <a href="<?php echo esc_url(stm_get_listing_archive_link()); ?>"
-               class="button"><span><?php _e('Chọn Lại', 'motors'); ?></span></a>
+               class="button"><span><?php _e('Reset all', 'motors'); ?></span></a>
         </div>
 
         <?php do_action('stm_listings_filter_after'); ?>

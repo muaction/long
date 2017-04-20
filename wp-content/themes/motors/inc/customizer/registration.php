@@ -936,11 +936,6 @@ if (!stm_is_motorcycle()) {
             'type' => 'checkbox',
             'default' => false
         ),
-        'enable_features_search' => array(
-            'label' => esc_html__('Display Additional Features on Inventory Filter', 'motors'),
-            'type' => 'checkbox',
-            'default' => true
-        ),
         'listing_filter_position' => array(
             'label' => esc_html__('Filter Position', 'motors'),
             'type' => 'stm-select',
@@ -1326,26 +1321,6 @@ if(!stm_is_listing() and !stm_is_boats() and !stm_is_motorcycle()) {
 }
 
 if (stm_is_motorcycle()) {
-    $single_car_settings['show_quote_phone'] = array(
-        'label' => esc_html__('Show quote by phone', 'motors'),
-        'type' => 'checkbox',
-        'default' => true
-    );
-    $single_car_settings['show_trade_in'] = array(
-        'label' => esc_html__('Show trade in form', 'motors'),
-        'type' => 'checkbox',
-        'default' => true
-    );
-    $single_car_settings['show_calculator'] = array(
-        'label' => esc_html__('Show calculator button', 'motors'),
-        'type' => 'checkbox',
-        'default' => true
-    );
-    $single_car_settings['show_report'] = array(
-        'label' => esc_html__('Show history report', 'motors'),
-        'type' => 'checkbox',
-        'default' => true
-    );
     $single_car_settings['stm_single_car_page'] = array(
         'label' => esc_html__('Single car page background', 'motors'),
         'type' => 'image',
@@ -1380,11 +1355,11 @@ STM_Customizer::setSection('car_settings', array(
 ));
 
 STM_Customizer::setSection('compare', array(
-    'title' => esc_html__('So Sánh Xe', 'motors'),
+    'title' => esc_html__('Compare', 'motors'),
     'panel' => 'listing',
     'fields' => array(
         'compare_page' => array(
-            'label' => esc_html__('So Sánh Xe', 'motors'),
+            'label' => esc_html__('Compare page', 'motors'),
             'type' => 'stm-post-type',
             'post_type' => 'page',
             'description' => esc_html__('Choose landing page for compare', 'motors'),

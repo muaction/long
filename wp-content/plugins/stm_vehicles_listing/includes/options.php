@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) {
 }
 
 /*Add taxonomies from listing categories*/
-add_action('init', 'create_stm_listing_category', 0);
+add_action('init', 'create_stm_listing_category', 99);
 
 function create_stm_listing_category()
 {

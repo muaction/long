@@ -75,7 +75,7 @@ if(stm_is_listing()){
 						data-id="<?php echo esc_attr(get_the_ID()); ?>"
 						data-action="add">
 						<i class="stm-icon-add"></i>
-						<?php esc_html_e('So sánh xe', 'motors'); ?>
+						<?php esc_html_e('Add to compare', 'motors'); ?>
 					</a>
 				<?php endif; ?>
 			</li>

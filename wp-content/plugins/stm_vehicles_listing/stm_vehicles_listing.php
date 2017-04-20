@@ -8,9 +8,8 @@ Author URI: http://stylemixthemes.com/
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: stm_vehicles_listing
-Version: 4.4
+Version: 4.3.2
  */
-
 if ( ! defined( 'ABSPATH' ) ) {
     exit; // Exit if accessed directly
 }

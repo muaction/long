@@ -3,16 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-23 06:49+0000\n"
+"POT-Creation-Date: 2017-01-31 09:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
 "Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco - https://localise.biz/"
+"X-Generator: Loco https://localise.biz/"
 
 #. Name of the template
 msgid "Service Page Layout"
@@ -22,19 +22,18 @@ msgstr ""
 msgid "The page you are looking for does not exist."
 msgstr ""
 
-#: 404.php:8 partials/service/header-service.php:26 
-#: partials/service/header-service.php:34 
-#: partials/header/header-boats-mobile.php:5 
-#: partials/header/header-boats-mobile.php:13 
-#: partials/header/header-coming-soon.php:6 
-#: partials/header/header-boats.php:39 partials/header/header-boats.php:47 
-#: partials/header/header-404.php:7 partials/header/header.php:15 
-#: partials/header/header.php:23 partials/header/header-rental.php:21 
-#: partials/header/header-rental.php:29 
-#: partials/header/header-motorcycle.php:47 
-#: partials/header/header-motorcycle.php:55 
-#: partials/header/header-motorcycle.php:88 
-#: partials/header/header-motorcycle.php:96 
+#: 404.php:8 partials/service/header-service.php:26
+#: partials/service/header-service.php:34
+#: partials/header/header-boats-mobile.php:5
+#: partials/header/header-boats-mobile.php:13
+#: partials/header/header-coming-soon.php:6 partials/header/header-boats.php:39
+#: partials/header/header-boats.php:47 partials/header/header-404.php:7
+#: partials/header/header.php:15 partials/header/header.php:23
+#: partials/header/header-rental.php:21 partials/header/header-rental.php:29
+#: partials/header/header-motorcycle.php:47
+#: partials/header/header-motorcycle.php:55
+#: partials/header/header-motorcycle.php:88
+#: partials/header/header-motorcycle.php:96
 #: partials/header/header-listing.php:35 partials/header/header-listing.php:43
 msgid "Home"
 msgstr ""
@@ -43,23 +42,22 @@ msgstr ""
 msgid "Home Page"
 msgstr ""
 
-#: author.php:84 page.php:61 inc/stm-ajax.php:58 
-#: partials/single-car-motorcycle/car-gallery.php:138 
-#: partials/single-car-listing/car-gallery.php:258 
+#: author.php:84 page.php:61 inc/stm-ajax.php:58
+#: partials/single-car-motorcycle/car-gallery.php:138
+#: partials/single-car-listing/car-gallery.php:258
 #: partials/single-car-boats/boats-data.php:74
 msgid "Added to compare"
 msgstr ""
 
-#: author.php:85 page.php:62 inc/stm-ajax.php:48 
-#: partials/single-car-motorcycle/car-gallery.php:139 
-#: partials/single-car-listing/car-gallery.php:259 
+#: author.php:85 page.php:62 inc/stm-ajax.php:48
+#: partials/single-car-motorcycle/car-gallery.php:139
+#: partials/single-car-listing/car-gallery.php:259
 #: partials/single-car-boats/boats-data.php:75
 msgid "was removed from compare"
 msgstr ""
 
-#: author.php:86 page.php:66 
-#: partials/single-car-motorcycle/car-gallery.php:140 
-#: partials/single-car-listing/car-gallery.php:260 
+#: author.php:86 page.php:66 partials/single-car-motorcycle/car-gallery.php:140
+#: partials/single-car-listing/car-gallery.php:260
 #: partials/single-car-boats/boats-data.php:76
 msgid "You have already added 3 cars"
 msgstr ""
@@ -128,7 +126,7 @@ msgstr ""
 msgid "Footer Widgets Area"
 msgstr ""
 
-#: inc/setup.php:71 partials/title_box.php:42 
+#: inc/setup.php:71 partials/title_box.php:42
 #: inc/customizer/registration.php:1541
 msgid "Shop"
 msgstr ""
@@ -153,19 +151,20 @@ msgstr ""
 msgid "Default sidebar for Single Boat Page (Boats layout)"
 msgstr ""
 
-#: inc/stm-ajax.php:34 partials/car-filter-loop.php:14 
-#: partials/single-car/car-actions.php:72 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:78 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:84 
-#: partials/listing-cars/listing-list-loop-actions.php:79 
-#: partials/single-car-boats/boats-actions.php:63 
-#: partials/listing-cars/motos/moto-single-grid.php:53 
-#: partials/listing-cars/motos/grid.php:53 
-#: listings/loop/classified/grid/image.php:37 
-#: listings/loop/classified/list/image.php:10 
-#: listings/loop/default/grid/image.php:12 
-#: listings/loop/default/list/compare.php:25 
-#: listings/loop/default/list/features.php:79 
+#: inc/stm-ajax.php:34 partials/car-filter-loop.php:14
+#: partials/single-car/car-actions.php:72
+#: partials/listing-cars/listing-grid-loop.php:56
+#: partials/listing-cars/listing-directive-list-loop-actions.php:78
+#: partials/listing-cars/listing-grid-directory-loop-4.php:82
+#: partials/listing-cars/listing-list-directory-loop-animate.php:84
+#: partials/listing-cars/listing-grid-directory-loop.php:81
+#: partials/listing-cars/listing-list-loop-actions.php:79
+#: partials/single-car-boats/boats-actions.php:63
+#: partials/listing-cars/motos/moto-single-grid.php:53
+#: partials/listing-cars/motos/grid.php:53
+#: listings/loop/classified/list/image.php:10
+#: listings/loop/default/list/compare.php:25
+#: listings/loop/default/list/features.php:79
 #: listings/loop/boats/list/image.php:10
 msgid "Add to compare"
 msgstr ""
@@ -174,11 +173,11 @@ msgstr ""
 msgid "In compare list"
 msgstr ""
 
-#: inc/stm-ajax.php:36 partials/compare.php:77 
-#: vc_templates/stm_compare_cars.php:84 partials/single-car/car-actions.php:62 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:68 
-#: partials/listing-cars/listing-list-loop-actions.php:69 
-#: partials/single-car-boats/boats-actions.php:53 
+#: inc/stm-ajax.php:36 partials/compare.php:77
+#: vc_templates/stm_compare_cars.php:84 partials/single-car/car-actions.php:62
+#: partials/listing-cars/listing-directive-list-loop-actions.php:68
+#: partials/listing-cars/listing-list-loop-actions.php:69
+#: partials/single-car-boats/boats-actions.php:53
 #: listings/loop/default/list/features.php:69
 msgid "Remove from list"
 msgstr ""
@@ -315,12 +314,12 @@ msgstr ""
 msgid "Reported"
 msgstr ""
 
-#: inc/stm-ajax.php:809 inc/stm_single_dealer.php:142 
-#: partials/single-car-listing/car-data.php:33 
-#: partials/single-car-listing/car-data.php:53 
-#: partials/single-car-listing/car-data.php:72 
-#: partials/single-car-listing/car-data.php:137 
-#: woocommerce/order/order-details-customer.php:60 
+#: inc/stm-ajax.php:809 inc/stm_single_dealer.php:142
+#: partials/single-car-listing/car-data.php:33
+#: partials/single-car-listing/car-data.php:53
+#: partials/single-car-listing/car-data.php:72
+#: partials/single-car-listing/car-data.php:137
+#: woocommerce/order/order-details-customer.php:60
 #: woocommerce/order/order-details-customer.php:71
 msgid "N/A"
 msgstr ""
@@ -329,7 +328,7 @@ msgstr ""
 msgid "Please, log in"
 msgstr ""
 
-#: inc/stm-ajax.php:837 partials/user/private/dealer-settings.php:321 
+#: inc/stm-ajax.php:837 partials/user/private/dealer-settings.php:321
 #: partials/user/private/become-dealer.php:79
 msgid "Site is on demo mode"
 msgstr ""
@@ -346,7 +345,7 @@ msgstr ""
 msgid "Please add car price"
 msgstr ""
 
-#: inc/stm-ajax.php:985 listings/add_car/step_5.php:11 
+#: inc/stm-ajax.php:985 listings/add_car/step_5.php:11
 #: listings/add_car/step_5.php:16
 msgid "Seller Note"
 msgstr ""
@@ -394,8 +393,8 @@ msgstr ""
 msgid "Dealerships"
 msgstr ""
 
-#: inc/user-vc-register.php:7 partials/top-bar-boats.php:58 
-#: vc_templates/stm_login_register.php:63 partials/user/user-dropdown.php:65 
+#: inc/user-vc-register.php:7 partials/top-bar-boats.php:58
+#: vc_templates/stm_login_register.php:63 partials/user/user-dropdown.php:65
 #: listings/add_car/registration.php:9 partials/user/private/mobile/user.php:25
 msgid "Sign Up"
 msgstr ""
@@ -408,68 +407,68 @@ msgstr ""
 msgid "Login Here"
 msgstr ""
 
-#: inc/user-vc-register.php:26 vc_templates/stm_login_register.php:69 
+#: inc/user-vc-register.php:26 vc_templates/stm_login_register.php:69
 #: listings/add_car/registration.php:24
 msgid "First Name"
 msgstr ""
 
-#: inc/user-vc-register.php:27 vc_templates/stm_login_register.php:70 
+#: inc/user-vc-register.php:27 vc_templates/stm_login_register.php:70
 #: listings/add_car/registration.php:26
 msgid "Enter First name"
 msgstr ""
 
-#: inc/user-vc-register.php:30 vc_templates/stm_login_register.php:73 
+#: inc/user-vc-register.php:30 vc_templates/stm_login_register.php:73
 #: listings/add_car/registration.php:29
 msgid "Last Name"
 msgstr ""
 
-#: inc/user-vc-register.php:31 vc_templates/stm_login_register.php:74 
+#: inc/user-vc-register.php:31 vc_templates/stm_login_register.php:74
 #: listings/add_car/registration.php:31
 msgid "Enter Last name"
 msgstr ""
 
-#: inc/user-vc-register.php:37 vc_templates/stm_login_register.php:80 
-#: vc_templates/stm_sell_a_car.php:330 vc_templates/stm_sell_a_car.php:731 
-#: vc_templates/stm_sell_a_car.php:1133 inc/customizer/registration.php:777 
+#: inc/user-vc-register.php:37 vc_templates/stm_login_register.php:80
+#: vc_templates/stm_sell_a_car.php:330 vc_templates/stm_sell_a_car.php:731
+#: vc_templates/stm_sell_a_car.php:1133 inc/customizer/registration.php:777
 #: listings/add_car/registration.php:37
 msgid "Phone number"
 msgstr ""
 
-#: inc/user-vc-register.php:38 vc_templates/stm_login_register.php:81 
-#: listings/add_car/registration.php:39 
-#: partials/user/private/dealer-settings.php:421 
+#: inc/user-vc-register.php:38 vc_templates/stm_login_register.php:81
+#: listings/add_car/registration.php:39
+#: partials/user/private/dealer-settings.php:421
 #: partials/user/private/user-settings.php:95
 msgid "Enter Phone"
 msgstr ""
 
-#: inc/user-vc-register.php:41 vc_templates/stm_login_register.php:84 
+#: inc/user-vc-register.php:41 vc_templates/stm_login_register.php:84
 #: listings/add_car/registration.php:42
 msgid "Email *"
 msgstr ""
 
-#: inc/user-vc-register.php:42 vc_templates/stm_login_register.php:85 
-#: listings/add_car/registration.php:44 
-#: partials/user/private/dealer-settings.php:427 
+#: inc/user-vc-register.php:42 vc_templates/stm_login_register.php:85
+#: listings/add_car/registration.php:44
+#: partials/user/private/dealer-settings.php:427
 #: partials/user/private/user-settings.php:103
 msgid "Enter E-mail"
 msgstr ""
 
-#: inc/user-vc-register.php:48 vc_templates/stm_login_register.php:91 
+#: inc/user-vc-register.php:48 vc_templates/stm_login_register.php:91
 #: listings/add_car/registration.php:50
 msgid "Login *"
 msgstr ""
 
-#: inc/user-vc-register.php:49 vc_templates/stm_login_register.php:92 
+#: inc/user-vc-register.php:49 vc_templates/stm_login_register.php:92
 #: listings/add_car/registration.php:52
 msgid "Enter Login"
 msgstr ""
 
-#: inc/user-vc-register.php:52 vc_templates/stm_login_register.php:95 
+#: inc/user-vc-register.php:52 vc_templates/stm_login_register.php:95
 #: listings/add_car/registration.php:55
 msgid "Password *"
 msgstr ""
 
-#: inc/user-vc-register.php:55 vc_templates/stm_login_register.php:98 
+#: inc/user-vc-register.php:55 vc_templates/stm_login_register.php:98
 #: listings/add_car/registration.php:59
 msgid "Enter Password"
 msgstr ""
@@ -482,35 +481,35 @@ msgstr ""
 msgid "Membership Agreement"
 msgstr ""
 
-#: inc/user-vc-register.php:73 vc_templates/stm_login_register.php:127 
+#: inc/user-vc-register.php:73 vc_templates/stm_login_register.php:127
 #: listings/add_car/registration.php:65
 msgid "Sign up now!"
 msgstr ""
 
-#: inc/user-vc-register.php:142 inc/user-vc-register.php:174 
-#: listings/add_car/registered.php:34 partials/user/private/user.php:184 
-#: partials/user/private/dealer.php:159 
-#: partials/user/private/mobile/dealer-profile.php:156 
+#: inc/user-vc-register.php:142 inc/user-vc-register.php:174
+#: listings/add_car/registered.php:34 partials/user/private/user.php:184
+#: partials/user/private/dealer.php:159
+#: partials/user/private/mobile/dealer-profile.php:156
 #: partials/user/private/mobile/user-profile.php:172
 msgid "Show my Public Profile"
 msgstr ""
 
-#: inc/user-vc-register.php:146 inc/user-vc-register.php:178 
-#: partials/top-bar.php:69 partials/top-bar.php:71 partials/top-bar.php:97 
-#: partials/top-bar.php:99 partials/top-bar-boats.php:52 
-#: partials/top-bar-boats.php:54 partials/top-bar-boats.php:80 
+#: inc/user-vc-register.php:146 inc/user-vc-register.php:178
+#: partials/top-bar.php:69 partials/top-bar.php:71 partials/top-bar.php:97
+#: partials/top-bar.php:99 partials/top-bar-boats.php:52
+#: partials/top-bar-boats.php:54 partials/top-bar-boats.php:80
 #: partials/top-bar-boats.php:82 listings/add_car/registered.php:38
 msgid "Log out"
 msgstr ""
 
-#: inc/user-vc-register.php:147 inc/user-vc-register.php:179 
+#: inc/user-vc-register.php:147 inc/user-vc-register.php:179
 #: listings/add_car/registered.php:39
 msgid "to choose a different account"
 msgstr ""
 
-#: inc/user-vc-register.php:167 partials/user/user-public-profile.php:36 
-#: partials/single-car-listing/car-dealer.php:87 
-#: listings/add_car/registered.php:26 partials/user/private/user.php:63 
+#: inc/user-vc-register.php:167 partials/user/user-public-profile.php:36
+#: partials/single-car-listing/car-dealer.php:87
+#: listings/add_car/registered.php:26 partials/user/private/user.php:63
 #: partials/user/private/mobile/user-profile.php:49
 msgid "Private Seller"
 msgstr ""
@@ -523,8 +522,8 @@ msgstr ""
 msgid "Car in stock"
 msgstr ""
 
-#: inc/stm_single_dealer.php:81 vc_templates/stm_dealer_list.php:23 
-#: partials/user/dealer-reviews.php:78 
+#: inc/stm_single_dealer.php:81 vc_templates/stm_dealer_list.php:23
+#: partials/user/dealer-reviews.php:78
 #: partials/single-car-listing/car-dealer.php:41
 msgid "Reviews"
 msgstr ""
@@ -573,12 +572,11 @@ msgstr ""
 msgid "Only \"show\" means that user mail is visible to public"
 msgstr ""
 
-#: inc/user-extra.php:26 inc/visual_composer.php:3082 
-#: inc/visual_composer.php:3143 inc/visual_composer.php:3484 
-#: vc_templates/stm_sell_a_car.php:56 vc_templates/stm_sell_a_car.php:461 
-#: vc_templates/stm_sell_a_car.php:863 partials/modals/test-drive.php:28 
-#: partials/modals/get-car-price.php:28 partials/modals/trade-offer.php:34 
-#: partials/user/private/dealer-settings.php:420 
+#: inc/user-extra.php:26 vc_templates/stm_sell_a_car.php:56
+#: vc_templates/stm_sell_a_car.php:461 vc_templates/stm_sell_a_car.php:863
+#: partials/modals/test-drive.php:28 partials/modals/get-car-price.php:28
+#: partials/modals/trade-offer.php:34
+#: partials/user/private/dealer-settings.php:420
 #: partials/user/private/user-settings.php:92
 msgid "Phone"
 msgstr ""
@@ -599,25 +597,25 @@ msgstr ""
 msgid "STM User/Dealer additional fields (socials)"
 msgstr ""
 
-#: inc/user-extra.php:56 inc/customizer/registration.php:104 
-#: partials/user/private/dealer-settings.php:532 
+#: inc/user-extra.php:56 inc/customizer/registration.php:104
+#: partials/user/private/dealer-settings.php:532
 #: partials/user/private/user-settings.php:150
 msgid "Facebook"
 msgstr ""
 
-#: inc/user-extra.php:66 inc/customizer/registration.php:105 
-#: partials/user/private/dealer-settings.php:541 
+#: inc/user-extra.php:66 inc/customizer/registration.php:105
+#: partials/user/private/dealer-settings.php:541
 #: partials/user/private/user-settings.php:161
 msgid "Twitter"
 msgstr ""
 
-#: inc/user-extra.php:76 partials/user/private/dealer-settings.php:552 
+#: inc/user-extra.php:76 partials/user/private/dealer-settings.php:552
 #: partials/user/private/user-settings.php:174
 msgid "Linked In"
 msgstr ""
 
-#: inc/user-extra.php:86 inc/customizer/registration.php:122 
-#: partials/user/private/dealer-settings.php:561 
+#: inc/user-extra.php:86 inc/customizer/registration.php:122
+#: partials/user/private/dealer-settings.php:561
 #: partials/user/private/user-settings.php:185
 msgid "Youtube"
 msgstr ""
@@ -689,8 +687,8 @@ msgstr ""
 msgid "Dealer location longitude"
 msgstr ""
 
-#: inc/user-extra.php:203 partials/user/dealer-public-profile.php:75 
-#: partials/user/private/dealer-settings.php:480 
+#: inc/user-extra.php:203 partials/user/dealer-public-profile.php:75
+#: partials/user/private/dealer-settings.php:480
 #: partials/user/private/become-dealer.php:293
 msgid "Sales Hours"
 msgstr ""
@@ -715,18 +713,18 @@ msgstr ""
 msgid "Pick Up"
 msgstr ""
 
-#: inc/woocommerce_setups_rental.php:388 
+#: inc/woocommerce_setups_rental.php:388
 #: partials/rental/wizard-nav/nav-step-1.php:38
 msgid "Drop off"
 msgstr ""
 
-#: inc/woocommerce_setups_rental.php:392 vc_templates/stm_sell_a_car.php:421 
+#: inc/woocommerce_setups_rental.php:392 vc_templates/stm_sell_a_car.php:421
 #: vc_templates/stm_sell_a_car.php:544
 msgid "Vehicle Type"
 msgstr ""
 
-#: inc/woocommerce_setups_rental.php:396 
-#: partials/rental/common/order-info-empty.php:48 
+#: inc/woocommerce_setups_rental.php:396
+#: partials/rental/common/order-info-empty.php:48
 #: partials/rental/common/order-info.php:57
 msgid "Add-ons"
 msgstr ""
@@ -735,1909 +733,19 @@ msgstr ""
 msgid "Your Information"
 msgstr ""
 
-#: inc/woocommerce_setups_rental.php:404 
+#: inc/woocommerce_setups_rental.php:404
 #: partials/rental/wizard-nav/nav-step-3.php:33
 msgid "Payment information"
 msgstr ""
 
-#: inc/woocommerce_setups_rental.php:768 
-#: vc_templates/stm_contact_information.php:26 
+#: inc/woocommerce_setups_rental.php:768
+#: vc_templates/stm_contact_information.php:26
 #: inc/widgets/schedule_showing.php:104 inc/widgets/contacts.php:96
 msgid "Phone:"
 msgstr ""
 
 #: inc/woocommerce_setups_rental.php:771
 msgid "Fax:"
-msgstr ""
-
-#: inc/visual_composer.php:25
-msgid "Enable STM Fullwidth"
-msgstr ""
-
-#: inc/visual_composer.php:28 inc/visual_composer.php:36 
-#: inc/visual_composer.php:59 inc/visual_composer.php:68 
-#: inc/visual_composer.php:77 inc/visual_composer.php:1881 
-#: inc/visual_composer.php:1985 inc/visual_composer.php:2001 
-#: inc/visual_composer.php:2017 inc/visual_composer.php:2045 
-#: inc/visual_composer.php:2094 inc/visual_composer.php:2103 
-#: inc/visual_composer.php:2575 inc/visual_composer.php:2590 
-#: inc/visual_composer.php:2673 inc/visual_composer.php:3270 
-#: inc/visual_composer.php:3286 inc/visual_composer.php:3302 
-#: inc/visual_composer.php:3330 vc_templates/stm_sell_a_car.php:288 
-#: vc_templates/stm_sell_a_car.php:289 vc_templates/stm_sell_a_car.php:689 
-#: vc_templates/stm_sell_a_car.php:690 vc_templates/stm_sell_a_car.php:1091 
-#: vc_templates/stm_sell_a_car.php:1092 
-#: partials/user/dealer-single-review.php:110 
-#: partials/user/dealer-reviews.php:53 partials/user/dealer-write-review.php:64
-msgid "Yes"
-msgstr ""
-
-#: inc/visual_composer.php:33
-msgid "Enable STM Fullwidth without js"
-msgstr ""
-
-#: inc/visual_composer.php:41
-msgid "Blackout Opacity"
-msgstr ""
-
-#: inc/visual_composer.php:44
-msgid "0%"
-msgstr ""
-
-#: inc/visual_composer.php:45
-msgid "20%"
-msgstr ""
-
-#: inc/visual_composer.php:46
-msgid "40%"
-msgstr ""
-
-#: inc/visual_composer.php:47
-msgid "60%"
-msgstr ""
-
-#: inc/visual_composer.php:48
-msgid "80%"
-msgstr ""
-
-#: inc/visual_composer.php:56
-msgid "Enable STM theme fancybox on click"
-msgstr ""
-
-#: inc/visual_composer.php:65 inc/visual_composer.php:3598
-msgid "Style 2"
-msgstr ""
-
-#: inc/visual_composer.php:74
-msgid "Service Style"
-msgstr ""
-
-#: inc/visual_composer.php:142 vc_templates/stm_dealer_list.php:24 
-#: woocommerce/myaccount/my-orders.php:52 
-#: woocommerce/myaccount/my-orders.php:71
-msgid "Date"
-msgstr ""
-
-#: inc/visual_composer.php:143
-msgid "ID"
-msgstr ""
-
-#: inc/visual_composer.php:144
-msgid "Author"
-msgstr ""
-
-#: inc/visual_composer.php:145 inc/visual_composer.php:256 
-#: inc/visual_composer.php:401 inc/visual_composer.php:779 
-#: inc/visual_composer.php:1169 inc/visual_composer.php:1432 
-#: inc/visual_composer.php:1688 inc/visual_composer.php:1723 
-#: inc/visual_composer.php:1779 inc/visual_composer.php:1971 
-#: inc/visual_composer.php:2204 inc/visual_composer.php:2269 
-#: inc/visual_composer.php:2304 inc/visual_composer.php:2355 
-#: inc/visual_composer.php:2416 inc/visual_composer.php:2431 
-#: inc/visual_composer.php:3072 inc/visual_composer.php:3113 
-#: inc/visual_composer.php:3166 inc/visual_composer.php:3256 
-#: inc/visual_composer.php:3399 inc/visual_composer.php:3474 
-#: partials/user/dealer-write-review.php:23 listings/add_car/title.php:10
-msgid "Title"
-msgstr ""
-
-#: inc/visual_composer.php:146
-msgid "Modified"
-msgstr ""
-
-#: inc/visual_composer.php:147
-msgid "Random"
-msgstr ""
-
-#: inc/visual_composer.php:148
-msgid "Comment count"
-msgstr ""
-
-#: inc/visual_composer.php:149
-msgid "Menu order"
-msgstr ""
-
-#: inc/visual_composer.php:154
-msgid "Descending"
-msgstr ""
-
-#: inc/visual_composer.php:155
-msgid "Ascending"
-msgstr ""
-
-#: inc/visual_composer.php:159
-msgid "STM Auto Loan Calculator"
-msgstr ""
-
-#: inc/visual_composer.php:162 inc/visual_composer.php:251 
-#: inc/visual_composer.php:387 inc/visual_composer.php:396 
-#: inc/visual_composer.php:428 inc/visual_composer.php:569 
-#: inc/visual_composer.php:618 inc/visual_composer.php:648 
-#: inc/visual_composer.php:684 inc/visual_composer.php:726 
-#: inc/visual_composer.php:752 inc/visual_composer.php:775 
-#: inc/visual_composer.php:808 inc/visual_composer.php:836 
-#: inc/visual_composer.php:1013 inc/visual_composer.php:1028 
-#: inc/visual_composer.php:1157 inc/visual_composer.php:1165 
-#: inc/visual_composer.php:1267 inc/visual_composer.php:1428 
-#: inc/visual_composer.php:1481 inc/visual_composer.php:1523 
-#: inc/visual_composer.php:1532 inc/visual_composer.php:1578 
-#: inc/visual_composer.php:1653 inc/visual_composer.php:3512 
-#: inc/visual_composer.php:3531 inc/visual_composer.php:3571 
-#: inc/visual_composer.php:3590 inc/visual_composer.php:3625 
-#: inc/visual_composer.php:3639
-msgid "STM"
-msgstr ""
-
-#: inc/visual_composer.php:166
-msgid "Calculator Heading"
-msgstr ""
-
-#: inc/visual_composer.php:171
-msgid "Currency symbol"
-msgstr ""
-
-#: inc/visual_composer.php:176
-msgid "Labels font size"
-msgstr ""
-
-#: inc/visual_composer.php:181
-msgid "Wide version"
-msgstr ""
-
-#: inc/visual_composer.php:186 inc/visual_composer.php:350 
-#: inc/visual_composer.php:377 inc/visual_composer.php:416 
-#: inc/visual_composer.php:557 inc/visual_composer.php:606 
-#: inc/visual_composer.php:636 inc/visual_composer.php:797 
-#: inc/visual_composer.php:895 inc/visual_composer.php:912 
-#: inc/visual_composer.php:927 inc/visual_composer.php:942 
-#: inc/visual_composer.php:957 inc/visual_composer.php:972 
-#: inc/visual_composer.php:987 inc/visual_composer.php:1002 
-#: inc/visual_composer.php:1017 inc/visual_composer.php:1080 
-#: inc/visual_composer.php:1125 inc/visual_composer.php:1209 
-#: inc/visual_composer.php:1277 inc/visual_composer.php:1294 
-#: inc/visual_composer.php:1308 inc/visual_composer.php:1322 
-#: inc/visual_composer.php:1336 inc/visual_composer.php:1342 
-#: inc/visual_composer.php:1357 inc/visual_composer.php:1372 
-#: inc/visual_composer.php:1387 inc/visual_composer.php:1407 
-#: inc/visual_composer.php:1443 inc/visual_composer.php:1469 
-#: inc/visual_composer.php:1485 inc/visual_composer.php:1503 
-#: inc/visual_composer.php:1512 inc/visual_composer.php:1567 
-#: inc/visual_composer.php:1641 inc/visual_composer.php:1657 
-#: inc/visual_composer.php:1698 inc/visual_composer.php:1763 
-#: inc/visual_composer.php:1796 inc/visual_composer.php:1823 
-#: inc/visual_composer.php:1854 inc/visual_composer.php:1892 
-#: inc/visual_composer.php:1956 inc/visual_composer.php:2051 
-#: inc/visual_composer.php:2073 inc/visual_composer.php:2189 
-#: inc/visual_composer.php:2209 inc/visual_composer.php:2224 
-#: inc/visual_composer.php:2239 inc/visual_composer.php:2254 
-#: inc/visual_composer.php:2274 inc/visual_composer.php:2289 
-#: inc/visual_composer.php:2315 inc/visual_composer.php:2330 
-#: inc/visual_composer.php:2512 inc/visual_composer.php:2539 
-#: inc/visual_composer.php:2555 inc/visual_composer.php:2685 
-#: inc/visual_composer.php:2713 inc/visual_composer.php:2766 
-#: inc/visual_composer.php:2818 inc/visual_composer.php:2837 
-#: inc/visual_composer.php:2857 inc/visual_composer.php:2885 
-#: inc/visual_composer.php:2901 inc/visual_composer.php:2945 
-#: inc/visual_composer.php:2988 inc/visual_composer.php:3002 
-#: inc/visual_composer.php:3016 inc/visual_composer.php:3030 
-#: inc/visual_composer.php:3044 inc/visual_composer.php:3058 
-#: inc/visual_composer.php:3097 inc/visual_composer.php:3118 
-#: inc/visual_composer.php:3171 inc/visual_composer.php:3211 
-#: inc/visual_composer.php:3242 inc/visual_composer.php:3336 
-#: inc/visual_composer.php:3364 inc/visual_composer.php:3384 
-#: inc/visual_composer.php:3404 inc/visual_composer.php:3418 
-#: inc/visual_composer.php:3432 inc/visual_composer.php:3446 
-#: inc/visual_composer.php:3460 inc/visual_composer.php:3499 
-#: inc/visual_composer.php:3521 inc/visual_composer.php:3555 
-#: inc/visual_composer.php:3580 inc/visual_composer.php:3615 
-#: inc/visual_composer.php:3629 inc/visual_composer.php:3643
-msgid "Css"
-msgstr ""
-
-#: inc/visual_composer.php:188 inc/visual_composer.php:352 
-#: inc/visual_composer.php:379 inc/visual_composer.php:418 
-#: inc/visual_composer.php:559 inc/visual_composer.php:608 
-#: inc/visual_composer.php:638 inc/visual_composer.php:799 
-#: inc/visual_composer.php:897 inc/visual_composer.php:914 
-#: inc/visual_composer.php:929 inc/visual_composer.php:944 
-#: inc/visual_composer.php:959 inc/visual_composer.php:974 
-#: inc/visual_composer.php:989 inc/visual_composer.php:1004 
-#: inc/visual_composer.php:1019 inc/visual_composer.php:1082 
-#: inc/visual_composer.php:1127 inc/visual_composer.php:1211 
-#: inc/visual_composer.php:1279 inc/visual_composer.php:1296 
-#: inc/visual_composer.php:1310 inc/visual_composer.php:1324 
-#: inc/visual_composer.php:1344 inc/visual_composer.php:1359 
-#: inc/visual_composer.php:1374 inc/visual_composer.php:1389 
-#: inc/visual_composer.php:1409 inc/visual_composer.php:1445 
-#: inc/visual_composer.php:1471 inc/visual_composer.php:1487 
-#: inc/visual_composer.php:1505 inc/visual_composer.php:1514 
-#: inc/visual_composer.php:1569 inc/visual_composer.php:1643 
-#: inc/visual_composer.php:1659 inc/visual_composer.php:1700 
-#: inc/visual_composer.php:1765 inc/visual_composer.php:1798 
-#: inc/visual_composer.php:1825 inc/visual_composer.php:1856 
-#: inc/visual_composer.php:1894 inc/visual_composer.php:1958 
-#: inc/visual_composer.php:2053 inc/visual_composer.php:2075 
-#: inc/visual_composer.php:2191 inc/visual_composer.php:2211 
-#: inc/visual_composer.php:2226 inc/visual_composer.php:2241 
-#: inc/visual_composer.php:2256 inc/visual_composer.php:2276 
-#: inc/visual_composer.php:2291 inc/visual_composer.php:2317 
-#: inc/visual_composer.php:2332 inc/visual_composer.php:2514 
-#: inc/visual_composer.php:2541 inc/visual_composer.php:2557 
-#: inc/visual_composer.php:2687 inc/visual_composer.php:2715 
-#: inc/visual_composer.php:2768 inc/visual_composer.php:2820 
-#: inc/visual_composer.php:2839 inc/visual_composer.php:2859 
-#: inc/visual_composer.php:2887 inc/visual_composer.php:2903 
-#: inc/visual_composer.php:2947 inc/visual_composer.php:2990 
-#: inc/visual_composer.php:3004 inc/visual_composer.php:3018 
-#: inc/visual_composer.php:3032 inc/visual_composer.php:3046 
-#: inc/visual_composer.php:3060 inc/visual_composer.php:3099 
-#: inc/visual_composer.php:3120 inc/visual_composer.php:3173 
-#: inc/visual_composer.php:3213 inc/visual_composer.php:3244 
-#: inc/visual_composer.php:3338 inc/visual_composer.php:3366 
-#: inc/visual_composer.php:3386 inc/visual_composer.php:3406 
-#: inc/visual_composer.php:3420 inc/visual_composer.php:3434 
-#: inc/visual_composer.php:3448 inc/visual_composer.php:3462 
-#: inc/visual_composer.php:3501 inc/visual_composer.php:3523 
-#: inc/visual_composer.php:3557 inc/visual_composer.php:3563 
-#: inc/visual_composer.php:3582 inc/visual_composer.php:3617 
-#: inc/visual_composer.php:3631 inc/visual_composer.php:3645
-msgid "Design options"
-msgstr ""
-
-#: inc/visual_composer.php:235
-msgid "Choose plan"
-msgstr ""
-
-#: inc/visual_composer.php:248
-msgid "STM Icon Box"
-msgstr ""
-
-#: inc/visual_composer.php:261
-msgid "Title Holder"
-msgstr ""
-
-#: inc/visual_composer.php:275 inc/visual_composer.php:3594 
-#: inc/customizer/registration.php:237 inc/customizer/registration.php:247 
-#: inc/customizer/registration.php:262 inc/customizer/registration.php:389
-msgid "Style"
-msgstr ""
-
-#: inc/visual_composer.php:278
-msgid "Car dealer"
-msgstr ""
-
-#: inc/visual_composer.php:279 inc/customizer/registration.php:679
-msgid "Boats"
-msgstr ""
-
-#: inc/visual_composer.php:285 inc/visual_composer.php:1032 
-#: inc/visual_composer.php:1536 inc/visual_composer.php:1582 
-#: inc/visual_composer.php:1849 inc/visual_composer.php:2490 
-#: inc/visual_composer.php:2534
-msgid "Link"
-msgstr ""
-
-#: inc/visual_composer.php:290 inc/visual_composer.php:1557 
-#: inc/visual_composer.php:1718
-msgid "Box background color"
-msgstr ""
-
-#: inc/visual_composer.php:295 inc/visual_composer.php:1562
-msgid "Box text color"
-msgstr ""
-
-#: inc/visual_composer.php:300
-msgid "Box text color on hover"
-msgstr ""
-
-#: inc/visual_composer.php:305
-msgid "Icon background color"
-msgstr ""
-
-#: inc/visual_composer.php:307
-msgid "Don't forget to add paddings in Icon design options tab"
-msgstr ""
-
-#: inc/visual_composer.php:311
-msgid "Show bottom triangle"
-msgstr ""
-
-#: inc/visual_composer.php:316 inc/visual_composer.php:791 
-#: inc/visual_composer.php:1551 inc/visual_composer.php:1673 
-#: inc/visual_composer.php:2729 inc/visual_composer.php:2781
-msgid "Icon"
-msgstr ""
-
-#: inc/visual_composer.php:322 inc/visual_composer.php:1678
-msgid "Icon color"
-msgstr ""
-
-#: inc/visual_composer.php:327
-msgid "Icon Size"
-msgstr ""
-
-#: inc/visual_composer.php:329
-msgid "Enter icon size in px"
-msgstr ""
-
-#: inc/visual_composer.php:333
-msgid "Content line height"
-msgstr ""
-
-#: inc/visual_composer.php:335
-msgid "Optional"
-msgstr ""
-
-#: inc/visual_composer.php:339 inc/visual_composer.php:462 
-#: inc/visual_composer.php:664 inc/visual_composer.php:1693 
-#: inc/visual_composer.php:1758 inc/visual_composer.php:2424 
-#: inc/visual_composer.php:2443 inc/visual_composer.php:2922 
-#: inc/visual_composer.php:3516
-msgid "Text"
-msgstr ""
-
-#: inc/visual_composer.php:344
-msgid "Icon Css"
-msgstr ""
-
-#: inc/visual_composer.php:346
-msgid "Icon Design options"
-msgstr ""
-
-#: inc/visual_composer.php:361
-msgid "Separator Color"
-msgstr ""
-
-#: inc/visual_composer.php:366 inc/visual_composer.php:3604
-msgid "Align"
-msgstr ""
-
-#: inc/visual_composer.php:369 inc/visual_composer.php:1544 
-#: inc/visual_composer.php:1936 inc/visual_composer.php:3607 
-#: inc/customizer/registration.php:129 inc/customizer/registration.php:1401 
-#: inc/customizer/registration.php:1417 inc/customizer/registration.php:1554 
-#: inc/customizer/registration.php:1607
-msgid "Left"
-msgstr ""
-
-#: inc/visual_composer.php:370 inc/visual_composer.php:1546 
-#: inc/visual_composer.php:1937 inc/visual_composer.php:3608
-msgid "Center"
-msgstr ""
-
-#: inc/visual_composer.php:371 inc/visual_composer.php:1545 
-#: inc/visual_composer.php:1938 inc/visual_composer.php:3609 
-#: inc/customizer/registration.php:130 inc/customizer/registration.php:1402 
-#: inc/customizer/registration.php:1418 inc/customizer/registration.php:1555 
-#: inc/customizer/registration.php:1608
-msgid "Right"
-msgstr ""
-
-#: inc/visual_composer.php:384
-msgid "STM Colored Separator"
-msgstr ""
-
-#: inc/visual_composer.php:393
-msgid "STM Special Offers"
-msgstr ""
-
-#: inc/visual_composer.php:406
-msgid "Show link to all specials"
-msgstr ""
-
-#: inc/visual_composer.php:411
-msgid "Colored first word"
-msgstr ""
-
-#: inc/visual_composer.php:425
-msgid "STM Car listing tabs"
-msgstr ""
-
-#: inc/visual_composer.php:432
-msgid "Top part background color"
-msgstr ""
-
-#: inc/visual_composer.php:438 inc/visual_composer.php:2030 
-#: inc/visual_composer.php:3315
-msgid "Select category"
-msgstr ""
-
-#: inc/visual_composer.php:440 inc/visual_composer.php:2032 
-#: inc/visual_composer.php:2583 inc/visual_composer.php:2709 
-#: inc/visual_composer.php:3227 inc/visual_composer.php:3233 
-#: inc/visual_composer.php:3317
-msgid ""
-"Type slug of the category (don't delete anything from autocompleted "
-"suggestions)"
-msgstr ""
-
-#: inc/visual_composer.php:444
-msgid "Tab affix"
-msgstr ""
-
-#: inc/visual_composer.php:446 vc_templates/stm_car_listing_tabbed.php:148 
-#: vc_templates/stm_car_listing_tabbed.php:196 
-#: vc_templates/stm_listings_tabs_2.php:127
-msgid "cars"
-msgstr ""
-
-#: inc/visual_composer.php:447
-msgid "This will appear after category name"
-msgstr ""
-
-#: inc/visual_composer.php:451
-msgid "Cars per load"
-msgstr ""
-
-#: inc/visual_composer.php:453
-msgid "-1 will show all cars from category"
-msgstr ""
-
-#: inc/visual_composer.php:457
-msgid "Enable ajax loading"
-msgstr ""
-
-#: inc/visual_composer.php:468
-msgid "Enable search"
-msgstr ""
-
-#: inc/visual_composer.php:470 inc/visual_composer.php:476 
-#: inc/visual_composer.php:483 inc/visual_composer.php:497 
-#: inc/visual_composer.php:504 inc/visual_composer.php:511 
-#: inc/visual_composer.php:517 inc/visual_composer.php:524 
-#: inc/visual_composer.php:530 inc/visual_composer.php:537 
-#: inc/visual_composer.php:544 inc/visual_composer.php:551 
-#: inc/visual_composer.php:3193 inc/visual_composer.php:3207 
-#: listings/filter/sidebar.php:9 listings/classified/filter/sidebar.php:21
-msgid "Search Options"
-msgstr ""
-
-#: inc/visual_composer.php:474
-msgid "Search label"
-msgstr ""
-
-#: inc/visual_composer.php:480
-msgid "Search label icon"
-msgstr ""
-
-#: inc/visual_composer.php:487 inc/visual_composer.php:3197
-msgid "Number of filter columns"
-msgstr ""
-
-#: inc/visual_composer.php:501 inc/visual_composer.php:3190
-msgid "Select Filter options"
-msgstr ""
-
-#: inc/visual_composer.php:509
-msgid "Enable call-to-action"
-msgstr ""
-
-#: inc/visual_composer.php:515 inc/visual_composer.php:1091
-msgid "Call to action label"
-msgstr ""
-
-#: inc/visual_composer.php:521 inc/visual_composer.php:1096
-msgid "Call to action label icon"
-msgstr ""
-
-#: inc/visual_composer.php:528 inc/visual_composer.php:1102
-msgid "Call to action label right"
-msgstr ""
-
-#: inc/visual_composer.php:534 inc/visual_composer.php:1107
-msgid "Call to action label icon right"
-msgstr ""
-
-#: inc/visual_composer.php:541 inc/visual_composer.php:1113
-msgid "Call to action background color"
-msgstr ""
-
-#: inc/visual_composer.php:548 inc/visual_composer.php:1119
-msgid "Call to action text color"
-msgstr ""
-
-#: inc/visual_composer.php:566
-msgid "STM Carousel"
-msgstr ""
-
-#: inc/visual_composer.php:573 inc/visual_composer.php:1231
-msgid "Images"
-msgstr ""
-
-#: inc/visual_composer.php:580
-msgid "Enable Fullwidth"
-msgstr ""
-
-#: inc/visual_composer.php:585 inc/visual_composer.php:657 
-#: inc/visual_composer.php:693 inc/visual_composer.php:740 
-#: inc/visual_composer.php:762 inc/visual_composer.php:1634
-msgid "Image size"
-msgstr ""
-
-#: inc/visual_composer.php:588 inc/visual_composer.php:660 
-#: inc/visual_composer.php:696 inc/visual_composer.php:743 
-#: inc/visual_composer.php:765 inc/visual_composer.php:1637
-msgid ""
-"Enter image size. Example: thumbnail, medium, large, full or other sizes "
-"defined by current theme. Alternatively enter image size in pixels: 200x100 "
-"(Width x Height). Leave empty to use \"thumbnail\" size."
-msgstr ""
-
-#: inc/visual_composer.php:592
-msgid "Number of slides per row"
-msgstr ""
-
-#: inc/visual_composer.php:615
-msgid "STM Testimonials"
-msgstr ""
-
-#: inc/visual_composer.php:622
-msgid "Columns number"
-msgstr ""
-
-#: inc/visual_composer.php:645
-msgid "STM Testimonial"
-msgstr ""
-
-#: inc/visual_composer.php:652 inc/visual_composer.php:688 
-#: inc/visual_composer.php:1458 inc/visual_composer.php:1629 
-#: inc/visual_composer.php:1713 inc/visual_composer.php:1839 
-#: inc/visual_composer.php:1873 inc/visual_composer.php:2917 
-#: inc/visual_composer.php:3133 inc/visual_composer.php:3237
-msgid "Image"
-msgstr ""
-
-#: inc/visual_composer.php:669 inc/visual_composer.php:2927
-msgid "Author name"
-msgstr ""
-
-#: inc/visual_composer.php:674
-msgid "Author car model"
-msgstr ""
-
-#: inc/visual_composer.php:682
-msgid "STM Our team"
-msgstr ""
-
-#: inc/visual_composer.php:700
-msgid "Team member Name"
-msgstr ""
-
-#: inc/visual_composer.php:706
-msgid "Team member position"
-msgstr ""
-
-#: inc/visual_composer.php:711
-msgid "Team member email"
-msgstr ""
-
-#: inc/visual_composer.php:716
-msgid "Team member phone"
-msgstr ""
-
-#: inc/visual_composer.php:724
-msgid "STM Our partners"
-msgstr ""
-
-#: inc/visual_composer.php:730
-msgid "Partners Images"
-msgstr ""
-
-#: inc/visual_composer.php:735
-msgid "Number to show"
-msgstr ""
-
-#: inc/visual_composer.php:750
-msgid "STM Services Archive"
-msgstr ""
-
-#: inc/visual_composer.php:756
-msgid "Services per page"
-msgstr ""
-
-#: inc/visual_composer.php:772
-msgid "STM Technical informations"
-msgstr ""
-
-#: inc/visual_composer.php:785
-msgid "Icon size (px)"
-msgstr ""
-
-#: inc/visual_composer.php:805
-msgid "STM Technical information"
-msgstr ""
-
-#: inc/visual_composer.php:812
-msgid "Sub title"
-msgstr ""
-
-#: inc/visual_composer.php:818
-msgid "Technical parameter"
-msgstr ""
-
-#: inc/visual_composer.php:824
-msgid "Technical value"
-msgstr ""
-
-#: inc/visual_composer.php:833
-msgid "Google Map"
-msgstr ""
-
-#: inc/visual_composer.php:840
-msgid "Map Width"
-msgstr ""
-
-#: inc/visual_composer.php:843
-msgid "Enter map width in px or %"
-msgstr ""
-
-#: inc/visual_composer.php:847
-msgid "Map Height"
-msgstr ""
-
-#: inc/visual_composer.php:850
-msgid "Enter map height in px"
-msgstr ""
-
-#: inc/visual_composer.php:854
-msgid "Pin image"
-msgstr ""
-
-#: inc/visual_composer.php:859
-msgid "Latitude"
-msgstr ""
-
-#: inc/visual_composer.php:861 inc/visual_composer.php:867
-msgid ""
-"<a href=\"http://www.latlong.net/convert-address-to-lat-long.html\">Here is "
-"a tool</a> where you can find Latitude & Longitude of your location"
-msgstr ""
-
-#: inc/visual_composer.php:865
-msgid "Longitude"
-msgstr ""
-
-#: inc/visual_composer.php:871
-msgid "Map Zoom"
-msgstr ""
-
-#: inc/visual_composer.php:877
-msgid "InfoWindow text"
-msgstr ""
-
-#: inc/visual_composer.php:884
-msgid "Disable map zoom on mouse wheel scroll"
-msgstr ""
-
-#: inc/visual_composer.php:889
-msgid "Extra class name"
-msgstr ""
-
-#: inc/visual_composer.php:891
-msgid ""
-"Style particular content element differently - add a class name and refer to "
-"it in custom CSS."
-msgstr ""
-
-#: inc/visual_composer.php:905
-msgid "STM Single Car Title"
-msgstr ""
-
-#: inc/visual_composer.php:908 inc/visual_composer.php:923 
-#: inc/visual_composer.php:938 inc/visual_composer.php:953 
-#: inc/visual_composer.php:968 inc/visual_composer.php:983 
-#: inc/visual_composer.php:998
-msgid "STM Single Car"
-msgstr ""
-
-#: inc/visual_composer.php:920
-msgid "STM Single Car Actions"
-msgstr ""
-
-#: inc/visual_composer.php:935
-msgid "STM Single Car Gallery"
-msgstr ""
-
-#: inc/visual_composer.php:950
-msgid "STM Single Car Price"
-msgstr ""
-
-#: inc/visual_composer.php:965
-msgid "STM Single Car Data"
-msgstr ""
-
-#: inc/visual_composer.php:980
-msgid "STM Single Car MPG"
-msgstr ""
-
-#: inc/visual_composer.php:995
-msgid "STM Single Car Calculator"
-msgstr ""
-
-#: inc/visual_composer.php:1011
-msgid "STM Compare Cars"
-msgstr ""
-
-#: inc/visual_composer.php:1026
-msgid "STM Call to Action"
-msgstr ""
-
-#: inc/visual_composer.php:1037
-msgid "Box color"
-msgstr ""
-
-#: inc/visual_composer.php:1042
-msgid "Call to action background"
-msgstr ""
-
-#: inc/visual_composer.php:1047 inc/visual_composer.php:1587
-msgid "Attach icon or image"
-msgstr ""
-
-#: inc/visual_composer.php:1057 inc/visual_composer.php:1597
-msgid "Text image"
-msgstr ""
-
-#: inc/visual_composer.php:1066 inc/visual_composer.php:1615
-msgid "Text icon"
-msgstr ""
-
-#: inc/visual_composer.php:1075 inc/visual_composer.php:1624
-msgid "Call to action text"
-msgstr ""
-
-#: inc/visual_composer.php:1135
-msgid "Call to action button Icon"
-msgstr ""
-
-#: inc/visual_composer.php:1141
-msgid "Button params"
-msgstr ""
-
-#: inc/visual_composer.php:1146
-msgid "Call to action label first part"
-msgstr ""
-
-#: inc/visual_composer.php:1155
-msgid "STM Call to action 2"
-msgstr ""
-
-#: inc/visual_composer.php:1163
-msgid "STM Working days"
-msgstr ""
-
-#: inc/visual_composer.php:1174 vc_templates/stm_working_days.php:8
-msgid "Sunday"
-msgstr ""
-
-#: inc/visual_composer.php:1179 vc_templates/stm_working_days.php:9
-msgid "Monday"
-msgstr ""
-
-#: inc/visual_composer.php:1184 vc_templates/stm_working_days.php:10
-msgid "Tuesday"
-msgstr ""
-
-#: inc/visual_composer.php:1189 vc_templates/stm_working_days.php:11
-msgid "Wednesday"
-msgstr ""
-
-#: inc/visual_composer.php:1194 vc_templates/stm_working_days.php:12
-msgid "Thursday"
-msgstr ""
-
-#: inc/visual_composer.php:1199 vc_templates/stm_working_days.php:13
-msgid "Friday"
-msgstr ""
-
-#: inc/visual_composer.php:1204 vc_templates/stm_working_days.php:14
-msgid "Saturday"
-msgstr ""
-
-#: inc/visual_composer.php:1219
-msgid "STM Media Library"
-msgstr ""
-
-#: inc/visual_composer.php:1222 inc/visual_composer.php:1241
-msgid "STM Widgets"
-msgstr ""
-
-#: inc/visual_composer.php:1226 inc/visual_composer.php:1245
-msgid "Widget title"
-msgstr ""
-
-#: inc/visual_composer.php:1238 inc/widgets/latest-posts.php:40
-msgid "STM Recent Posts"
-msgstr ""
-
-#: inc/visual_composer.php:1250
-msgid "Number of posts"
-msgstr ""
-
-#: inc/visual_composer.php:1257 vc_templates/stm_filter_selects.php:70 
-#: vc_templates/stm_car_listing_tabbed.php:214 listings/add_car/step_1.php:47 
-#: listings/add_car/step_1.php:69 listings/add_car/step_1.php:74 
-#: listings/add_car/step_1.php:112 listings/add_car/step_1.php:139
-msgid "Select"
-msgstr ""
-
-#: inc/visual_composer.php:1265
-msgid "STM Sidebar"
-msgstr ""
-
-#: inc/visual_composer.php:1271 inc/visual_composer.php:1497
-msgid "Choose sidebar"
-msgstr ""
-
-#: inc/visual_composer.php:1287
-msgid "STM Post title"
-msgstr ""
-
-#: inc/visual_composer.php:1290 inc/visual_composer.php:1304 
-#: inc/visual_composer.php:1318 inc/visual_composer.php:1332 
-#: inc/visual_composer.php:1353 inc/visual_composer.php:1368 
-#: inc/visual_composer.php:1383 inc/visual_composer.php:1398
-msgid "STM Post Partials"
-msgstr ""
-
-#: inc/visual_composer.php:1301
-msgid "STM Post image"
-msgstr ""
-
-#: inc/visual_composer.php:1315
-msgid "STM Post Info"
-msgstr ""
-
-#: inc/visual_composer.php:1329
-msgid "STM Post Meta Bottom(share, tags, categories)"
-msgstr ""
-
-#: inc/visual_composer.php:1338
-msgid "Share this css"
-msgstr ""
-
-#: inc/visual_composer.php:1350
-msgid "STM Post Author Box"
-msgstr ""
-
-#: inc/visual_composer.php:1365
-msgid "STM Post Comments"
-msgstr ""
-
-#: inc/visual_composer.php:1380
-msgid "STM Post FullWidth Info"
-msgstr ""
-
-#: inc/visual_composer.php:1395
-msgid "STM Post Animated Image"
-msgstr ""
-
-#: inc/visual_composer.php:1402
-msgid "Subtitle"
-msgstr ""
-
-#: inc/visual_composer.php:1425
-msgid "STM Contact form"
-msgstr ""
-
-#: inc/visual_composer.php:1437 inc/visual_composer.php:1463 
-#: inc/visual_composer.php:2309
-msgid "Choose form"
-msgstr ""
-
-#: inc/visual_composer.php:1451
-msgid "STM Service Contact form"
-msgstr ""
-
-#: inc/visual_composer.php:1454 inc/visual_composer.php:1669 
-#: inc/visual_composer.php:1709 inc/visual_composer.php:1774 
-#: inc/visual_composer.php:1808 inc/visual_composer.php:1835
-msgid "STM Service Layout"
-msgstr ""
-
-#: inc/visual_composer.php:1478
-msgid "STM Modern Filter"
-msgstr ""
-
-#: inc/visual_composer.php:1520
-msgid "STM Classic Filter"
-msgstr ""
-
-#: inc/visual_composer.php:1529
-msgid "STM Icon Button"
-msgstr ""
-
-#: inc/visual_composer.php:1541
-msgid "Alignment"
-msgstr ""
-
-#: inc/visual_composer.php:1575
-msgid "STM Sidebar call to action"
-msgstr ""
-
-#: inc/visual_composer.php:1606
-msgid "Text image width"
-msgstr ""
-
-#: inc/visual_composer.php:1650
-msgid "STM Sell a car"
-msgstr ""
-
-#: inc/visual_composer.php:1666
-msgid "STM Service Icon Box"
-msgstr ""
-
-#: inc/visual_composer.php:1683 inc/visual_composer.php:2735 
-#: inc/visual_composer.php:2787
-msgid "Icon size(px)"
-msgstr ""
-
-#: inc/visual_composer.php:1706
-msgid "STM Service Info Box"
-msgstr ""
-
-#: inc/visual_composer.php:1728
-msgid "Title color"
-msgstr ""
-
-#: inc/visual_composer.php:1733 inc/visual_composer.php:2506
-msgid "Price label"
-msgstr ""
-
-#: inc/visual_composer.php:1738
-msgid "Price value"
-msgstr ""
-
-#: inc/visual_composer.php:1743
-msgid "Price color"
-msgstr ""
-
-#: inc/visual_composer.php:1748
-msgid "Price background color"
-msgstr ""
-
-#: inc/visual_composer.php:1753
-msgid "Content color"
-msgstr ""
-
-#: inc/visual_composer.php:1771
-msgid "STM Stats Counter"
-msgstr ""
-
-#: inc/visual_composer.php:1784
-msgid "Counter Value"
-msgstr ""
-
-#: inc/visual_composer.php:1790
-msgid "Duration"
-msgstr ""
-
-#: inc/visual_composer.php:1804
-msgid "STM Image links"
-msgstr ""
-
-#: inc/visual_composer.php:1812
-msgid "Image per row"
-msgstr ""
-
-#: inc/visual_composer.php:1832
-msgid "STM Image Link"
-msgstr ""
-
-#: inc/visual_composer.php:1844
-msgid "Image @2x"
-msgstr ""
-
-#: inc/visual_composer.php:1866
-msgid "STM Listing banner"
-msgstr ""
-
-#: inc/visual_composer.php:1869 inc/visual_composer.php:1903 
-#: inc/visual_composer.php:1967 inc/visual_composer.php:2062 
-#: inc/visual_composer.php:2086 inc/visual_composer.php:2530 
-#: inc/visual_composer.php:2551 inc/visual_composer.php:2567 
-#: inc/visual_composer.php:2697 inc/visual_composer.php:2725
-msgid "STM Listing Layout"
-msgstr ""
-
-#: inc/visual_composer.php:1878
-msgid "Show SVG arrow"
-msgstr ""
-
-#: inc/visual_composer.php:1887 inc/visual_composer.php:1944
-msgid "Content"
-msgstr ""
-
-#: inc/visual_composer.php:1900
-msgid "STM Icon Filter"
-msgstr ""
-
-#: inc/visual_composer.php:1907 inc/visual_composer.php:2851 
-#: inc/visual_composer.php:3378
-msgid "Select Icon Filter taxonomy"
-msgstr ""
-
-#: inc/visual_composer.php:1913
-msgid "Limit"
-msgstr ""
-
-#: inc/visual_composer.php:1918
-msgid "Per row"
-msgstr ""
-
-#: inc/visual_composer.php:1933
-msgid "Items Align"
-msgstr ""
-
-#: inc/visual_composer.php:1949
-msgid "\"Show all\" label text"
-msgstr ""
-
-#: inc/visual_composer.php:1951
-msgid ""
-"If you want to show only important types, other will be hidden, till user "
-"click on this label"
-msgstr ""
-
-#: inc/visual_composer.php:1964 inc/visual_composer.php:3249
-msgid "STM Listing tabs style 2"
-msgstr ""
-
-#: inc/visual_composer.php:1976 inc/visual_composer.php:3261
-msgid "Number of cars to show in tab"
-msgstr ""
-
-#: inc/visual_composer.php:1982 inc/visual_composer.php:3267
-msgid "Include recent items"
-msgstr ""
-
-#: inc/visual_composer.php:1991 inc/visual_composer.php:3276
-msgid "Recent tabs label"
-msgstr ""
-
-#: inc/visual_composer.php:1993 inc/visual_composer.php:3278 
-#: partials/user/dealer-inventory.php:44
-msgid "Recent items"
-msgstr ""
-
-#: inc/visual_composer.php:1998 inc/visual_composer.php:3283
-msgid "Include popular items"
-msgstr ""
-
-#: inc/visual_composer.php:2007 inc/visual_composer.php:3292
-msgid "Popular tabs label"
-msgstr ""
-
-#: inc/visual_composer.php:2009 inc/visual_composer.php:3294 
-#: partials/user/dealer-inventory.php:43
-msgid "Popular items"
-msgstr ""
-
-#: inc/visual_composer.php:2014 inc/visual_composer.php:3299
-msgid "Include featured items"
-msgstr ""
-
-#: inc/visual_composer.php:2023 inc/visual_composer.php:3308
-msgid "Featured tabs label"
-msgstr ""
-
-#: inc/visual_composer.php:2025 inc/visual_composer.php:3310
-msgid "Featured items"
-msgstr ""
-
-#: inc/visual_composer.php:2036 inc/visual_composer.php:3321
-msgid "Category tabs affix"
-msgstr ""
-
-#: inc/visual_composer.php:2038 inc/visual_composer.php:3323
-msgid "items"
-msgstr ""
-
-#: inc/visual_composer.php:2042 inc/visual_composer.php:3327
-msgid "Show \"Show more\" button in tabs"
-msgstr ""
-
-#: inc/visual_composer.php:2059
-msgid "STM Blog grid"
-msgstr ""
-
-#: inc/visual_composer.php:2066
-msgid "Number of posts to show"
-msgstr ""
-
-#: inc/visual_composer.php:2069
-msgid ""
-"Sticky posts are not counted here, so if you want to show 3 posts, and you "
-"have one sticky post, type \"2\" in this field"
-msgstr ""
-
-#: inc/visual_composer.php:2083
-msgid "STM Listing Search (tabs)"
-msgstr ""
-
-#: inc/visual_composer.php:2091
-msgid "Show All"
-msgstr ""
-
-#: inc/visual_composer.php:2100
-msgid "Show Category Listings amount"
-msgstr ""
-
-#: inc/visual_composer.php:2109
-msgid "All tab label"
-msgstr ""
-
-#: inc/visual_composer.php:2111
-msgid "All conditions"
-msgstr ""
-
-#: inc/visual_composer.php:2116
-msgid "Search button postfix"
-msgstr ""
-
-#: inc/visual_composer.php:2118
-msgid "Cars"
-msgstr ""
-
-#: inc/visual_composer.php:2122 inc/visual_composer.php:2181 
-#: inc/visual_composer.php:2701
-msgid "Select Taxonomies, which will be in this tab as filter"
-msgstr ""
-
-#: inc/visual_composer.php:2129
-msgid "Select prefix"
-msgstr ""
-
-#: inc/visual_composer.php:2134
-msgid "Select affix"
-msgstr ""
-
-#: inc/visual_composer.php:2139
-msgid "Number Select prefix"
-msgstr ""
-
-#: inc/visual_composer.php:2144
-msgid "Number Select affix"
-msgstr ""
-
-#: inc/visual_composer.php:2149 inc/visual_composer.php:2601 
-#: listings/boats/filter/sidebar.php:63
-msgid "Items"
-msgstr ""
-
-#: inc/visual_composer.php:2151
-msgid "Enter values for items - title, sub title."
-msgstr ""
-
-#: inc/visual_composer.php:2154 inc/visual_composer.php:2169
-msgid "Taxonomy"
-msgstr ""
-
-#: inc/visual_composer.php:2158
-msgid "Tab Title"
-msgstr ""
-
-#: inc/visual_composer.php:2162
-msgid "Filters"
-msgstr ""
-
-#: inc/visual_composer.php:2171
-msgid ""
-"Type slug of the category (don't delete anything from autocompleted "
-"suggestions. Note, only one taxonomy will be used as tab). This parameter "
-"will be used as default filter for this tab."
-msgstr ""
-
-#: inc/visual_composer.php:2175
-msgid "Tab title"
-msgstr ""
-
-#: inc/visual_composer.php:2197
-msgid "STM Heading Title"
-msgstr ""
-
-#: inc/visual_composer.php:2200 inc/visual_composer.php:2220 
-#: inc/visual_composer.php:2235 inc/visual_composer.php:2250 
-#: inc/visual_composer.php:2265 inc/visual_composer.php:2285 
-#: inc/visual_composer.php:2300 inc/visual_composer.php:2326 
-#: inc/visual_composer.php:2521
-msgid "STM Listing Single Car modules"
-msgstr ""
-
-#: inc/visual_composer.php:2217
-msgid "STM Car Top Info (Title, price)"
-msgstr ""
-
-#: inc/visual_composer.php:2232
-msgid "STM Car Gallery"
-msgstr ""
-
-#: inc/visual_composer.php:2247
-msgid "STM Car Details"
-msgstr ""
-
-#: inc/visual_composer.php:2262 inc/visual_composer.php:3392
-msgid "STM Car Features"
-msgstr ""
-
-#: inc/visual_composer.php:2282
-msgid "STM Car Dealer Info"
-msgstr ""
-
-#: inc/visual_composer.php:2297
-msgid "STM Car Listing Contact Form"
-msgstr ""
-
-#: inc/visual_composer.php:2323
-msgid "STM Similar cars"
-msgstr ""
-
-#: inc/visual_composer.php:2342
-msgid "Tables"
-msgstr ""
-
-#: inc/visual_composer.php:2345
-msgid "Three"
-msgstr ""
-
-#: inc/visual_composer.php:2346
-msgid "Two"
-msgstr ""
-
-#: inc/visual_composer.php:2347
-msgid "One"
-msgstr ""
-
-#: inc/visual_composer.php:2357 inc/visual_composer.php:2404 
-#: inc/visual_composer.php:2407 inc/visual_composer.php:2448 
-#: inc/visual_composer.php:2478 inc/visual_composer.php:2485 
-#: inc/visual_composer.php:2492 inc/visual_composer.php:2500
-#, php-format
-msgid "Table %s"
-msgstr ""
-
-#: inc/visual_composer.php:2362 inc/visual_composer.php:2366 
-#: inc/visual_composer.php:2385 vc_templates/stm_auto_loan_calculator.php:52 
-#: partials/modals/car-calculator.php:56 
-#: partials/single-car/car-calculator.php:46 
-#: partials/single-car-boats/boats-calculator.php:45
-msgid "Period"
-msgstr ""
-
-#: inc/visual_composer.php:2370 inc/visual_composer.php:2395 
-#: inc/visual_composer.php:2664 inc/visual_composer.php:2670 
-#: inc/visual_composer.php:2681 
-#: partials/listing-layout-parts/boats-list-sort.php:29 
-#: listings/add_car/step_6.php:31 listings/add_car/step_6.php:59 
-#: woocommerce/cart/cart.php:26
-msgid "Price"
-msgstr ""
-
-#: inc/visual_composer.php:2374
-msgid "Period Text"
-msgstr ""
-
-#: inc/visual_composer.php:2378
-msgid "Period link"
-msgstr ""
-
-#: inc/visual_composer.php:2388
-msgid "Month"
-msgstr ""
-
-#: inc/visual_composer.php:2388 vc_templates/stm_auto_loan_calculator.php:52 
-#: partials/modals/car-calculator.php:57 
-#: partials/single-car/car-calculator.php:46 
-#: partials/single-car-boats/boats-calculator.php:45
-msgid "month"
-msgstr ""
-
-#: inc/visual_composer.php:2389
-msgid "Yearly"
-msgstr ""
-
-#: inc/visual_composer.php:2389
-msgid "yearly"
-msgstr ""
-
-#: inc/visual_composer.php:2401 inc/visual_composer.php:2497
-msgid "Plan add to cart (Plan ID)"
-msgstr ""
-
-#: inc/visual_composer.php:2412 partials/single-car-listing/car-main.php:29
-msgid "Features"
-msgstr ""
-
-#: inc/visual_composer.php:2420 inc/visual_composer.php:2437
-msgid "Check"
-msgstr ""
-
-#: inc/visual_composer.php:2453
-msgid "Labels"
-msgstr ""
-
-#: inc/visual_composer.php:2457 inc/visual_composer.php:2468
-msgid "Label text"
-msgstr ""
-
-#: inc/visual_composer.php:2461
-msgid "Label color"
-msgstr ""
-
-#: inc/visual_composer.php:2474
-msgid "Label background color"
-msgstr ""
-
-#: inc/visual_composer.php:2483
-msgid "Link text"
-msgstr ""
-
-#: inc/visual_composer.php:2519
-msgid "STM Pricing Tables"
-msgstr ""
-
-#: inc/visual_composer.php:2527
-msgid "STM User/Dealer login/register"
-msgstr ""
-
-#: inc/visual_composer.php:2548
-msgid "STM Posts Available"
-msgstr ""
-
-#: inc/visual_composer.php:2564
-msgid "STM Add a car"
-msgstr ""
-
-#: inc/visual_composer.php:2571
-msgid "Include car title"
-msgstr ""
-
-#: inc/visual_composer.php:2576 inc/visual_composer.php:2674 
-#: vc_templates/stm_sell_a_car.php:292 vc_templates/stm_sell_a_car.php:293 
-#: vc_templates/stm_sell_a_car.php:693 vc_templates/stm_sell_a_car.php:694 
-#: vc_templates/stm_sell_a_car.php:1095 vc_templates/stm_sell_a_car.php:1096 
-#: partials/user/dealer-single-review.php:113 
-#: partials/user/dealer-reviews.php:60 partials/user/dealer-write-review.php:68
-msgid "No"
-msgstr ""
-
-#: inc/visual_composer.php:2581
-msgid "Main taxonomies to fill"
-msgstr ""
-
-#: inc/visual_composer.php:2587
-msgid "Show number fields as input instead of dropdown"
-msgstr ""
-
-#: inc/visual_composer.php:2595
-msgid "Allowed histories"
-msgstr ""
-
-#: inc/visual_composer.php:2597
-msgid ""
-"Enter allowed histories, separated by comma without spaces. Example - "
-"(Carfax, AutoCheck, Carfax 1 Owner, etc)"
-msgstr ""
-
-#: inc/visual_composer.php:2605
-msgid "Car feature title"
-msgstr ""
-
-#: inc/visual_composer.php:2609
-msgid "Car features"
-msgstr ""
-
-#: inc/visual_composer.php:2616
-msgid "Car feature section title"
-msgstr ""
-
-#: inc/visual_composer.php:2622
-msgid "Car feature section features"
-msgstr ""
-
-#: inc/visual_composer.php:2624
-msgid ""
-"Enter features, separated by comma without spaces. Example - (Bluetooth,DVD "
-"Player,etc)"
-msgstr ""
-
-#: inc/visual_composer.php:2627
-msgid "Step 2 features"
-msgstr ""
-
-#: inc/visual_composer.php:2631
-msgid "Media gallery notification text"
-msgstr ""
-
-#: inc/visual_composer.php:2633
-msgid "Step 3 gallery"
-msgstr ""
-
-#: inc/visual_composer.php:2637
-msgid "Seller template phrases"
-msgstr ""
-
-#: inc/visual_composer.php:2639
-msgid ""
-"Enter phrases, separated by comma without spaces. Example - (Excellent "
-"condition, Always garaged, etc)"
-msgstr ""
-
-#: inc/visual_composer.php:2640
-msgid "Step 4 phrases"
-msgstr ""
-
-#: inc/visual_composer.php:2644
-msgid "Title for new users"
-msgstr ""
-
-#: inc/visual_composer.php:2646 inc/visual_composer.php:2652 
-#: inc/visual_composer.php:2658
-msgid "Register/Login User"
-msgstr ""
-
-#: inc/visual_composer.php:2650
-msgid "Text for new users"
-msgstr ""
-
-#: inc/visual_composer.php:2656
-msgid "Agreement page"
-msgstr ""
-
-#: inc/visual_composer.php:2662
-msgid "Price title"
-msgstr ""
-
-#: inc/visual_composer.php:2668
-msgid "Show Price label"
-msgstr ""
-
-#: inc/visual_composer.php:2679
-msgid "Price description"
-msgstr ""
-
-#: inc/visual_composer.php:2694
-msgid "STM Dealer List"
-msgstr ""
-
-#: inc/visual_composer.php:2707
-msgid "Show dealer category fields"
-msgstr ""
-
-#: inc/visual_composer.php:2722 inc/visual_composer.php:2774
-msgid "STM Icon Counter"
-msgstr ""
-
-#: inc/visual_composer.php:2737 inc/visual_composer.php:2789
-msgid "Just type a number."
-msgstr ""
-
-#: inc/visual_composer.php:2741 inc/visual_composer.php:2793
-msgid "Icon Box Text Color"
-msgstr ""
-
-#: inc/visual_composer.php:2746 inc/visual_composer.php:2798
-msgid "Count to number"
-msgstr ""
-
-#: inc/visual_composer.php:2751 inc/visual_composer.php:2803
-msgid "Count time (.s)"
-msgstr ""
-
-#: inc/visual_composer.php:2756 inc/visual_composer.php:2808
-msgid "Counter Affix"
-msgstr ""
-
-#: inc/visual_composer.php:2761 inc/visual_composer.php:2813
-msgid "Count label"
-msgstr ""
-
-#: inc/visual_composer.php:2777 inc/visual_composer.php:2828 
-#: inc/visual_composer.php:2847 inc/visual_composer.php:2866 
-#: inc/visual_composer.php:2897 inc/visual_composer.php:2913 
-#: inc/visual_composer.php:2936 inc/visual_composer.php:2956 
-#: inc/visual_composer.php:2998 inc/visual_composer.php:3012 
-#: inc/visual_composer.php:3026 inc/visual_composer.php:3040 
-#: inc/visual_composer.php:3054 inc/visual_composer.php:3068 
-#: inc/visual_composer.php:3109 inc/visual_composer.php:3129 
-#: inc/visual_composer.php:3162
-msgid "STM Boats Layout"
-msgstr ""
-
-#: inc/visual_composer.php:2825
-msgid "STM Featured Boats"
-msgstr ""
-
-#: inc/visual_composer.php:2832
-msgid "Display number"
-msgstr ""
-
-#: inc/visual_composer.php:2844 inc/visual_composer.php:3371
-msgid "STM Row Icons"
-msgstr ""
-
-#: inc/visual_composer.php:2864 inc/visual_composer.php:3343
-msgid "STM Video"
-msgstr ""
-
-#: inc/visual_composer.php:2870 inc/visual_composer.php:3349
-msgid "Video poster"
-msgstr ""
-
-#: inc/visual_composer.php:2875 inc/visual_composer.php:3354
-msgid "Iframe Height"
-msgstr ""
-
-#: inc/visual_composer.php:2880 inc/visual_composer.php:3359
-msgid "Video Link"
-msgstr ""
-
-#: inc/visual_composer.php:2894
-msgid "STM Testimonials Boats"
-msgstr ""
-
-#: inc/visual_composer.php:2910
-msgid "STM Testimonial Boats"
-msgstr ""
-
-#: inc/visual_composer.php:2934
-msgid "STM Latest News"
-msgstr ""
-
-#: inc/visual_composer.php:2940
-msgid "Number of news to display"
-msgstr ""
-
-#: inc/visual_composer.php:2953
-msgid "STM Colors"
-msgstr ""
-
-#: inc/visual_composer.php:2960
-msgid "Colors"
-msgstr ""
-
-#: inc/visual_composer.php:2964 inc/visual_composer.php:2975
-msgid "Color name"
-msgstr ""
-
-#: inc/visual_composer.php:2968 inc/visual_composer.php:2981
-msgid "Color"
-msgstr ""
-
-#: inc/visual_composer.php:2996
-msgid "STM Boat Title&Price"
-msgstr ""
-
-#: inc/visual_composer.php:3010
-msgid "STM Boat Image"
-msgstr ""
-
-#: inc/visual_composer.php:3024
-msgid "STM Boat Data"
-msgstr ""
-
-#: inc/visual_composer.php:3038
-msgid "STM Boat Gallery"
-msgstr ""
-
-#: inc/visual_composer.php:3052
-msgid "STM Boat Videos"
-msgstr ""
-
-#: inc/visual_composer.php:3066 inc/visual_composer.php:3468
-msgid "STM Contact Information"
-msgstr ""
-
-#: inc/visual_composer.php:3077 inc/visual_composer.php:3479 
-#: inc/customizer/registration.php:614 inc/customizer/registration.php:753
-msgid "Address"
-msgstr ""
-
-#: inc/visual_composer.php:3087 inc/visual_composer.php:3148 
-#: inc/visual_composer.php:3489
-msgid "Mail"
-msgstr ""
-
-#: inc/visual_composer.php:3092 inc/visual_composer.php:3494
-msgid "Hours"
-msgstr ""
-
-#: inc/visual_composer.php:3106
-msgid "STM Contacts"
-msgstr ""
-
-#: inc/visual_composer.php:3126
-msgid "STM Contact"
-msgstr ""
-
-#: inc/visual_composer.php:3138 inc/custom.php:91 
-#: woocommerce/single-product-reviews.php:69 partials/modals/test-drive.php:14 
-#: partials/modals/get-car-price.php:14 partials/modals/trade-offer.php:20
-msgid "Name"
-msgstr ""
-
-#: inc/visual_composer.php:3153 inc/customizer/registration.php:121
-msgid "Skype"
-msgstr ""
-
-#: inc/visual_composer.php:3160
-msgid "STM Featured Boats Widget"
-msgstr ""
-
-#: inc/visual_composer.php:3184
-msgid "STM Filter Selects"
-msgstr ""
-
-#: inc/visual_composer.php:3186 inc/visual_composer.php:3221 
-#: inc/visual_composer.php:3252 inc/visual_composer.php:3345 
-#: inc/visual_composer.php:3374 inc/visual_composer.php:3470
-msgid "STM Motos Layout"
-msgstr ""
-
-#: inc/visual_composer.php:3219
-msgid "STM Inventory Category"
-msgstr ""
-
-#: inc/visual_composer.php:3225
-msgid "Select main category (Only one category will be selected)"
-msgstr ""
-
-#: inc/visual_composer.php:3231
-msgid "Select subcategories"
-msgstr ""
-
-#: inc/visual_composer.php:3395 inc/visual_composer.php:3414 
-#: inc/visual_composer.php:3428 inc/visual_composer.php:3442 
-#: inc/visual_composer.php:3456
-msgid "STM Single Motorcycle"
-msgstr ""
-
-#: inc/visual_composer.php:3412
-msgid "STM Moto Gallery"
-msgstr ""
-
-#: inc/visual_composer.php:3426
-msgid "STM Moto Top (Title, Price, Featured Photo)"
-msgstr ""
-
-#: inc/visual_composer.php:3440
-msgid "STM Moto Data"
-msgstr ""
-
-#: inc/visual_composer.php:3454
-msgid "STM Moto Links"
-msgstr ""
-
-#: inc/visual_composer.php:3510
-msgid "STM Text Baloon"
-msgstr ""
-
-#: inc/visual_composer.php:3529
-msgid "STM Offices Map"
-msgstr ""
-
-#: inc/visual_composer.php:3535
-msgid "Map height (px)"
-msgstr ""
-
-#: inc/visual_composer.php:3540
-msgid "Zoom"
-msgstr ""
-
-#: inc/visual_composer.php:3545
-msgid "Pin"
-msgstr ""
-
-#: inc/visual_composer.php:3550
-msgid "Pin on hover"
-msgstr ""
-
-#: inc/visual_composer.php:3561
-msgid "Mobile styles"
-msgstr ""
-
-#: inc/visual_composer.php:3569
-msgid "STM Products Grid"
-msgstr ""
-
-#: inc/visual_composer.php:3575
-msgid "Number of items to show"
-msgstr ""
-
-#: inc/visual_composer.php:3588
-msgid "STM Rent Car Form"
-msgstr ""
-
-#: inc/visual_composer.php:3597
-msgid "Style 1"
-msgstr ""
-
-#: inc/visual_composer.php:3623
-msgid "STM Reservation navigation"
-msgstr ""
-
-#: inc/visual_composer.php:3637
-msgid "STM Reservation Info"
-msgstr ""
-
-#: inc/custom.php:46
-#, php-format
-msgid "%1$s"
-msgstr ""
-
-#: inc/custom.php:50
-msgid ""
-"<span class=\"comment-divider\">/</span><i class=\"fa fa-reply\"></i> Reply"
-msgstr ""
-
-#: inc/custom.php:57
-msgid ""
-"<span class=\"comment-divider\">/</span><i class=\"fa fa-pencil-square-o\">"
-"</i> Edit"
-msgstr ""
-
-#: inc/custom.php:62
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: inc/custom.php:96
-msgid "E-mail"
-msgstr ""
-
-#: inc/custom.php:101
-msgid "Website"
-msgstr ""
-
-#: inc/custom.php:116
-msgctxt "noun"
-msgid "Message"
-msgstr ""
-
-#: inc/custom.php:396
-msgid "Motors Theme Default"
-msgstr ""
-
-#: inc/custom.php:1760
-msgid "mi"
-msgstr ""
-
-#: inc/custom.php:1763
-msgid "km"
-msgstr ""
-
-#: inc/custom.php:2052 listings/add_car/step_1.php:98
-msgid "Enter"
-msgstr ""
-
-#: inc/custom.php:2075
-msgid "or"
-msgstr ""
-
-#: inc/custom.php:2561
-msgid "Enter date"
-msgstr ""
-
-#: inc/custom.php:2565 partials/single-car-listing/car-data.php:23 
-#: partials/single-car-listing/car-data.php:32
-msgid "Registered"
-msgstr ""
-
-#: inc/custom.php:2578
-msgid "Enter VIN"
-msgstr ""
-
-#: inc/custom.php:2582 vc_templates/stm_sell_a_car.php:173 
-#: vc_templates/stm_sell_a_car.php:574
-msgid "VIN"
-msgstr ""
-
-#: inc/custom.php:2596
-msgid "Vehicle History Report"
-msgstr ""
-
-#: inc/custom.php:2599 partials/single-car-listing/car-data.php:42 
-#: partials/single-car-listing/car-data.php:52
-msgid "History"
-msgstr ""
-
-#: inc/custom.php:2605
-msgid "Vehicle history"
-msgstr ""
-
-#: inc/custom.php:2621
-msgid "Insert link"
-msgstr ""
-
-#: inc/custom.php:2623 listings/add_car/step_5.php:46 
-#: listings/filter/types/checkboxes.php:81
-msgid "Apply"
-msgstr ""
-
-#: inc/custom.php:2666
-msgid "Enter ZIP or Address"
-msgstr ""
-
-#: inc/custom.php:2673 partials/listing-layout-parts/boats-list-sort.php:24 
-#: partials/user/dealer-public-profile.php:57 
-#: partials/single-car-boats/boats-data.php:51 
-#: partials/user/private/become-dealer.php:67 
-#: listings/loop/boats/list/options.php:24
-msgid "Location"
-msgstr ""
-
-#: inc/custom.php:2761 inc/customizer/registration.php:1432 
-#: partials/user/dealer-single-review.php:10 
-#: partials/user/dealer-write-review.php:41
-msgid "Customer Service"
-msgstr ""
-
-#: inc/custom.php:2763 inc/customizer/registration.php:1437 
-#: partials/user/dealer-single-review.php:11 
-#: partials/user/dealer-write-review.php:42
-msgid "Buying Process"
-msgstr ""
-
-#: inc/custom.php:2765 inc/customizer/registration.php:1442 
-#: partials/user/dealer-single-review.php:12 
-#: partials/user/dealer-write-review.php:43
-msgid "Overall Experience"
-msgstr ""
-
-#: inc/custom.php:3243
-msgid "New Payment received"
-msgstr ""
-
-#: inc/custom.php:3244
-msgid "User paid for submission. User ID:"
-msgstr ""
-
-#: inc/custom.php:3899 inc/custom.php:3908
-msgid "English"
-msgstr ""
-
-#: inc/custom.php:3904
-msgid "Français"
-msgstr ""
-
-#: inc/custom.php:3982 listings/classified/filter/sidebar.php:95 
-#: listings/classified/filter/sidebar.php:105 
-#: listings/motorcycles/filter/sidebar.php:88 
-#: listings/motorcycles/filter/sidebar.php:98
-msgid "Max"
-msgstr ""
-
-#: inc/custom.php:4054 vc_templates/stm_dealer_list.php:48
-msgid "Choose"
-msgstr ""
-
-#: inc/custom.php:4155 inc/customizer/registration.php:1027 
-#: inc/customizer/registration.php:1163
-msgid "Cars for sale"
-msgstr ""
-
-#: inc/custom.php:4156 inc/customizer/registration.php:1032 
-#: inc/customizer/registration.php:1168
-msgid " for sale"
 msgstr ""
 
 #: partials/frontend_customizer.php:17 partials/frontend_customizer.php:57
@@ -2652,8 +760,8 @@ msgstr ""
 msgid "Static"
 msgstr ""
 
-#: partials/frontend_customizer.php:37 inc/customizer/registration.php:630 
-#: inc/customizer/registration.php:720 partials/blog/content-grid-loop.php:52 
+#: partials/frontend_customizer.php:37 inc/customizer/registration.php:630
+#: inc/customizer/registration.php:720 partials/blog/content-grid-loop.php:52
 #: partials/blog/grid-loop.php:26
 msgid "Sticky"
 msgstr ""
@@ -2686,31 +794,34 @@ msgstr ""
 msgid "Color Skin"
 msgstr ""
 
-#: partials/car-filter-loop.php:18 partials/compare.php:113 
-#: vc_templates/stm_compare_cars.php:120 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:88 
-#: partials/listing-cars/motos/moto-single-grid.php:57 
-#: partials/listing-cars/motos/grid.php:57 
-#: listings/loop/classified/grid/image.php:41 
-#: listings/loop/classified/list/image.php:14 
-#: listings/loop/default/grid/image.php:16 
-#: listings/loop/default/list/compare.php:16 
+#: partials/car-filter-loop.php:18 partials/compare.php:113
+#: vc_templates/stm_compare_cars.php:120
+#: partials/listing-cars/listing-grid-loop.php:60
+#: partials/listing-cars/listing-grid-directory-loop-4.php:86
+#: partials/listing-cars/listing-list-directory-loop-animate.php:88
+#: partials/listing-cars/listing-grid-directory-loop.php:85
+#: partials/listing-cars/motos/moto-single-grid.php:57
+#: partials/listing-cars/motos/grid.php:57
+#: listings/loop/classified/list/image.php:14
+#: listings/loop/default/list/compare.php:16
 #: listings/loop/boats/list/image.php:14
 msgid "Remove from compare"
 msgstr ""
 
-#: partials/car-filter-loop.php:40 partials/car-filter-loop.php:46 
-#: partials/single-car-motorcycle/car-gallery.php:11 
-#: partials/single-car/car-gallery.php:19 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:268 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:232 
-#: partials/single-car-listing/car-gallery.php:52 
-#: partials/listing-cars/motos/moto-single-grid.php:102 
-#: partials/listing-cars/motos/list.php:133 
-#: partials/listing-cars/motos/grid.php:102 
-#: listings/loop/classified/grid/image.php:144 
-#: listings/loop/classified/list/image.php:141 
-#: listings/loop/default/grid/image.php:38 
+#: partials/car-filter-loop.php:40 partials/car-filter-loop.php:46
+#: partials/single-car-motorcycle/car-gallery.php:11
+#: partials/single-car/car-gallery.php:19
+#: partials/listing-cars/listing-grid-loop.php:92
+#: partials/listing-cars/listing-grid-directory-loop-animate.php:181
+#: partials/listing-cars/listing-grid-directory-loop-4.php:198
+#: partials/listing-cars/listing-list-directory-edit-loop.php:268
+#: partials/listing-cars/listing-list-directory-loop-animate.php:232
+#: partials/listing-cars/listing-grid-directory-loop.php:196
+#: partials/single-car-listing/car-gallery.php:52
+#: partials/listing-cars/motos/moto-single-grid.php:102
+#: partials/listing-cars/motos/list.php:133
+#: partials/listing-cars/motos/grid.php:102
+#: listings/loop/classified/list/image.php:141
 #: listings/loop/boats/list/image.php:37
 msgid "Placeholder"
 msgstr ""
@@ -2719,65 +830,65 @@ msgstr ""
 msgid "Language flag"
 msgstr ""
 
-#: partials/top-bar.php:75 partials/top-bar.php:103 
-#: partials/top-bar-boats.php:61 partials/top-bar-boats.php:86 
-#: vc_templates/stm_login_register.php:45 partials/user/user-dropdown.php:63 
-#: partials/user/dealer-write-review.php:169 
-#: woocommerce/myaccount/form-login.php:39 
-#: woocommerce/myaccount/form-login.php:54 
+#: partials/top-bar.php:75 partials/top-bar.php:103
+#: partials/top-bar-boats.php:61 partials/top-bar-boats.php:86
+#: vc_templates/stm_login_register.php:45 partials/user/user-dropdown.php:63
+#: partials/user/dealer-write-review.php:169
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:54
 #: partials/user/private/mobile/user.php:23
 msgid "Login"
 msgstr ""
 
-#: partials/top-bar.php:78 partials/top-bar.php:106 
-#: partials/top-bar-boats.php:89 woocommerce/myaccount/form-login.php:76 
+#: partials/top-bar.php:78 partials/top-bar.php:106
+#: partials/top-bar-boats.php:89 woocommerce/myaccount/form-login.php:76
 #: woocommerce/myaccount/form-login.php:108
 msgid "Register"
 msgstr ""
 
-#: partials/top-bar.php:156 partials/top-bar.php:162 partials/top-bar.php:167 
-#: partials/top-bar-boats-mobile.php:35 partials/top-bar-boats-mobile.php:41 
-#: partials/top-bar-boats-mobile.php:46 partials/top-bar-boats.php:120 
-#: partials/top-bar-boats.php:126 partials/top-bar-boats.php:131 
-#: partials/single-car/car-price.php:50 partials/single-car/car-price.php:67 
-#: partials/single-car/car-price.php:82 partials/single-car/car-price.php:96 
-#: partials/single-car/car-price.php:112 partials/header/header.php:91 
-#: partials/header/header.php:93 partials/header/header.php:93 
-#: partials/header/header.php:97 partials/header/header.php:99 
-#: partials/header/header.php:99 partials/header/header.php:109 
-#: partials/header/header.php:111 partials/header/header.php:111 
-#: partials/header/header.php:117 partials/header/header.php:119 
-#: partials/header/header.php:119 partials/header/header.php:137 
-#: partials/header/header.php:139 partials/header/header.php:156 
-#: partials/header/header-motorcycle.php:72 
-#: partials/single-car-boats/boat-price.php:51 
-#: partials/single-car-boats/boat-price.php:67 
-#: partials/single-car-boats/boat-price.php:82 
-#: partials/single-car-boats/boat-price.php:96 
-#: partials/single-car-boats/boat-price.php:111 
-#: listings/filter/types/links.php:20
+#: partials/top-bar.php:156 partials/top-bar.php:162 partials/top-bar.php:167
+#: partials/top-bar-boats-mobile.php:35 partials/top-bar-boats-mobile.php:41
+#: partials/top-bar-boats-mobile.php:46 partials/top-bar-boats.php:120
+#: partials/top-bar-boats.php:126 partials/top-bar-boats.php:131
+#: partials/single-car/car-price.php:50 partials/single-car/car-price.php:67
+#: partials/single-car/car-price.php:82 partials/single-car/car-price.php:96
+#: partials/single-car/car-price.php:112 partials/header/header.php:91
+#: partials/header/header.php:93 partials/header/header.php:93
+#: partials/header/header.php:97 partials/header/header.php:99
+#: partials/header/header.php:99 partials/header/header.php:109
+#: partials/header/header.php:111 partials/header/header.php:111
+#: partials/header/header.php:117 partials/header/header.php:119
+#: partials/header/header.php:119 partials/header/header.php:137
+#: partials/header/header.php:139 partials/header/header.php:156
+#: partials/header/header-motorcycle.php:72
+#: partials/single-car-boats/boat-price.php:51
+#: partials/single-car-boats/boat-price.php:67
+#: partials/single-car-boats/boat-price.php:82
+#: partials/single-car-boats/boat-price.php:96
+#: partials/single-car-boats/boat-price.php:111
+#: listings/filter/types/links.php:19
 #, php-format
 msgid "%s"
 msgstr ""
 
-#: partials/compare.php:44 partials/compare.php:225 
+#: partials/compare.php:44 partials/compare.php:225
 #: vc_templates/stm_compare_cars.php:25
 msgid "Compare Vehicles"
 msgstr ""
 
-#: partials/compare.php:66 partials/compare.php:124 partials/compare.php:238 
-#: partials/compare.php:319 vc_templates/stm_compare_cars.php:73 
-#: vc_templates/stm_compare_cars.php:131 vc_templates/stm_compare_cars.php:255 
+#: partials/compare.php:66 partials/compare.php:124 partials/compare.php:238
+#: partials/compare.php:319 vc_templates/stm_compare_cars.php:73
+#: vc_templates/stm_compare_cars.php:131 vc_templates/stm_compare_cars.php:255
 #: vc_templates/stm_compare_cars.php:336
 msgid "Empty"
 msgstr ""
 
-#: partials/compare.php:126 partials/compare.php:240 partials/compare.php:321 
+#: partials/compare.php:126 partials/compare.php:240 partials/compare.php:321
 #: vc_templates/stm_compare_cars.php:17
 msgid "Add car to compare"
 msgstr ""
 
-#: partials/compare.php:185 partials/compare.php:189 
+#: partials/compare.php:185 partials/compare.php:189
 #: vc_templates/stm_compare_cars.php:198 vc_templates/stm_compare_cars.php:202
 msgid "None"
 msgstr ""
@@ -2790,14 +901,14 @@ msgstr ""
 msgid "News"
 msgstr ""
 
-#: partials/title_box.php:47 inc/customizer/registration.php:952 
+#: partials/title_box.php:47 inc/customizer/registration.php:952
 #: inc/customizer/registration.php:1104
 msgid "Inventory"
 msgstr ""
 
-#: partials/title_box.php:57 vc_templates/stm_filter_selects.php:97 
-#: vc_templates/stm_car_listing_tabbed.php:231 
-#: partials/modals/searchform.php:6 listings/motorcycles/filter/sidebar.php:25
+#: partials/title_box.php:57 vc_templates/stm_filter_selects.php:97
+#: vc_templates/stm_car_listing_tabbed.php:231 partials/modals/searchform.php:6
+#: listings/motorcycles/filter/sidebar.php:25
 msgid "Search"
 msgstr ""
 
@@ -2805,7 +916,7 @@ msgstr ""
 msgid "Contact Information"
 msgstr ""
 
-#: vc_templates/stm_contact_information.php:38 
+#: vc_templates/stm_contact_information.php:38
 #: woocommerce/order/order-details-customer.php:30
 msgid "Email:"
 msgstr ""
@@ -2814,9 +925,9 @@ msgstr ""
 msgid "Call to action"
 msgstr ""
 
-#: vc_templates/stm_post_info.php:19 
-#: vc_templates/stm_post_animated_image.php:32 
-#: vc_templates/stm_post_fullwidth_info.php:27 
+#: vc_templates/stm_post_info.php:19
+#: vc_templates/stm_post_animated_image.php:32
+#: vc_templates/stm_post_fullwidth_info.php:27
 #: partials/blog/content-list-loop.php:41 partials/blog/content.php:66
 msgid "Posted by:"
 msgstr ""
@@ -2857,13 +968,20 @@ msgstr ""
 msgid "Return Date"
 msgstr ""
 
-#: vc_templates/stm_rent_car_form.php:88 
+#: vc_templates/stm_rent_car_form.php:88
 #: partials/rental/common/order-info-empty.php:18
 msgid "Find a vehicle"
 msgstr ""
 
 #: vc_templates/stm_rent_car_form.php:91
 msgid "Continue reservation"
+msgstr ""
+
+#: vc_templates/stm_filter_selects.php:70
+#: vc_templates/stm_car_listing_tabbed.php:214 listings/add_car/step_1.php:47
+#: listings/add_car/step_1.php:69 listings/add_car/step_1.php:74
+#: listings/add_car/step_1.php:112 listings/add_car/step_1.php:139
+msgid "Select"
 msgstr ""
 
 #: vc_templates/stm_filter_selects.php:92
@@ -2886,22 +1004,28 @@ msgstr ""
 msgid "Search inventory"
 msgstr ""
 
-#: vc_templates/stm_car_listing_tabbed.php:148 
-#: vc_templates/stm_car_listing_tabbed.php:196 
+#: vc_templates/stm_car_listing_tabbed.php:148
+#: vc_templates/stm_car_listing_tabbed.php:196
 #: vc_templates/stm_listings_tabs_2.php:127
 msgid "available"
+msgstr ""
+
+#: vc_templates/stm_car_listing_tabbed.php:148
+#: vc_templates/stm_car_listing_tabbed.php:196
+#: vc_templates/stm_listings_tabs_2.php:127
+msgid "cars"
 msgstr ""
 
 #: vc_templates/stm_car_listing_tabbed.php:169
 msgid "Load more"
 msgstr ""
 
-#: vc_templates/stm_car_listing_tabbed.php:180 
-#: vc_templates/stm_modern_filter.php:368 
-#: vc_templates/stm_listings_tabs_2.php:140 
-#: vc_templates/stm_listings_tabs_2.php:179 
-#: vc_templates/stm_listings_tabs_2.php:213 
-#: vc_templates/stm_listings_tabs_2.php:255 
+#: vc_templates/stm_car_listing_tabbed.php:180
+#: vc_templates/stm_modern_filter.php:368
+#: vc_templates/stm_listings_tabs_2.php:140
+#: vc_templates/stm_listings_tabs_2.php:179
+#: vc_templates/stm_listings_tabs_2.php:213
+#: vc_templates/stm_listings_tabs_2.php:255
 #: listings/classified/filter/featured.php:18
 msgid "Show all"
 msgstr ""
@@ -2918,32 +1042,32 @@ msgstr ""
 msgid "Sign In"
 msgstr ""
 
-#: vc_templates/stm_login_register.php:25 
-#: vc_templates/stm_login_register.php:51 partials/user/user-dropdown.php:48 
+#: vc_templates/stm_login_register.php:25
+#: vc_templates/stm_login_register.php:51 partials/user/user-dropdown.php:48
 #: listings/add_car/check_user.php:25 partials/user/private/mobile/user.php:8
 msgid "Login or E-mail"
 msgstr ""
 
-#: vc_templates/stm_login_register.php:26 
-#: vc_templates/stm_login_register.php:53 partials/user/user-dropdown.php:49 
+#: vc_templates/stm_login_register.php:26
+#: vc_templates/stm_login_register.php:53 partials/user/user-dropdown.php:49
 #: listings/add_car/check_user.php:27 partials/user/private/mobile/user.php:9
 msgid "Enter login or E-mail"
 msgstr ""
 
-#: vc_templates/stm_login_register.php:30 partials/user/user-dropdown.php:53 
-#: listings/add_car/check_user.php:31 woocommerce/myaccount/form-login.php:47 
-#: woocommerce/myaccount/form-login.php:95 
+#: vc_templates/stm_login_register.php:30 partials/user/user-dropdown.php:53
+#: listings/add_car/check_user.php:31 woocommerce/myaccount/form-login.php:47
+#: woocommerce/myaccount/form-login.php:95
 #: partials/user/private/mobile/user.php:13
 msgid "Password"
 msgstr ""
 
-#: vc_templates/stm_login_register.php:31 partials/user/user-dropdown.php:54 
+#: vc_templates/stm_login_register.php:31 partials/user/user-dropdown.php:54
 #: listings/add_car/check_user.php:33 partials/user/private/mobile/user.php:14
 msgid "Enter password"
 msgstr ""
 
-#: vc_templates/stm_login_register.php:37 partials/user/user-dropdown.php:60 
-#: listings/add_car/check_user.php:39 woocommerce/myaccount/form-login.php:56 
+#: vc_templates/stm_login_register.php:37 partials/user/user-dropdown.php:60
+#: listings/add_car/check_user.php:39 woocommerce/myaccount/form-login.php:56
 #: partials/user/private/mobile/user.php:20
 msgid "Remember me"
 msgstr ""
@@ -2990,6 +1114,11 @@ msgstr ""
 msgid "No car to edit."
 msgstr ""
 
+#: vc_templates/stm_dealer_list.php:24 woocommerce/myaccount/my-orders.php:52
+#: woocommerce/myaccount/my-orders.php:71
+msgid "Date"
+msgstr ""
+
 #: vc_templates/stm_dealer_list.php:25
 msgid "Cars number"
 msgstr ""
@@ -3002,22 +1131,26 @@ msgstr ""
 msgid "Find Dealer"
 msgstr ""
 
+#: vc_templates/stm_dealer_list.php:48
+msgid "Choose"
+msgstr ""
+
 #: vc_templates/stm_dealer_list.php:73
 msgid "Enter a location"
 msgstr ""
 
-#: vc_templates/stm_dealer_list.php:86 
+#: vc_templates/stm_dealer_list.php:86
 #: listings/motorcycles/filter/sidebar.php:63
 msgid "Keyword"
 msgstr ""
 
-#: vc_templates/stm_dealer_list.php:103 vc_templates/stm_modern_filter.php:314 
-#: listings/filter/actions.php:3 listings/classified/filter/actions.php:44 
+#: vc_templates/stm_dealer_list.php:103 vc_templates/stm_modern_filter.php:314
+#: listings/filter/actions.php:3 listings/classified/filter/actions.php:44
 #: listings/boats/filter/actions.php:6
 msgid "Sort by:"
 msgstr ""
 
-#: vc_templates/stm_dealer_list.php:134 partials/user/dealer-reviews.php:87 
+#: vc_templates/stm_dealer_list.php:134 partials/user/dealer-reviews.php:87
 #: partials/user/dealer-inventory.php:63 partials/user/dealer-inventory.php:79
 msgid "Show more"
 msgstr ""
@@ -3050,6 +1183,34 @@ msgstr ""
 msgid "Compare Boats"
 msgstr ""
 
+#: vc_templates/stm_working_days.php:8
+msgid "Sunday"
+msgstr ""
+
+#: vc_templates/stm_working_days.php:9
+msgid "Monday"
+msgstr ""
+
+#: vc_templates/stm_working_days.php:10
+msgid "Tuesday"
+msgstr ""
+
+#: vc_templates/stm_working_days.php:11
+msgid "Wednesday"
+msgstr ""
+
+#: vc_templates/stm_working_days.php:12
+msgid "Thursday"
+msgstr ""
+
+#: vc_templates/stm_working_days.php:13
+msgid "Friday"
+msgstr ""
+
+#: vc_templates/stm_working_days.php:14
+msgid "Saturday"
+msgstr ""
+
 #: vc_templates/stm_working_days.php:32
 msgid "Closed"
 msgstr ""
@@ -3074,61 +1235,61 @@ msgstr ""
 msgid "Vehicles available"
 msgstr ""
 
-#: vc_templates/stm_modern_filter.php:317 listings/filter/actions.php:6 
-#: listings/classified/filter/actions.php:31 
+#: vc_templates/stm_modern_filter.php:317 listings/filter/actions.php:6
+#: listings/classified/filter/actions.php:31
 #: listings/boats/filter/actions.php:9
 msgid "Date: newest first"
 msgstr ""
 
-#: vc_templates/stm_modern_filter.php:318 listings/filter/actions.php:7 
-#: listings/classified/filter/actions.php:32 
+#: vc_templates/stm_modern_filter.php:318 listings/filter/actions.php:7
+#: listings/classified/filter/actions.php:32
 #: listings/boats/filter/actions.php:10
 msgid "Date: oldest first"
 msgstr ""
 
-#: vc_templates/stm_modern_filter.php:319 listings/filter/actions.php:8 
-#: listings/classified/filter/actions.php:33 
+#: vc_templates/stm_modern_filter.php:319 listings/filter/actions.php:8
+#: listings/classified/filter/actions.php:33
 #: listings/boats/filter/actions.php:11
 msgid "Price: lower first"
 msgstr ""
 
-#: vc_templates/stm_modern_filter.php:320 listings/filter/actions.php:9 
-#: listings/classified/filter/actions.php:34 
+#: vc_templates/stm_modern_filter.php:320 listings/filter/actions.php:9
+#: listings/classified/filter/actions.php:34
 #: listings/boats/filter/actions.php:12
 msgid "Price: highest first"
 msgstr ""
 
-#: vc_templates/stm_modern_filter.php:321 listings/filter/actions.php:10 
+#: vc_templates/stm_modern_filter.php:321 listings/filter/actions.php:10
 #: listings/classified/filter/actions.php:35
 msgid "Mileage: lowest first"
 msgstr ""
 
-#: vc_templates/stm_modern_filter.php:322 listings/filter/actions.php:11 
+#: vc_templates/stm_modern_filter.php:322 listings/filter/actions.php:11
 #: listings/classified/filter/actions.php:36
 msgid "Mileage: highest first"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:5 vc_templates/stm_sell_a_car.php:143 
-#: vc_templates/stm_sell_a_car.php:414 vc_templates/stm_sell_a_car.php:550 
+#: vc_templates/stm_sell_a_car.php:5 vc_templates/stm_sell_a_car.php:143
+#: vc_templates/stm_sell_a_car.php:414 vc_templates/stm_sell_a_car.php:550
 #: vc_templates/stm_sell_a_car.php:816 vc_templates/stm_sell_a_car.php:946
 msgid "Make"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:6 vc_templates/stm_sell_a_car.php:149 
-#: vc_templates/stm_sell_a_car.php:415 vc_templates/stm_sell_a_car.php:556 
+#: vc_templates/stm_sell_a_car.php:6 vc_templates/stm_sell_a_car.php:149
+#: vc_templates/stm_sell_a_car.php:415 vc_templates/stm_sell_a_car.php:556
 #: vc_templates/stm_sell_a_car.php:817 vc_templates/stm_sell_a_car.php:952
 msgid "Model"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:7 vc_templates/stm_sell_a_car.php:416 
+#: vc_templates/stm_sell_a_car.php:7 vc_templates/stm_sell_a_car.php:416
 #: vc_templates/stm_sell_a_car.php:818
 msgid "User details<br/>First name"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:8 vc_templates/stm_sell_a_car.php:318 
-#: vc_templates/stm_sell_a_car.php:417 vc_templates/stm_sell_a_car.php:719 
-#: vc_templates/stm_sell_a_car.php:819 vc_templates/stm_sell_a_car.php:1121 
-#: partials/user/private/dealer-settings.php:412 
+#: vc_templates/stm_sell_a_car.php:8 vc_templates/stm_sell_a_car.php:318
+#: vc_templates/stm_sell_a_car.php:417 vc_templates/stm_sell_a_car.php:719
+#: vc_templates/stm_sell_a_car.php:819 vc_templates/stm_sell_a_car.php:1121
+#: partials/user/private/dealer-settings.php:412
 #: partials/user/private/user-settings.php:82
 msgid "Last name"
 msgstr ""
@@ -3137,95 +1298,95 @@ msgstr ""
 msgid "Transmission"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:13 vc_templates/stm_sell_a_car.php:167 
+#: vc_templates/stm_sell_a_car.php:13 vc_templates/stm_sell_a_car.php:167
 #: vc_templates/stm_sell_a_car.php:422 vc_templates/stm_sell_a_car.php:568
 msgid "Mileage"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:14 vc_templates/stm_sell_a_car.php:423 
-#: partials/single-car-motorcycle/car-data.php:74 
+#: vc_templates/stm_sell_a_car.php:14 vc_templates/stm_sell_a_car.php:423
+#: partials/single-car-motorcycle/car-data.php:74
 #: partials/single-car/car-data.php:74
 msgid "Vin"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:15 vc_templates/stm_sell_a_car.php:210 
-#: vc_templates/stm_sell_a_car.php:424 vc_templates/stm_sell_a_car.php:611 
+#: vc_templates/stm_sell_a_car.php:15 vc_templates/stm_sell_a_car.php:210
+#: vc_templates/stm_sell_a_car.php:424 vc_templates/stm_sell_a_car.php:611
 #: vc_templates/stm_sell_a_car.php:826 vc_templates/stm_sell_a_car.php:1013
 msgid "Exterior color"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:16 vc_templates/stm_sell_a_car.php:216 
-#: vc_templates/stm_sell_a_car.php:425 vc_templates/stm_sell_a_car.php:617 
+#: vc_templates/stm_sell_a_car.php:16 vc_templates/stm_sell_a_car.php:216
+#: vc_templates/stm_sell_a_car.php:425 vc_templates/stm_sell_a_car.php:617
 #: vc_templates/stm_sell_a_car.php:827 vc_templates/stm_sell_a_car.php:1019
 msgid "Interior color"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:17 vc_templates/stm_sell_a_car.php:222 
-#: vc_templates/stm_sell_a_car.php:426 vc_templates/stm_sell_a_car.php:623 
+#: vc_templates/stm_sell_a_car.php:17 vc_templates/stm_sell_a_car.php:222
+#: vc_templates/stm_sell_a_car.php:426 vc_templates/stm_sell_a_car.php:623
 #: vc_templates/stm_sell_a_car.php:828 vc_templates/stm_sell_a_car.php:1025
 msgid "Owner"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:18 vc_templates/stm_sell_a_car.php:427 
+#: vc_templates/stm_sell_a_car.php:18 vc_templates/stm_sell_a_car.php:427
 #: vc_templates/stm_sell_a_car.php:829
 msgid "Exterior condition"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:19 vc_templates/stm_sell_a_car.php:428 
+#: vc_templates/stm_sell_a_car.php:19 vc_templates/stm_sell_a_car.php:428
 #: vc_templates/stm_sell_a_car.php:830
 msgid "Interior condition"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:20 vc_templates/stm_sell_a_car.php:429 
+#: vc_templates/stm_sell_a_car.php:20 vc_templates/stm_sell_a_car.php:429
 #: vc_templates/stm_sell_a_car.php:831
 msgid "Accident"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:21 vc_templates/stm_sell_a_car.php:155 
-#: vc_templates/stm_sell_a_car.php:430 vc_templates/stm_sell_a_car.php:562 
+#: vc_templates/stm_sell_a_car.php:21 vc_templates/stm_sell_a_car.php:155
+#: vc_templates/stm_sell_a_car.php:430 vc_templates/stm_sell_a_car.php:562
 #: vc_templates/stm_sell_a_car.php:832 vc_templates/stm_sell_a_car.php:958
 msgid "Year"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:22 vc_templates/stm_sell_a_car.php:431 
+#: vc_templates/stm_sell_a_car.php:22 vc_templates/stm_sell_a_car.php:431
 #: vc_templates/stm_sell_a_car.php:833
 msgid "Video url"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:23 vc_templates/stm_sell_a_car.php:336 
-#: vc_templates/stm_sell_a_car.php:432 vc_templates/stm_sell_a_car.php:737 
+#: vc_templates/stm_sell_a_car.php:23 vc_templates/stm_sell_a_car.php:336
+#: vc_templates/stm_sell_a_car.php:432 vc_templates/stm_sell_a_car.php:737
 #: vc_templates/stm_sell_a_car.php:834 vc_templates/stm_sell_a_car.php:1139
 msgid "Comments"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:42 vc_templates/stm_sell_a_car.php:447 
+#: vc_templates/stm_sell_a_car.php:42 vc_templates/stm_sell_a_car.php:447
 #: vc_templates/stm_sell_a_car.php:849
 msgid "Please fill"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:42 vc_templates/stm_sell_a_car.php:447 
+#: vc_templates/stm_sell_a_car.php:42 vc_templates/stm_sell_a_car.php:447
 #: vc_templates/stm_sell_a_car.php:849
 msgid "field"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:49 vc_templates/stm_sell_a_car.php:454 
-#: vc_templates/stm_sell_a_car.php:856 
-#: woocommerce/single-product-reviews.php:73 partials/modals/test-drive.php:20 
+#: vc_templates/stm_sell_a_car.php:49 vc_templates/stm_sell_a_car.php:454
+#: vc_templates/stm_sell_a_car.php:856
+#: woocommerce/single-product-reviews.php:73 partials/modals/test-drive.php:20
 #: partials/modals/get-car-price.php:20 partials/modals/trade-offer.php:26
 msgid "Email"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:51 vc_templates/stm_sell_a_car.php:456 
+#: vc_templates/stm_sell_a_car.php:51 vc_templates/stm_sell_a_car.php:456
 #: vc_templates/stm_sell_a_car.php:858
 msgid "Your E-mail address is invalid"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:58 vc_templates/stm_sell_a_car.php:463 
+#: vc_templates/stm_sell_a_car.php:58 vc_templates/stm_sell_a_car.php:463
 #: vc_templates/stm_sell_a_car.php:865
 msgid "Your Phone is invalid"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:73 vc_templates/stm_sell_a_car.php:478 
+#: vc_templates/stm_sell_a_car.php:73 vc_templates/stm_sell_a_car.php:478
 #: vc_templates/stm_sell_a_car.php:880
 msgid "Uploaded images"
 msgstr ""
@@ -3254,22 +1415,26 @@ msgstr ""
 msgid "Add your vehicle details"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:128 vc_templates/stm_sell_a_car.php:529 
+#: vc_templates/stm_sell_a_car.php:128 vc_templates/stm_sell_a_car.php:529
 #: vc_templates/stm_sell_a_car.php:931
 msgid "Contact details"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:129 vc_templates/stm_sell_a_car.php:530 
+#: vc_templates/stm_sell_a_car.php:129 vc_templates/stm_sell_a_car.php:530
 #: vc_templates/stm_sell_a_car.php:932
 msgid "Your contact details"
+msgstr ""
+
+#: vc_templates/stm_sell_a_car.php:173 vc_templates/stm_sell_a_car.php:574
+msgid "VIN"
 msgstr ""
 
 #: vc_templates/stm_sell_a_car.php:185 vc_templates/stm_sell_a_car.php:586
 msgid "Upload your car Photos"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:188 vc_templates/stm_sell_a_car.php:399 
-#: vc_templates/stm_sell_a_car.php:589 vc_templates/stm_sell_a_car.php:800 
+#: vc_templates/stm_sell_a_car.php:188 vc_templates/stm_sell_a_car.php:399
+#: vc_templates/stm_sell_a_car.php:589 vc_templates/stm_sell_a_car.php:800
 #: vc_templates/stm_sell_a_car.php:991 vc_templates/stm_sell_a_car.php:1202
 msgid "Choose file..."
 msgstr ""
@@ -3278,67 +1443,67 @@ msgstr ""
 msgid "Provide a hosted video url of your car"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:229 vc_templates/stm_sell_a_car.php:302 
-#: vc_templates/stm_sell_a_car.php:630 vc_templates/stm_sell_a_car.php:703 
+#: vc_templates/stm_sell_a_car.php:229 vc_templates/stm_sell_a_car.php:302
+#: vc_templates/stm_sell_a_car.php:630 vc_templates/stm_sell_a_car.php:703
 #: vc_templates/stm_sell_a_car.php:1032 vc_templates/stm_sell_a_car.php:1105
 msgid "Save and continue"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:238 vc_templates/stm_sell_a_car.php:639 
+#: vc_templates/stm_sell_a_car.php:238 vc_templates/stm_sell_a_car.php:639
 #: vc_templates/stm_sell_a_car.php:1041
 msgid "What is the Exterior Condition?"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:240 vc_templates/stm_sell_a_car.php:241 
-#: vc_templates/stm_sell_a_car.php:264 vc_templates/stm_sell_a_car.php:265 
-#: vc_templates/stm_sell_a_car.php:641 vc_templates/stm_sell_a_car.php:642 
-#: vc_templates/stm_sell_a_car.php:665 vc_templates/stm_sell_a_car.php:666 
-#: vc_templates/stm_sell_a_car.php:1043 vc_templates/stm_sell_a_car.php:1044 
+#: vc_templates/stm_sell_a_car.php:240 vc_templates/stm_sell_a_car.php:241
+#: vc_templates/stm_sell_a_car.php:264 vc_templates/stm_sell_a_car.php:265
+#: vc_templates/stm_sell_a_car.php:641 vc_templates/stm_sell_a_car.php:642
+#: vc_templates/stm_sell_a_car.php:665 vc_templates/stm_sell_a_car.php:666
+#: vc_templates/stm_sell_a_car.php:1043 vc_templates/stm_sell_a_car.php:1044
 #: vc_templates/stm_sell_a_car.php:1067 vc_templates/stm_sell_a_car.php:1068
 msgid "Extra clean"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:244 vc_templates/stm_sell_a_car.php:245 
-#: vc_templates/stm_sell_a_car.php:268 vc_templates/stm_sell_a_car.php:269 
-#: vc_templates/stm_sell_a_car.php:645 vc_templates/stm_sell_a_car.php:646 
-#: vc_templates/stm_sell_a_car.php:669 vc_templates/stm_sell_a_car.php:670 
-#: vc_templates/stm_sell_a_car.php:1047 vc_templates/stm_sell_a_car.php:1048 
+#: vc_templates/stm_sell_a_car.php:244 vc_templates/stm_sell_a_car.php:245
+#: vc_templates/stm_sell_a_car.php:268 vc_templates/stm_sell_a_car.php:269
+#: vc_templates/stm_sell_a_car.php:645 vc_templates/stm_sell_a_car.php:646
+#: vc_templates/stm_sell_a_car.php:669 vc_templates/stm_sell_a_car.php:670
+#: vc_templates/stm_sell_a_car.php:1047 vc_templates/stm_sell_a_car.php:1048
 #: vc_templates/stm_sell_a_car.php:1071 vc_templates/stm_sell_a_car.php:1072
 msgid "Clean"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:248 vc_templates/stm_sell_a_car.php:249 
-#: vc_templates/stm_sell_a_car.php:272 vc_templates/stm_sell_a_car.php:273 
-#: vc_templates/stm_sell_a_car.php:649 vc_templates/stm_sell_a_car.php:650 
-#: vc_templates/stm_sell_a_car.php:673 vc_templates/stm_sell_a_car.php:674 
-#: vc_templates/stm_sell_a_car.php:1051 vc_templates/stm_sell_a_car.php:1052 
-#: vc_templates/stm_sell_a_car.php:1075 vc_templates/stm_sell_a_car.php:1076 
+#: vc_templates/stm_sell_a_car.php:248 vc_templates/stm_sell_a_car.php:249
+#: vc_templates/stm_sell_a_car.php:272 vc_templates/stm_sell_a_car.php:273
+#: vc_templates/stm_sell_a_car.php:649 vc_templates/stm_sell_a_car.php:650
+#: vc_templates/stm_sell_a_car.php:673 vc_templates/stm_sell_a_car.php:674
+#: vc_templates/stm_sell_a_car.php:1051 vc_templates/stm_sell_a_car.php:1052
+#: vc_templates/stm_sell_a_car.php:1075 vc_templates/stm_sell_a_car.php:1076
 #: woocommerce/single-product-reviews.php:87
 msgid "Average"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:252 vc_templates/stm_sell_a_car.php:253 
-#: vc_templates/stm_sell_a_car.php:276 vc_templates/stm_sell_a_car.php:277 
-#: vc_templates/stm_sell_a_car.php:653 vc_templates/stm_sell_a_car.php:654 
-#: vc_templates/stm_sell_a_car.php:677 vc_templates/stm_sell_a_car.php:678 
-#: vc_templates/stm_sell_a_car.php:1055 vc_templates/stm_sell_a_car.php:1056 
+#: vc_templates/stm_sell_a_car.php:252 vc_templates/stm_sell_a_car.php:253
+#: vc_templates/stm_sell_a_car.php:276 vc_templates/stm_sell_a_car.php:277
+#: vc_templates/stm_sell_a_car.php:653 vc_templates/stm_sell_a_car.php:654
+#: vc_templates/stm_sell_a_car.php:677 vc_templates/stm_sell_a_car.php:678
+#: vc_templates/stm_sell_a_car.php:1055 vc_templates/stm_sell_a_car.php:1056
 #: vc_templates/stm_sell_a_car.php:1079 vc_templates/stm_sell_a_car.php:1080
 msgid "Below Average"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:256 vc_templates/stm_sell_a_car.php:257 
-#: vc_templates/stm_sell_a_car.php:280 vc_templates/stm_sell_a_car.php:281 
-#: vc_templates/stm_sell_a_car.php:296 vc_templates/stm_sell_a_car.php:297 
-#: vc_templates/stm_sell_a_car.php:657 vc_templates/stm_sell_a_car.php:658 
-#: vc_templates/stm_sell_a_car.php:681 vc_templates/stm_sell_a_car.php:682 
-#: vc_templates/stm_sell_a_car.php:697 vc_templates/stm_sell_a_car.php:698 
-#: vc_templates/stm_sell_a_car.php:1059 vc_templates/stm_sell_a_car.php:1060 
-#: vc_templates/stm_sell_a_car.php:1083 vc_templates/stm_sell_a_car.php:1084 
+#: vc_templates/stm_sell_a_car.php:256 vc_templates/stm_sell_a_car.php:257
+#: vc_templates/stm_sell_a_car.php:280 vc_templates/stm_sell_a_car.php:281
+#: vc_templates/stm_sell_a_car.php:296 vc_templates/stm_sell_a_car.php:297
+#: vc_templates/stm_sell_a_car.php:657 vc_templates/stm_sell_a_car.php:658
+#: vc_templates/stm_sell_a_car.php:681 vc_templates/stm_sell_a_car.php:682
+#: vc_templates/stm_sell_a_car.php:697 vc_templates/stm_sell_a_car.php:698
+#: vc_templates/stm_sell_a_car.php:1059 vc_templates/stm_sell_a_car.php:1060
+#: vc_templates/stm_sell_a_car.php:1083 vc_templates/stm_sell_a_car.php:1084
 #: vc_templates/stm_sell_a_car.php:1099 vc_templates/stm_sell_a_car.php:1100
 msgid "I don't know"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:262 vc_templates/stm_sell_a_car.php:663 
+#: vc_templates/stm_sell_a_car.php:262 vc_templates/stm_sell_a_car.php:663
 #: vc_templates/stm_sell_a_car.php:1065
 msgid "What is the Interior Condition?"
 msgstr ""
@@ -3347,19 +1512,35 @@ msgstr ""
 msgid "Has vehicle been in accident"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:312 vc_templates/stm_sell_a_car.php:713 
-#: vc_templates/stm_sell_a_car.php:1115 
-#: partials/user/private/dealer-settings.php:406 
+#: vc_templates/stm_sell_a_car.php:288 vc_templates/stm_sell_a_car.php:289
+#: vc_templates/stm_sell_a_car.php:689 vc_templates/stm_sell_a_car.php:690
+#: vc_templates/stm_sell_a_car.php:1091 vc_templates/stm_sell_a_car.php:1092
+#: partials/user/dealer-single-review.php:110
+#: partials/user/dealer-reviews.php:53 partials/user/dealer-write-review.php:64
+msgid "Yes"
+msgstr ""
+
+#: vc_templates/stm_sell_a_car.php:292 vc_templates/stm_sell_a_car.php:293
+#: vc_templates/stm_sell_a_car.php:693 vc_templates/stm_sell_a_car.php:694
+#: vc_templates/stm_sell_a_car.php:1095 vc_templates/stm_sell_a_car.php:1096
+#: partials/user/dealer-single-review.php:113
+#: partials/user/dealer-reviews.php:60 partials/user/dealer-write-review.php:68
+msgid "No"
+msgstr ""
+
+#: vc_templates/stm_sell_a_car.php:312 vc_templates/stm_sell_a_car.php:713
+#: vc_templates/stm_sell_a_car.php:1115
+#: partials/user/private/dealer-settings.php:406
 #: partials/user/private/user-settings.php:74
 msgid "First name"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:324 vc_templates/stm_sell_a_car.php:725 
+#: vc_templates/stm_sell_a_car.php:324 vc_templates/stm_sell_a_car.php:725
 #: vc_templates/stm_sell_a_car.php:1127
 msgid "Email Address"
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:344 vc_templates/stm_sell_a_car.php:745 
+#: vc_templates/stm_sell_a_car.php:344 vc_templates/stm_sell_a_car.php:745
 #: vc_templates/stm_sell_a_car.php:1147
 msgid "Save and finish"
 msgstr ""
@@ -3371,7 +1552,7 @@ msgid ""
 "\twill be contacted within 48 hours by a sales representative."
 msgstr ""
 
-#: vc_templates/stm_sell_a_car.php:368 vc_templates/stm_sell_a_car.php:769 
+#: vc_templates/stm_sell_a_car.php:368 vc_templates/stm_sell_a_car.php:769
 #: vc_templates/stm_sell_a_car.php:1171
 msgid "Mail successfully sent"
 msgstr ""
@@ -3439,102 +1620,116 @@ msgstr ""
 msgid "Tags:"
 msgstr ""
 
-#: vc_templates/stm_post_meta_bottom.php:45 
-#: vc_templates/stm_post_meta_bottom.php:48 
-#: partials/single-car-motorcycle/car-links.php:48 
-#: partials/single-car/car-actions.php:107 
-#: partials/single-car/car-actions.php:110 partials/blog/content.php:133 
-#: partials/blog/content.php:136 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:114 
-#: partials/listing-cars/listing-list-loop-actions.php:113 
-#: partials/listing-cars/listing-list-loop-actions.php:116 
-#: partials/single-car-boats/boats-actions.php:96 
-#: partials/single-car-boats/boats-actions.php:99 
-#: listings/loop/default/list/features.php:113 
+#: vc_templates/stm_post_meta_bottom.php:45
+#: vc_templates/stm_post_meta_bottom.php:48
+#: partials/single-car-motorcycle/car-links.php:48
+#: partials/single-car/car-actions.php:107
+#: partials/single-car/car-actions.php:110 partials/blog/content.php:133
+#: partials/blog/content.php:136
+#: partials/listing-cars/listing-directive-list-loop-actions.php:114
+#: partials/listing-cars/listing-list-loop-actions.php:113
+#: partials/listing-cars/listing-list-loop-actions.php:116
+#: partials/single-car-boats/boats-actions.php:96
+#: partials/single-car-boats/boats-actions.php:99
+#: listings/loop/default/list/features.php:113
 #: listings/loop/default/list/features.php:116
 msgid "Share this"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:37 
-#: partials/modals/car-calculator.php:38 
-#: partials/single-car/car-calculator.php:31 
+#: vc_templates/stm_auto_loan_calculator.php:37
+#: partials/modals/car-calculator.php:38
+#: partials/single-car/car-calculator.php:31
 #: partials/single-car-boats/boats-calculator.php:30
 msgid "Vehicle price"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:45 
-#: partials/modals/car-calculator.php:48 
-#: partials/single-car/car-calculator.php:39 
+#: vc_templates/stm_auto_loan_calculator.php:45
+#: partials/modals/car-calculator.php:48
+#: partials/single-car/car-calculator.php:39
 #: partials/single-car-boats/boats-calculator.php:38
 msgid "Interest rate"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:60 
-#: partials/modals/car-calculator.php:65 
-#: partials/single-car/car-calculator.php:54 
+#: vc_templates/stm_auto_loan_calculator.php:52
+#: partials/modals/car-calculator.php:56
+#: partials/single-car/car-calculator.php:46
+#: partials/single-car-boats/boats-calculator.php:45
+msgid "Period"
+msgstr ""
+
+#: vc_templates/stm_auto_loan_calculator.php:52
+#: partials/modals/car-calculator.php:57
+#: partials/single-car/car-calculator.php:46
+#: partials/single-car-boats/boats-calculator.php:45
+msgid "month"
+msgstr ""
+
+#: vc_templates/stm_auto_loan_calculator.php:60
+#: partials/modals/car-calculator.php:65
+#: partials/single-car/car-calculator.php:54
 #: partials/single-car-boats/boats-calculator.php:53
 msgid "Down Payment"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:65 
-#: partials/modals/car-calculator.php:72 
-#: partials/single-car/car-calculator.php:59 
+#: vc_templates/stm_auto_loan_calculator.php:65
+#: partials/modals/car-calculator.php:72
+#: partials/single-car/car-calculator.php:59
 #: partials/single-car-boats/boats-calculator.php:58
 msgid "Calculate"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:78 
-#: partials/modals/car-calculator.php:86 
-#: partials/single-car/car-calculator.php:72 
+#: vc_templates/stm_auto_loan_calculator.php:78
+#: partials/modals/car-calculator.php:86
+#: partials/single-car/car-calculator.php:72
 #: partials/single-car-boats/boats-calculator.php:71
 msgid "Monthly Payment"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:81 
-#: partials/modals/car-calculator.php:90 
-#: partials/single-car/car-calculator.php:75 
+#: vc_templates/stm_auto_loan_calculator.php:81
+#: partials/modals/car-calculator.php:90
+#: partials/single-car/car-calculator.php:75
 #: partials/single-car-boats/boats-calculator.php:74
 msgid "Total Interest Payment"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:84 
-#: partials/modals/car-calculator.php:94 
-#: partials/single-car/car-calculator.php:78 
+#: vc_templates/stm_auto_loan_calculator.php:84
+#: partials/modals/car-calculator.php:94
+#: partials/single-car/car-calculator.php:78
 #: partials/single-car-boats/boats-calculator.php:77
 msgid "Total Amount to Pay"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:151 
-#: partials/modals/car-calculator.php:146 
-#: partials/single-car/car-calculator.php:130 
+#: vc_templates/stm_auto_loan_calculator.php:151
+#: partials/modals/car-calculator.php:146
+#: partials/single-car/car-calculator.php:130
 #: partials/single-car-boats/boats-calculator.php:129
 msgid "Please fill Vehicle Price field"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:156 
-#: partials/modals/car-calculator.php:151 
-#: partials/single-car/car-calculator.php:135 
+#: vc_templates/stm_auto_loan_calculator.php:156
+#: partials/modals/car-calculator.php:151
+#: partials/single-car/car-calculator.php:135
 #: partials/single-car-boats/boats-calculator.php:134
 msgid "Please fill Interest Rate field"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:161 
-#: partials/modals/car-calculator.php:156 
-#: partials/single-car/car-calculator.php:140 
+#: vc_templates/stm_auto_loan_calculator.php:161
+#: partials/modals/car-calculator.php:156
+#: partials/single-car/car-calculator.php:140
 #: partials/single-car-boats/boats-calculator.php:139
 msgid "Please fill Period field"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:166 
-#: partials/modals/car-calculator.php:161 
-#: partials/single-car/car-calculator.php:145 
+#: vc_templates/stm_auto_loan_calculator.php:166
+#: partials/modals/car-calculator.php:161
+#: partials/single-car/car-calculator.php:145
 #: partials/single-car-boats/boats-calculator.php:144
 msgid "Please fill Down Payment field"
 msgstr ""
 
-#: vc_templates/stm_auto_loan_calculator.php:172 
-#: partials/modals/car-calculator.php:167 
-#: partials/single-car/car-calculator.php:151 
+#: vc_templates/stm_auto_loan_calculator.php:172
+#: partials/modals/car-calculator.php:167
+#: partials/single-car/car-calculator.php:151
 #: partials/single-car-boats/boats-calculator.php:150
 msgid "Down payment can not be more than vehicle price"
 msgstr ""
@@ -3572,6 +1767,11 @@ msgstr ""
 msgid "Leave a Reply to %s"
 msgstr ""
 
+#: woocommerce/single-product-reviews.php:69 partials/modals/test-drive.php:14
+#: partials/modals/get-car-price.php:14 partials/modals/trade-offer.php:20
+msgid "Name"
+msgstr ""
+
 #: woocommerce/single-product-reviews.php:77 admin/screens/startup.php:58
 msgid "Submit"
 msgstr ""
@@ -3596,7 +1796,7 @@ msgstr ""
 msgid "Very Poor"
 msgstr ""
 
-#: woocommerce/single-product-reviews.php:93 
+#: woocommerce/single-product-reviews.php:93
 #: partials/user/dealer-write-review.php:27
 msgid "Your Review"
 msgstr ""
@@ -3626,11 +1826,11 @@ msgstr ""
 msgid "STM Similar Cars"
 msgstr ""
 
-#: inc/widgets/similar_cars.php:32 inc/widgets/dealer_info.php:31 
-#: inc/widgets/socials.php:71 inc/widgets/schedule_showing.php:96 
-#: inc/widgets/latest-posts.php:127 inc/widgets/text-widget.php:63 
-#: inc/widgets/contacts.php:88 inc/widgets/car-contact-form.php:68 
-#: inc/widgets/car_location.php:64 inc/widgets/address.php:49 
+#: inc/widgets/similar_cars.php:32 inc/widgets/dealer_info.php:31
+#: inc/widgets/socials.php:71 inc/widgets/schedule_showing.php:96
+#: inc/widgets/latest-posts.php:127 inc/widgets/text-widget.php:63
+#: inc/widgets/contacts.php:88 inc/widgets/car-contact-form.php:68
+#: inc/widgets/car_location.php:64 inc/widgets/address.php:49
 #: inc/widgets/car_calculator.php:43
 msgid "Title:"
 msgstr ""
@@ -3639,7 +1839,7 @@ msgstr ""
 msgid "STM Dealer Info"
 msgstr ""
 
-#: inc/widgets/dealer_info.php:34 inc/widgets/text-widget.php:76 
+#: inc/widgets/dealer_info.php:34 inc/widgets/text-widget.php:76
 #: inc/widgets/address.php:58
 msgid "Automatically add paragraphs"
 msgstr ""
@@ -3690,6 +1890,10 @@ msgstr ""
 
 #: inc/widgets/latest-posts.php:9
 msgid "STM Last Post"
+msgstr ""
+
+#: inc/widgets/latest-posts.php:40
+msgid "STM Recent Posts"
 msgstr ""
 
 #: inc/widgets/latest-posts.php:42
@@ -3772,464 +1976,6 @@ msgstr ""
 msgid "STM Auto loan Calculator"
 msgstr ""
 
-#: inc/tgm/tgm-plugin-activation.php:338
-msgid "Install Required Plugins"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:339
-msgid "Install Plugins"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:340
-#, php-format
-msgid "Installing Plugin: %s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:341
-msgid "Something went wrong with the plugin API."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:342
-#, php-format
-msgid "This theme requires the following plugin: %1$s."
-msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:347
-#, php-format
-msgid "This theme recommends the following plugin: %1$s."
-msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:352
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to install the %1$s "
-"plugin."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to install the %1$s "
-"plugins."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:357
-#, php-format
-msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this theme: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:362
-#, php-format
-msgid "There is an update available for: %1$s."
-msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:367
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to update the %1$s plugin."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to update the %1$s "
-"plugins."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:372
-#, php-format
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:377
-#, php-format
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:382
-#, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to activate the %1$s "
-"plugin."
-msgid_plural ""
-"Sorry, but you do not have the correct permissions to activate the %1$s "
-"plugins."
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:387
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:392
-msgid "Begin updating plugin"
-msgid_plural "Begin updating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:397
-msgid "Begin activating plugin"
-msgid_plural "Begin activating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:402
-msgid "Return to Required Plugins Installer"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:403
-msgid "Return to the dashboard"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:404 inc/tgm/tgm-plugin-activation.php:3141
-msgid "Plugin activated successfully."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:405 inc/tgm/tgm-plugin-activation.php:2935
-msgid "The following plugin was activated successfully:"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:406
-#, php-format
-msgid "No action taken. Plugin %1$s was already active."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:407
-#, php-format
-msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:408
-#, php-format
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:409
-msgid "Dismiss this notice"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:410
-msgid "Please contact the administrator of this site for help."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:529
-msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:530
-msgid "Update Required"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:648
-msgid "Set the parent_slug config variable instead."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:841 inc/tgm/tgm-plugin-activation.php:3560
-msgid "Return to the Dashboard"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:951
-msgid ""
-"The remote plugin package does not contain a folder with the desired slug "
-"and renaming did not work."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:951 inc/tgm/tgm-plugin-activation.php:954
-msgid ""
-"Please contact the plugin provider and ask them to package their plugin "
-"according to the WordPress guidelines."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:954
-msgid ""
-"The remote plugin package consists of more than one file, but the files are "
-"not packaged in a folder."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:1135 
-#: inc/tgm/tgm-plugin-activation.php:2931
-msgctxt "plugin A *and* plugin B"
-msgid "and"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:1946
-#, php-format
-msgctxt "%s = version number"
-msgid "TGMPA v%s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2242
-msgid "Required"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2245
-msgid "Recommended"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2262
-msgid "WordPress Repository"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2265
-msgid "External Source"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2268
-msgid "Pre-Packaged"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2286
-msgid "Not Installed"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2290
-msgid "Installed But Not Activated"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2292
-msgid "Active"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2298
-msgid "Required Update not Available"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2301
-msgid "Requires Update"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2304
-msgid "Update recommended"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2312
-#, php-format
-msgctxt "%1$s = install status, %2$s = update status"
-msgid "%1$s, %2$s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2359
-#, php-format
-msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:2362
-#, php-format
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:2365
-#, php-format
-msgid "Update Available <span class=\"count\">(%s)</span>"
-msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:2368
-#, php-format
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:2454
-msgctxt "as in: \"version nr unknown\""
-msgid "unknown"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2462
-msgid "Installed version:"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2470
-msgid "Minimum required version:"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2482
-msgid "Available version:"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2506
-#, php-format
-msgid ""
-"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
-"Dashboard</a>"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2530
-msgid "Plugin"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2531
-msgid "Source"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2532
-msgid "Type"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2536
-msgid "Version"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2537 
-#: woocommerce/myaccount/my-orders.php:53 
-#: woocommerce/myaccount/my-orders.php:74
-msgid "Status"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2588
-#, php-format
-msgctxt "%2$s = plugin name in screen reader markup"
-msgid "Install %2$s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2592
-#, php-format
-msgctxt "%2$s = plugin name in screen reader markup"
-msgid "Update %2$s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2597
-#, php-format
-msgctxt "%2$s = plugin name in screen reader markup"
-msgid "Activate %2$s"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2669
-msgid "Upgrade message from the plugin author:"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2704 admin/includes/theme.php:191
-msgid "Install"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2710 admin/screens/patching.php:51
-msgid "Update"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2713 admin/includes/theme.php:193
-msgid "Activate"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2745
-msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2747
-msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2783
-msgid "No plugins are available to be installed at this time."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2785
-msgid "No plugins are available to be updated at this time."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2891
-msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:2917
-msgid "No plugins are available to be activated at this time."
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: inc/tgm/tgm-plugin-activation.php:3140
-msgid "Plugin activation failed."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3481
-#, php-format
-msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3483
-#, php-format
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3484
-#, php-format
-msgid "The installation of %1$s failed."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3488
-msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3489
-#, php-format
-msgid "%1$s installed and activated successfully."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3489 
-#: inc/tgm/tgm-plugin-activation.php:3495
-msgid "Show Details"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3489 
-#: inc/tgm/tgm-plugin-activation.php:3495
-msgid "Hide Details"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3490
-msgid "All installations and activations have been completed."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3491
-#, php-format
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3494
-msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3495
-#, php-format
-msgid "%1$s installed successfully."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3496
-msgid "All installations have been completed."
-msgstr ""
-
-#: inc/tgm/tgm-plugin-activation.php:3497
-#, php-format
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: inc/customizer/google-fonts.php:7 inc/customizer/controls/post-type.php:15
-msgid "--- Default ---"
-msgstr ""
-
 #: inc/customizer/registration.php:106
 msgid "VK"
 msgstr ""
@@ -4290,6 +2036,10 @@ msgstr ""
 msgid "Google +"
 msgstr ""
 
+#: inc/customizer/registration.php:121
+msgid "Skype"
+msgstr ""
+
 #: inc/customizer/registration.php:123
 msgid "Youtube Play"
 msgstr ""
@@ -4300,6 +2050,18 @@ msgstr ""
 
 #: inc/customizer/registration.php:125
 msgid "Whatsapp"
+msgstr ""
+
+#: inc/customizer/registration.php:129 inc/customizer/registration.php:1401
+#: inc/customizer/registration.php:1417 inc/customizer/registration.php:1554
+#: inc/customizer/registration.php:1607
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/registration.php:130 inc/customizer/registration.php:1402
+#: inc/customizer/registration.php:1418 inc/customizer/registration.php:1555
+#: inc/customizer/registration.php:1608
+msgid "Right"
 msgstr ""
 
 #: inc/customizer/registration.php:135
@@ -4318,12 +2080,12 @@ msgstr ""
 msgid "Logo &amp; Title"
 msgstr ""
 
-#: inc/customizer/registration.php:158 partials/service/header-service.php:35 
-#: partials/header/header-boats-mobile.php:14 
-#: partials/header/header-boats.php:48 partials/header/header.php:24 
-#: partials/header/header-rental.php:30 
-#: partials/header/header-motorcycle.php:56 
-#: partials/header/header-motorcycle.php:97 
+#: inc/customizer/registration.php:158 partials/service/header-service.php:35
+#: partials/header/header-boats-mobile.php:14
+#: partials/header/header-boats.php:48 partials/header/header.php:24
+#: partials/header/header-rental.php:30
+#: partials/header/header-motorcycle.php:56
+#: partials/header/header-motorcycle.php:97
 #: partials/header/header-listing.php:44
 msgid "Logo"
 msgstr ""
@@ -4391,12 +2153,17 @@ msgid ""
 "API."
 msgstr ""
 
-#: inc/customizer/registration.php:240 inc/customizer/registration.php:250 
+#: inc/customizer/registration.php:237 inc/customizer/registration.php:247
+#: inc/customizer/registration.php:262 inc/customizer/registration.php:389
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/registration.php:240 inc/customizer/registration.php:250
 #: inc/customizer/registration.php:265
 msgid "Default"
 msgstr ""
 
-#: inc/customizer/registration.php:241 inc/customizer/registration.php:256 
+#: inc/customizer/registration.php:241 inc/customizer/registration.php:256
 #: inc/customizer/registration.php:270
 msgid "Custom Colors"
 msgstr ""
@@ -4581,6 +2348,10 @@ msgstr ""
 msgid "Secondary phone 2"
 msgstr ""
 
+#: inc/customizer/registration.php:614 inc/customizer/registration.php:753
+msgid "Address"
+msgstr ""
+
 #: inc/customizer/registration.php:619
 msgid "Google Map Address URL"
 msgstr ""
@@ -4589,7 +2360,7 @@ msgstr ""
 msgid "Header Style"
 msgstr ""
 
-#: inc/customizer/registration.php:636 inc/customizer/registration.php:999 
+#: inc/customizer/registration.php:636 inc/customizer/registration.php:999
 #: inc/customizer/registration.php:1128 inc/customizer/registration.php:1236
 msgid "Show compare"
 msgstr ""
@@ -4616,6 +2387,10 @@ msgstr ""
 
 #: inc/customizer/registration.php:675
 msgid "Boats Header Layout"
+msgstr ""
+
+#: inc/customizer/registration.php:679
+msgid "Boats"
 msgstr ""
 
 #: inc/customizer/registration.php:680
@@ -4823,7 +2598,7 @@ msgstr ""
 msgid "Search radius"
 msgstr ""
 
-#: inc/customizer/registration.php:989 inc/customizer/registration.php:1123 
+#: inc/customizer/registration.php:989 inc/customizer/registration.php:1123
 #: inc/customizer/registration.php:1226
 msgid "Show stock"
 msgstr ""
@@ -4852,8 +2627,16 @@ msgstr ""
 msgid "Default Title"
 msgstr ""
 
+#: inc/customizer/registration.php:1027 inc/customizer/registration.php:1163
+msgid "Cars for sale"
+msgstr ""
+
 #: inc/customizer/registration.php:1030 inc/customizer/registration.php:1166
 msgid "Generated title affix"
+msgstr ""
+
+#: inc/customizer/registration.php:1032 inc/customizer/registration.php:1168
+msgid " for sale"
 msgstr ""
 
 #: inc/customizer/registration.php:1035 inc/customizer/registration.php:1171
@@ -4890,12 +2673,12 @@ msgstr ""
 msgid "Listing sidebar filter background"
 msgstr ""
 
-#: inc/customizer/registration.php:1068 inc/customizer/registration.php:1184 
+#: inc/customizer/registration.php:1068 inc/customizer/registration.php:1184
 #: inc/customizer/registration.php:1207
 msgid "Items per page choices(Grid version. Ex: 9,12,18,27)."
 msgstr ""
 
-#: inc/customizer/registration.php:1073 inc/customizer/registration.php:1189 
+#: inc/customizer/registration.php:1073 inc/customizer/registration.php:1189
 #: inc/customizer/registration.php:1212
 msgid "Default choice (Ex: 9)."
 msgstr ""
@@ -5003,14 +2786,14 @@ msgstr ""
 msgid "Single Car Settings"
 msgstr ""
 
-#: inc/customizer/registration.php:1358 
-#: partials/single-car-motorcycle/car-gallery.php:29 
-#: partials/single-car/single-car-compare-modal.php:13 
-#: partials/header/header-boats.php:82 partials/header/header.php:48 
-#: partials/header/header-nav.php:44 
-#: partials/single-car-boats/single-car-compare-modal.php:13 
-#: partials/listing-cars/motos/moto-single-grid.php:115 
-#: partials/listing-cars/motos/list.php:145 
+#: inc/customizer/registration.php:1358
+#: partials/single-car-motorcycle/car-gallery.php:29
+#: partials/single-car/single-car-compare-modal.php:13
+#: partials/header/header-boats.php:82 partials/header/header.php:48
+#: partials/header/header-nav.php:44
+#: partials/single-car-boats/single-car-compare-modal.php:13
+#: partials/listing-cars/motos/moto-single-grid.php:115
+#: partials/listing-cars/motos/list.php:145
 #: partials/listing-cars/motos/grid.php:114
 msgid "Compare"
 msgstr ""
@@ -5077,12 +2860,30 @@ msgstr ""
 msgid "Rate 1 label:"
 msgstr ""
 
+#: inc/customizer/registration.php:1432
+#: partials/user/dealer-single-review.php:10
+#: partials/user/dealer-write-review.php:41
+msgid "Customer Service"
+msgstr ""
+
 #: inc/customizer/registration.php:1435
 msgid "Rate 2 label:"
 msgstr ""
 
+#: inc/customizer/registration.php:1437
+#: partials/user/dealer-single-review.php:11
+#: partials/user/dealer-write-review.php:42
+msgid "Buying Process"
+msgstr ""
+
 #: inc/customizer/registration.php:1440
 msgid "Rate 3 label:"
+msgstr ""
+
+#: inc/customizer/registration.php:1442
+#: partials/user/dealer-single-review.php:12
+#: partials/user/dealer-write-review.php:43
+msgid "Overall Experience"
 msgstr ""
 
 #: inc/customizer/registration.php:1445
@@ -5269,7 +3070,7 @@ msgstr ""
 msgid "Best time"
 msgstr ""
 
-#: partials/modals/test-drive.php:54 partials/modals/get-car-price.php:35 
+#: partials/modals/test-drive.php:54 partials/modals/get-car-price.php:35
 #: partials/modals/trade-offer.php:60
 msgid "Request"
 msgstr ""
@@ -5294,8 +3095,8 @@ msgstr ""
 msgid "Calculate Payment"
 msgstr ""
 
-#: partials/modals/car-calculator.php:31 
-#: partials/single-car/car-calculator.php:24 
+#: partials/modals/car-calculator.php:31
+#: partials/single-car/car-calculator.php:24
 #: partials/single-car-boats/boats-calculator.php:23
 msgid "Financing calculator"
 msgstr ""
@@ -5332,7 +3133,7 @@ msgstr ""
 msgid "Trade price"
 msgstr ""
 
-#: partials/single-car-motorcycle/tabs.php:26 
+#: partials/single-car-motorcycle/tabs.php:26
 #: partials/user/private/user-inventory.php:19
 msgid "All"
 msgstr ""
@@ -5345,7 +3146,7 @@ msgstr ""
 msgid "Schedule test drive"
 msgstr ""
 
-#: partials/single-car-motorcycle/car-links.php:30 
+#: partials/single-car-motorcycle/car-links.php:30
 #: partials/listing-cars/motos/list-actions.php:48
 msgid "Quote by Phone"
 msgstr ""
@@ -5358,7 +3159,7 @@ msgstr ""
 msgid "Сalculate Payment"
 msgstr ""
 
-#: partials/single-car-motorcycle/car-links.php:55 
+#: partials/single-car-motorcycle/car-links.php:55
 #: partials/listing-cars/motos/list-actions.php:55
 msgid "History report"
 msgstr ""
@@ -5379,47 +3180,61 @@ msgstr ""
 msgid "items per page"
 msgstr ""
 
-#: partials/listing-layout-parts/footer-copyright-top.php:20
+#: partials/listing-layout-parts/footer-copyright-top.php:17
 msgid "Search Inventory"
 msgstr ""
 
-#: partials/single-car/car-actions.php:34 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:41 
-#: partials/listing-cars/listing-list-loop-actions.php:42 
-#: partials/single-car-boats/boats-actions.php:26 
+#: partials/listing-layout-parts/boats-list-sort.php:24
+#: partials/user/dealer-public-profile.php:57
+#: partials/single-car-boats/boats-data.php:51
+#: partials/user/private/become-dealer.php:67
+#: listings/loop/boats/list/options.php:24
+msgid "Location"
+msgstr ""
+
+#: partials/listing-layout-parts/boats-list-sort.php:29
+#: listings/add_car/step_6.php:31 listings/add_car/step_6.php:59
+#: woocommerce/cart/cart.php:26
+msgid "Price"
+msgstr ""
+
+#: partials/single-car/car-actions.php:34
+#: partials/listing-cars/listing-directive-list-loop-actions.php:41
+#: partials/listing-cars/listing-list-loop-actions.php:42
+#: partials/single-car-boats/boats-actions.php:26
 #: listings/loop/default/list/features.php:42
 msgid "stock"
 msgstr ""
 
-#: partials/single-car/car-actions.php:44 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:50 
-#: partials/listing-cars/listing-list-loop-actions.php:51 
-#: partials/single-car-boats/boats-actions.php:35 
+#: partials/single-car/car-actions.php:44
+#: partials/listing-cars/listing-directive-list-loop-actions.php:50
+#: partials/listing-cars/listing-list-loop-actions.php:51
+#: partials/single-car-boats/boats-actions.php:35
 #: listings/loop/default/list/features.php:51
 msgid "Schedule Test Drive"
 msgstr ""
 
-#: partials/single-car/car-actions.php:59 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:65 
-#: partials/listing-cars/listing-list-loop-actions.php:66 
-#: partials/single-car-boats/boats-actions.php:50 
+#: partials/single-car/car-actions.php:59
+#: partials/listing-cars/listing-directive-list-loop-actions.php:65
+#: partials/listing-cars/listing-list-loop-actions.php:66
+#: partials/single-car-boats/boats-actions.php:50
 #: listings/loop/default/list/features.php:66
 msgid "in compare list"
 msgstr ""
 
-#: partials/single-car/car-actions.php:85 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:91 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:111 
-#: partials/listing-cars/listing-list-loop-actions.php:92 
-#: partials/single-car-boats/boats-actions.php:76 
+#: partials/single-car/car-actions.php:85
+#: partials/listing-cars/listing-directive-list-loop-actions.php:91
+#: partials/listing-cars/listing-directive-list-loop-actions.php:111
+#: partials/listing-cars/listing-list-loop-actions.php:92
+#: partials/single-car-boats/boats-actions.php:76
 #: listings/loop/default/list/features.php:92
 msgid "Download brochure"
 msgstr ""
 
-#: partials/single-car/car-actions.php:88 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:94 
-#: partials/listing-cars/listing-list-loop-actions.php:95 
-#: partials/single-car-boats/boats-actions.php:79 
+#: partials/single-car/car-actions.php:88
+#: partials/listing-cars/listing-directive-list-loop-actions.php:94
+#: partials/listing-cars/listing-list-loop-actions.php:95
+#: partials/single-car-boats/boats-actions.php:79
 #: listings/loop/default/list/features.php:95
 msgid "Car brochure"
 msgstr ""
@@ -5428,18 +3243,18 @@ msgstr ""
 msgid "Print page"
 msgstr ""
 
-#: partials/single-car/car-actions.php:139 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:130 
-#: partials/listing-cars/listing-list-loop-actions.php:138 
-#: partials/single-car-boats/boats-actions.php:113 
+#: partials/single-car/car-actions.php:139
+#: partials/listing-cars/listing-directive-list-loop-actions.php:130
+#: partials/listing-cars/listing-list-loop-actions.php:138
+#: partials/single-car-boats/boats-actions.php:113
 #: listings/loop/default/list/features.php:138
 msgid "Logo 1"
 msgstr ""
 
-#: partials/single-car/car-actions.php:160 
-#: partials/listing-cars/listing-directive-list-loop-actions.php:153 
-#: partials/listing-cars/listing-list-loop-actions.php:161 
-#: partials/single-car-boats/boats-actions.php:126 
+#: partials/single-car/car-actions.php:160
+#: partials/listing-cars/listing-directive-list-loop-actions.php:153
+#: partials/listing-cars/listing-list-loop-actions.php:161
+#: partials/single-car-boats/boats-actions.php:126
 #: listings/loop/default/list/features.php:161
 msgid "Logo 2"
 msgstr ""
@@ -5452,10 +3267,10 @@ msgstr ""
 msgid "Make an offer price"
 msgstr ""
 
-#: partials/single-car/car-gallery.php:32 
-#: partials/blog/content-grid-loop.php:34 
-#: partials/blog/content-list-loop.php:22 partials/blog/grid-loop.php:14 
-#: partials/single-car-listing/car-gallery.php:99 
+#: partials/single-car/car-gallery.php:32
+#: partials/blog/content-grid-loop.php:34
+#: partials/blog/content-list-loop.php:22 partials/blog/grid-loop.php:14
+#: partials/single-car-listing/car-gallery.php:99
 #: listings/loop/default/list/video.php:5
 msgid "Video"
 msgstr ""
@@ -5464,33 +3279,33 @@ msgstr ""
 msgid "Special"
 msgstr ""
 
-#: partials/single-car/car-gallery.php:86 
-#: partials/single-car/car-gallery.php:123 
-#: partials/single-car-boats/boats-video.php:20 
-#: partials/single-car-boats/boats-video.php:33 
-#: partials/single-car-boats/boats-video.php:51 
+#: partials/single-car/car-gallery.php:86
+#: partials/single-car/car-gallery.php:123
+#: partials/single-car-boats/boats-video.php:20
+#: partials/single-car-boats/boats-video.php:33
+#: partials/single-car-boats/boats-video.php:51
 #: partials/single-car-boats/boats-video.php:64
 msgid "Video preview"
 msgstr ""
 
-#: partials/single-car/car-gallery.php:99 
-#: partials/single-car/car-gallery.php:134 
-#: partials/single-car-listing/car-gallery.php:141 
+#: partials/single-car/car-gallery.php:99
+#: partials/single-car/car-gallery.php:134
+#: partials/single-car-listing/car-gallery.php:141
 #: partials/single-car-listing/car-gallery.php:165
 msgid "full"
 msgstr ""
 
-#: partials/single-car/car-mpg.php:12 
+#: partials/single-car/car-mpg.php:12
 #: partials/single-car-boats/boats-mpg.php:12
 msgid "city mpg"
 msgstr ""
 
-#: partials/single-car/car-mpg.php:19 
+#: partials/single-car/car-mpg.php:19
 #: partials/single-car-boats/boats-mpg.php:19
 msgid "hwy mpg"
 msgstr ""
 
-#: partials/user/dealer-single-review.php:81 
+#: partials/user/dealer-single-review.php:81
 #: partials/user/dealer-reviews.php:41 partials/user/dealer-write-review.php:54
 msgid "out of"
 msgstr ""
@@ -5547,7 +3362,7 @@ msgstr ""
 msgid "Sellers Inventory"
 msgstr ""
 
-#: partials/user/user-public-profile.php:70 
+#: partials/user/user-public-profile.php:70
 #: partials/user/dealer-inventory.php:86
 msgid "No Inventory added yet."
 msgstr ""
@@ -5560,8 +3375,8 @@ msgstr ""
 msgid "Favorites"
 msgstr ""
 
-#: partials/user/user-dropdown.php:37 
-#: partials/user/private/mobile/dealer-profile.php:161 
+#: partials/user/user-dropdown.php:37
+#: partials/user/private/mobile/dealer-profile.php:161
 #: partials/user/private/mobile/user-profile.php:177
 msgid "Logout"
 msgstr ""
@@ -5570,15 +3385,27 @@ msgstr ""
 msgid "Dealer Inventory"
 msgstr ""
 
-#: partials/user/dealer-inventory.php:40 
+#: partials/user/dealer-inventory.php:40
 #: partials/user/private/user-inventory.php:17
 msgid "Sort by"
+msgstr ""
+
+#: partials/user/dealer-inventory.php:43
+msgid "Popular items"
+msgstr ""
+
+#: partials/user/dealer-inventory.php:44
+msgid "Recent items"
 msgstr ""
 
 #: partials/user/dealer-write-review.php:13
 msgid ""
 "You have already added review. If you leave another one review, previous "
 "will be deleted."
+msgstr ""
+
+#: partials/user/dealer-write-review.php:23 listings/add_car/title.php:10
+msgid "Title"
 msgstr ""
 
 #: partials/user/dealer-write-review.php:24
@@ -5593,7 +3420,7 @@ msgstr ""
 msgid "I am not a dealer, and I am not employed by a dealership."
 msgstr ""
 
-#: partials/user/dealer-write-review.php:36 
+#: partials/user/dealer-write-review.php:36
 #: partials/user/dealer-write-review.php:75
 msgid "Submit review"
 msgstr ""
@@ -5630,8 +3457,8 @@ msgstr ""
 msgid "Write a review"
 msgstr ""
 
-#: partials/blog/content-grid-loop.php:39 
-#: partials/blog/content-list-loop.php:8 partials/blog/grid-loop.php:19
+#: partials/blog/content-grid-loop.php:39 partials/blog/content-list-loop.php:8
+#: partials/blog/grid-loop.php:19
 msgid "Sticky Post"
 msgstr ""
 
@@ -5643,7 +3470,7 @@ msgstr ""
 msgid "Watch shop items"
 msgstr ""
 
-#: partials/header/header-boats.php:81 partials/header/header-listing.php:88 
+#: partials/header/header-boats.php:81 partials/header/header-listing.php:88
 #: partials/header/header-nav.php:43
 msgid "Watch compared"
 msgstr ""
@@ -5664,8 +3491,22 @@ msgstr ""
 msgid "Live chat"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:219 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:233 
+#: partials/listing-cars/listing-grid-directory-loop-4.php:64
+#: partials/listing-cars/listing-list-directory-loop-animate.php:108
+#: partials/listing-cars/listing-grid-directory-loop.php:63
+#: listings/loop/classified/list/image.php:34
+msgid "Add to favorites"
+msgstr ""
+
+#: partials/listing-cars/listing-grid-directory-loop-4.php:68
+#: partials/listing-cars/listing-list-directory-loop-animate.php:112
+#: partials/listing-cars/listing-grid-directory-loop.php:67
+#: listings/loop/classified/list/image.php:38
+msgid "Remove from favorites"
+msgstr ""
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:219
+#: partials/listing-cars/listing-list-directory-edit-loop.php:233
 #: woocommerce/myaccount/my-address.php:122
 msgid "Edit"
 msgstr ""
@@ -5678,49 +3519,47 @@ msgstr ""
 msgid "Disable"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:230 
+#: partials/listing-cars/listing-list-directory-edit-loop.php:230
 #: partials/user/private/user-inventory.php:20
 msgid "Pending"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:237 
-#: woocommerce/cart/cart.php:29 partials/user/private/user-inventory.php:4 
+#: partials/listing-cars/listing-list-directory-edit-loop.php:237
+#: woocommerce/cart/cart.php:29 partials/user/private/user-inventory.php:4
 #: partials/user/private/user-inventory.php:8
 msgid "Delete"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:374 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:338 
+#: partials/listing-cars/listing-list-directory-edit-loop.php:374
+#: partials/listing-cars/listing-list-directory-loop-animate.php:338
 #: listings/loop/classified/list/options.php:71
 msgid "Distance"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-edit-loop.php:463 
-#: partials/listing-cars/listing-list-loop-boats.php:91 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:427 
-#: partials/listing-cars/listing-list-directory-loop.php:35 
+#: partials/listing-cars/listing-list-directory-edit-loop.php:463
+#: partials/listing-cars/listing-list-loop-boats.php:91
+#: partials/listing-cars/listing-list-directory-loop-animate.php:427
+#: partials/listing-cars/listing-list-directory-loop.php:35
 #: partials/listing-cars/motos/list.php:287
 msgid "View more"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:108 
-#: listings/loop/classified/grid/image.php:19 
-#: listings/loop/classified/list/image.php:34
-msgid "Add to favorites"
+#: partials/single-car-listing/car-data.php:23
+#: partials/single-car-listing/car-data.php:32
+msgid "Registered"
 msgstr ""
 
-#: partials/listing-cars/listing-list-directory-loop-animate.php:112 
-#: listings/loop/classified/grid/image.php:23 
-#: listings/loop/classified/list/image.php:38
-msgid "Remove from favorites"
+#: partials/single-car-listing/car-data.php:42
+#: partials/single-car-listing/car-data.php:52
+msgid "History"
 msgstr ""
 
-#: partials/single-car-listing/car-data.php:62 
+#: partials/single-car-listing/car-data.php:62
 #: partials/single-car-listing/car-data.php:71
 msgid "Stock id"
 msgstr ""
 
-#: partials/single-car-listing/car-data.php:83 
+#: partials/single-car-listing/car-data.php:83
 #: partials/single-car-listing/car-data.php:93
 msgid "VIN:"
 msgstr ""
@@ -5729,14 +3568,18 @@ msgstr ""
 msgid "Car Details"
 msgstr ""
 
-#: partials/single-car-listing/car-dealer.php:63 
-#: partials/single-car-listing/car-dealer.php:102 
-#: partials/user/private/user.php:121 
+#: partials/single-car-listing/car-main.php:29
+msgid "Features"
+msgstr ""
+
+#: partials/single-car-listing/car-dealer.php:63
+#: partials/single-car-listing/car-dealer.php:102
+#: partials/user/private/user.php:121
 #: partials/user/private/mobile/user-profile.php:164
 msgid "Seller Email"
 msgstr ""
 
-#: partials/single-car-boats/boat-top.php:17 
+#: partials/single-car-boats/boat-top.php:17
 #: partials/listing-cars/motos/list.php:272
 msgid "Stock#"
 msgstr ""
@@ -5757,9 +3600,9 @@ msgstr ""
 msgid "Upload photo"
 msgstr ""
 
-#: listings/add_car/step_3.php:8 listings/add_car/step_4.php:5 
-#: listings/add_car/step_4.php:38 listings/add_car/step_1.php:16 
-#: listings/add_car/step_6.php:14 listings/add_car/step_5.php:26 
+#: listings/add_car/step_3.php:8 listings/add_car/step_4.php:5
+#: listings/add_car/step_4.php:38 listings/add_car/step_1.php:16
+#: listings/add_car/step_6.php:14 listings/add_car/step_5.php:26
 #: listings/add_car/step_2.php:4
 msgid "step"
 msgstr ""
@@ -5782,6 +3625,10 @@ msgid ""
 "after you complete your ad using the \"Manage Your Ad\" page."
 msgstr ""
 
+#: listings/add_car/step_1.php:98
+msgid "Enter"
+msgstr ""
+
 #: listings/add_car/step_6.php:13
 msgid "Set Your Asking Price"
 msgstr ""
@@ -5802,6 +3649,10 @@ msgstr ""
 msgid "Select all the phrases that apply to your vehicle."
 msgstr ""
 
+#: listings/add_car/step_5.php:46 listings/filter/types/checkboxes.php:81
+msgid "Apply"
+msgstr ""
+
 #: listings/add_car/step_5.php:59
 msgid "Add the Template Phrases"
 msgstr ""
@@ -5814,12 +3665,16 @@ msgstr ""
 msgid "Sorry, No results"
 msgstr ""
 
-#: listings/filter/sidebar.php:47 listings/classified/filter/sidebar.php:65 
+#: listings/filter/sidebar.php:9 listings/classified/filter/sidebar.php:20
+msgid "Search Options"
+msgstr ""
+
+#: listings/filter/sidebar.php:47 listings/classified/filter/sidebar.php:63
 #: listings/motorcycles/filter/sidebar.php:68
 msgid "Show cars"
 msgstr ""
 
-#: listings/filter/sidebar.php:50 listings/classified/filter/sidebar.php:68 
+#: listings/filter/sidebar.php:50 listings/classified/filter/sidebar.php:66
 #: listings/motorcycles/filter/sidebar.php:71
 msgid "Reset all"
 msgstr ""
@@ -5875,24 +3730,23 @@ msgid ""
 "conditions</a>"
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:25 
+#: woocommerce/checkout/review-order.php:25
 #: woocommerce/order/order-details.php:41
 msgid "Product"
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:26 
-#: woocommerce/checkout/review-order.php:101 
-#: woocommerce/myaccount/my-orders.php:54 
-#: woocommerce/myaccount/my-orders.php:77 
-#: woocommerce/order/order-details.php:42 woocommerce/cart/cart.php:28 
+#: woocommerce/checkout/review-order.php:26
+#: woocommerce/checkout/review-order.php:101
+#: woocommerce/myaccount/my-orders.php:54
+#: woocommerce/myaccount/my-orders.php:77
+#: woocommerce/order/order-details.php:42 woocommerce/cart/cart.php:28
 #: woocommerce/cart/cart-totals.php:94
 msgid "Total"
 msgstr ""
 
-#: woocommerce/checkout/review-order.php:54 
-#: woocommerce/cart/cart-totals.php:35 
-#: partials/rental/common/order-info-empty.php:55 
-#: partials/rental/common/order-info.php:29 
+#: woocommerce/checkout/review-order.php:54 woocommerce/cart/cart-totals.php:35
+#: partials/rental/common/order-info-empty.php:55
+#: partials/rental/common/order-info.php:29
 #: partials/rental/common/order-info.php:63
 msgid "Subtotal"
 msgstr ""
@@ -5948,7 +3802,7 @@ msgstr ""
 msgid "Ship to a different address?"
 msgstr ""
 
-#: woocommerce/checkout/form-shipping.php:60 
+#: woocommerce/checkout/form-shipping.php:60
 #: woocommerce/single-product/tabs/additional-information.php:16
 msgid "Additional Information"
 msgstr ""
@@ -5970,6 +3824,11 @@ msgstr ""
 msgid "Order"
 msgstr ""
 
+#: woocommerce/myaccount/my-orders.php:53
+#: woocommerce/myaccount/my-orders.php:74
+msgid "Status"
+msgstr ""
+
 #: woocommerce/myaccount/my-orders.php:66
 msgid "Order Number"
 msgstr ""
@@ -5981,7 +3840,7 @@ msgid_plural "%s for %s items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: woocommerce/myaccount/my-orders.php:94 
+#: woocommerce/myaccount/my-orders.php:94
 #: partials/user/private/user-inventory.php:9
 msgid "Cancel"
 msgstr ""
@@ -5994,13 +3853,13 @@ msgstr ""
 msgid "My Addresses"
 msgstr ""
 
-#: woocommerce/myaccount/my-address.php:28 
-#: woocommerce/myaccount/my-address.php:34 
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/my-address.php:34
 #: woocommerce/order/order-details-customer.php:57
 msgid "Billing Address"
 msgstr ""
 
-#: woocommerce/myaccount/my-address.php:29 
+#: woocommerce/myaccount/my-address.php:29
 #: woocommerce/order/order-details-customer.php:68
 msgid "Shipping Address"
 msgstr ""
@@ -6161,12 +4020,20 @@ msgstr ""
 msgid "Informational"
 msgstr ""
 
-#: admin/includes/admin_screens.php:35 admin/includes/admin_screens.php:36 
+#: admin/includes/theme.php:183
+msgid "Install"
+msgstr ""
+
+#: admin/includes/theme.php:185
+msgid "Activate"
+msgstr ""
+
+#: admin/includes/admin_screens.php:35 admin/includes/admin_screens.php:36
 #: admin/includes/admin_screens.php:159
 msgid "Support"
 msgstr ""
 
-#: admin/includes/admin_screens.php:45 admin/includes/admin_screens.php:46 
+#: admin/includes/admin_screens.php:45 admin/includes/admin_screens.php:46
 #: admin/includes/admin_screens.php:161
 msgid "Plugins"
 msgstr ""
@@ -6179,7 +4046,7 @@ msgstr ""
 msgid "System status"
 msgstr ""
 
-#: admin/includes/admin_screens.php:75 admin/includes/admin_screens.php:76 
+#: admin/includes/admin_screens.php:75 admin/includes/admin_screens.php:76
 #: admin/includes/admin_screens.php:169
 msgid "Patching"
 msgstr ""
@@ -6276,7 +4143,7 @@ msgstr ""
 msgid "Patch"
 msgstr ""
 
-#: admin/screens/patching.php:33 admin/screens/patching.php:60
+#: admin/screens/patching.php:33
 msgid "Patch in progress, dont reload the page."
 msgstr ""
 
@@ -6286,10 +4153,6 @@ msgstr ""
 
 #: admin/screens/patching.php:41
 msgid "Main page"
-msgstr ""
-
-#: admin/screens/patching.php:46
-msgid "Force listings price update."
 msgstr ""
 
 #: admin/screens/system_status.php:11 admin/screens/system_status.php:15
@@ -6425,14 +4288,14 @@ msgstr ""
 msgid "PHP Max Input Vars:"
 msgstr ""
 
-#: admin/screens/system_status.php:119 admin/screens/system_status.php:155 
+#: admin/screens/system_status.php:119 admin/screens/system_status.php:155
 #: admin/screens/system_status.php:184
 msgid ""
 "The maximum number of variables your server can use for a single function to "
 "avoid overloads."
 msgstr ""
 
-#: admin/screens/system_status.php:139 admin/screens/system_status.php:175 
+#: admin/screens/system_status.php:139 admin/screens/system_status.php:175
 #: admin/screens/system_status.php:204
 #, php-format
 msgid ""
@@ -6595,6 +4458,10 @@ msgstr ""
 msgid "Visit Our Forum"
 msgstr ""
 
+#: inc/customizer/controls/post-type.php:15
+msgid "--- Default ---"
+msgstr ""
+
 #: inc/customizer/controls/font-weight.php:12
 msgid "Ultra Light"
 msgstr ""
@@ -6667,68 +4534,68 @@ msgstr ""
 msgid "Ultra Bold Italic"
 msgstr ""
 
-#: partials/user/private/user.php:84 
-#: partials/user/private/become-dealer.php:219 
+#: partials/user/private/user.php:84
+#: partials/user/private/become-dealer.php:219
 #: partials/user/private/mobile/user-profile.php:125
 msgid "Become a dealer"
 msgstr ""
 
-#: partials/user/private/user.php:92 partials/user/private/dealer.php:68 
-#: partials/user/private/user-inventory.php:14 
-#: partials/user/private/mobile/dealer-profile.php:117 
+#: partials/user/private/user.php:92 partials/user/private/dealer.php:68
+#: partials/user/private/user-inventory.php:14
+#: partials/user/private/mobile/dealer-profile.php:117
 #: partials/user/private/mobile/user-profile.php:133
 msgid "My Inventory"
 msgstr ""
 
-#: partials/user/private/user.php:99 partials/user/private/dealer.php:75 
-#: partials/user/private/user-favourite.php:13 
-#: partials/user/private/mobile/dealer-profile.php:124 
+#: partials/user/private/user.php:99 partials/user/private/dealer.php:75
+#: partials/user/private/user-favourite.php:13
+#: partials/user/private/mobile/dealer-profile.php:124
 #: partials/user/private/mobile/user-profile.php:140
 msgid "My Favorites"
 msgstr ""
 
-#: partials/user/private/user.php:106 partials/user/private/dealer.php:82 
-#: partials/user/private/dealer-settings.php:338 
-#: partials/user/private/user-settings.php:14 
-#: partials/user/private/mobile/dealer-profile.php:131 
+#: partials/user/private/user.php:106 partials/user/private/dealer.php:82
+#: partials/user/private/dealer-settings.php:338
+#: partials/user/private/user-settings.php:14
+#: partials/user/private/mobile/dealer-profile.php:131
 #: partials/user/private/mobile/user-profile.php:147
 msgid "Profile Settings"
 msgstr ""
 
-#: partials/user/private/user.php:114 
+#: partials/user/private/user.php:114
 #: partials/user/private/mobile/user-profile.php:156
 msgid "Seller Contact Phone"
 msgstr ""
 
-#: partials/user/private/user.php:144 partials/user/private/user.php:172 
-#: partials/user/private/dealer.php:119 partials/user/private/dealer.php:147 
-#: partials/user/private/mobile/dealer-profile.php:63 
-#: partials/user/private/mobile/dealer-profile.php:91 
-#: partials/user/private/mobile/user-profile.php:84 
+#: partials/user/private/user.php:144 partials/user/private/user.php:172
+#: partials/user/private/dealer.php:119 partials/user/private/dealer.php:147
+#: partials/user/private/mobile/dealer-profile.php:63
+#: partials/user/private/mobile/dealer-profile.php:91
+#: partials/user/private/mobile/user-profile.php:84
 #: partials/user/private/mobile/user-profile.php:112
 msgid "Current Plan"
 msgstr ""
 
-#: partials/user/private/user.php:146 partials/user/private/dealer.php:121 
-#: partials/user/private/mobile/dealer-profile.php:65 
+#: partials/user/private/user.php:146 partials/user/private/dealer.php:121
+#: partials/user/private/mobile/dealer-profile.php:65
 #: partials/user/private/mobile/user-profile.php:86
 msgid "Subscription renewal"
 msgstr ""
 
-#: partials/user/private/user.php:168 partials/user/private/dealer.php:143 
-#: partials/user/private/mobile/dealer-profile.php:87 
+#: partials/user/private/user.php:168 partials/user/private/dealer.php:143
+#: partials/user/private/mobile/dealer-profile.php:87
 #: partials/user/private/mobile/user-profile.php:108
 msgid "Get new plan"
 msgstr ""
 
-#: partials/user/private/user.php:173 partials/user/private/dealer.php:148 
-#: partials/user/private/mobile/dealer-profile.php:92 
+#: partials/user/private/user.php:173 partials/user/private/dealer.php:148
+#: partials/user/private/mobile/dealer-profile.php:92
 #: partials/user/private/mobile/user-profile.php:113
 msgid "Free"
 msgstr ""
 
-#: partials/user/private/user.php:177 partials/user/private/dealer.php:152 
-#: partials/user/private/mobile/dealer-profile.php:96 
+#: partials/user/private/user.php:177 partials/user/private/dealer.php:152
+#: partials/user/private/mobile/dealer-profile.php:96
 #: partials/user/private/mobile/user-profile.php:117
 msgid "Upgrade plan"
 msgstr ""
@@ -6737,12 +4604,12 @@ msgstr ""
 msgid "No Inventory yet"
 msgstr ""
 
-#: partials/user/private/dealer.php:90 
+#: partials/user/private/dealer.php:90
 #: partials/user/private/mobile/dealer-profile.php:140
 msgid "Dealer Contact Phone"
 msgstr ""
 
-#: partials/user/private/dealer.php:97 
+#: partials/user/private/dealer.php:97
 #: partials/user/private/mobile/dealer-profile.php:148
 msgid "Dealer Email"
 msgstr ""
@@ -6755,8 +4622,8 @@ msgstr ""
 msgid "Confirmation password is wrong"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:138 
-#: partials/user/private/dealer-settings.php:218 
+#: partials/user/private/dealer-settings.php:138
+#: partials/user/private/dealer-settings.php:218
 #: partials/user/private/become-dealer.php:185
 msgid "Please load image with right extension (jpg, jpeg, png)"
 msgstr ""
@@ -6770,7 +4637,7 @@ msgstr ""
 msgid "New password not saved, because of wrong confirmation."
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:312 
+#: partials/user/private/dealer-settings.php:312
 #: partials/user/private/become-dealer.php:205
 msgid "Account data saved. Reloading the page."
 msgstr ""
@@ -6779,24 +4646,24 @@ msgstr ""
 msgid "Upload new logo"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:358 
-#: partials/user/private/dealer-settings.php:379 
-#: partials/user/private/user-settings.php:56 
+#: partials/user/private/dealer-settings.php:358
+#: partials/user/private/dealer-settings.php:379
+#: partials/user/private/user-settings.php:56
 #: partials/user/private/become-dealer.php:240
 msgid "Choose file"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:359 
-#: partials/user/private/dealer-settings.php:380 
-#: partials/user/private/dealer-settings.php:596 
-#: partials/user/private/user-settings.php:57 
-#: partials/user/private/user-settings.php:226 
-#: partials/user/private/become-dealer.php:242 
+#: partials/user/private/dealer-settings.php:359
+#: partials/user/private/dealer-settings.php:380
+#: partials/user/private/dealer-settings.php:596
+#: partials/user/private/user-settings.php:57
+#: partials/user/private/user-settings.php:226
+#: partials/user/private/become-dealer.php:242
 #: partials/user/private/become-dealer.php:328
 msgid "No File Chosen"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:363 
+#: partials/user/private/dealer-settings.php:363
 #: partials/user/private/become-dealer.php:246
 msgid "JPEG or PNG minimal 236x60px"
 msgstr ""
@@ -6809,8 +4676,8 @@ msgstr ""
 msgid "JPEG or PNG minimal 500x282"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:392 
-#: partials/user/private/user-settings.php:68 
+#: partials/user/private/dealer-settings.php:392
+#: partials/user/private/user-settings.php:68
 #: partials/user/private/become-dealer.php:253
 msgid "Main Information"
 msgstr ""
@@ -6823,22 +4690,22 @@ msgstr ""
 msgid "Enter Website URL"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:407 
+#: partials/user/private/dealer-settings.php:407
 #: partials/user/private/user-settings.php:77
 msgid "Enter First Name"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:413 
+#: partials/user/private/dealer-settings.php:413
 #: partials/user/private/user-settings.php:85
 msgid "Enter Last Name"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:426 
+#: partials/user/private/dealer-settings.php:426
 #: partials/user/private/user-settings.php:100
 msgid "Email*"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:430 
+#: partials/user/private/dealer-settings.php:430
 #: partials/user/private/user-settings.php:107
 msgid "Show Email Address on my Profile"
 msgstr ""
@@ -6847,97 +4714,97 @@ msgstr ""
 msgid "Dealer Information"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:446 
+#: partials/user/private/dealer-settings.php:446
 #: partials/user/private/become-dealer.php:259
 msgid "Company name*"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:449 
+#: partials/user/private/dealer-settings.php:449
 #: partials/user/private/become-dealer.php:262
 msgid "Enter Company Name"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:455 
+#: partials/user/private/dealer-settings.php:455
 #: partials/user/private/become-dealer.php:268
 msgid "License number*"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:457 
+#: partials/user/private/dealer-settings.php:457
 #: partials/user/private/become-dealer.php:270
 msgid "Enter License number"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:465 
+#: partials/user/private/dealer-settings.php:465
 #: partials/user/private/become-dealer.php:278
 msgid "Location*"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:469 
+#: partials/user/private/dealer-settings.php:469
 #: partials/user/private/become-dealer.php:282
 msgid "Enter Your location"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:483 
+#: partials/user/private/dealer-settings.php:483
 #: partials/user/private/become-dealer.php:296
 msgid "Enter Your sales hours"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:490 
+#: partials/user/private/dealer-settings.php:490
 #: partials/user/private/become-dealer.php:303
 msgid "Notes"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:501 
+#: partials/user/private/dealer-settings.php:501
 #: partials/user/private/user-settings.php:118
 msgid "Change password"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:507 
+#: partials/user/private/dealer-settings.php:507
 #: partials/user/private/user-settings.php:124
 msgid "New Password"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:513 
+#: partials/user/private/dealer-settings.php:513
 #: partials/user/private/user-settings.php:131
 msgid "Re-enter New Password"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:524 
+#: partials/user/private/dealer-settings.php:524
 #: partials/user/private/user-settings.php:142
 msgid "Your Social Networks"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:534 
+#: partials/user/private/dealer-settings.php:534
 #: partials/user/private/user-settings.php:154
 msgid "Enter your Facebook profile URL"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:543 
+#: partials/user/private/dealer-settings.php:543
 #: partials/user/private/user-settings.php:165
 msgid "Enter your Twitter URL"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:554 
+#: partials/user/private/dealer-settings.php:554
 #: partials/user/private/user-settings.php:178
 msgid "Enter Linkedin Public profile URL"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:563 
+#: partials/user/private/dealer-settings.php:563
 #: partials/user/private/user-settings.php:189
 msgid "Enter Youtube channel URL"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:572 
+#: partials/user/private/dealer-settings.php:572
 #: partials/user/private/user-settings.php:199
 msgid "Enter your Current Password to confirm changes"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:575 
+#: partials/user/private/dealer-settings.php:575
 #: partials/user/private/user-settings.php:203
 msgid "Current Password"
 msgstr ""
 
-#: partials/user/private/dealer-settings.php:577 
+#: partials/user/private/dealer-settings.php:577
 #: partials/user/private/user-settings.php:205
 msgid "Save Changes"
 msgstr ""
@@ -6950,14 +4817,14 @@ msgstr ""
 msgid "JPEG or PNG minimal 160x160px"
 msgstr ""
 
-#: partials/user/private/user-inventory.php:21 
+#: partials/user/private/user-inventory.php:21
 #: partials/user/private/user-favourite.php:62
 msgid "Disabled"
 msgstr ""
 
-#: partials/user/private/become-dealer.php:12 
-#: partials/user/private/become-dealer.php:17 
-#: partials/user/private/become-dealer.php:42 
+#: partials/user/private/become-dealer.php:12
+#: partials/user/private/become-dealer.php:17
+#: partials/user/private/become-dealer.php:42
 #: partials/user/private/become-dealer.php:112
 msgid "Your review is under submission"
 msgstr ""
@@ -7026,7 +4893,7 @@ msgstr ""
 msgid "the Item was removed"
 msgstr ""
 
-#: partials/user/private/user-favourite.php:105 
+#: partials/user/private/user-favourite.php:105
 #: partials/user/private/user-favourite.php:111
 msgid "You have not added favorites yet"
 msgstr ""
@@ -7099,26 +4966,26 @@ msgstr ""
 msgid "Please select your vehicle "
 msgstr ""
 
-#: partials/rental/common/order-info-empty.php:26 
-#: partials/rental/common/order-info-empty.php:54 
-#: partials/rental/common/order-info.php:23 
-#: partials/rental/common/order-info.php:28 
+#: partials/rental/common/order-info-empty.php:26
+#: partials/rental/common/order-info-empty.php:54
+#: partials/rental/common/order-info.php:23
+#: partials/rental/common/order-info.php:28
 #: partials/rental/common/order-info.php:62
 msgid "Rate"
 msgstr ""
 
-#: partials/rental/common/order-info-empty.php:53 
-#: partials/rental/common/order-info.php:27 
+#: partials/rental/common/order-info-empty.php:53
+#: partials/rental/common/order-info.php:27
 #: partials/rental/common/order-info.php:61
 msgid "QTY"
 msgstr ""
 
-#: partials/rental/common/order-info-empty.php:78 
+#: partials/rental/common/order-info-empty.php:78
 #: partials/rental/common/order-info.php:47
 msgid "Rental Charges Rate"
 msgstr ""
 
-#: partials/rental/common/order-info-empty.php:104 
+#: partials/rental/common/order-info-empty.php:104
 #: partials/rental/common/order-info.php:98
 msgid "Estimated total"
 msgstr ""
@@ -7135,7 +5002,7 @@ msgstr ""
 msgid "Select Vehicle/Add-ons"
 msgstr ""
 
-#: partials/rental/wizard-nav/nav-step-2.php:43 
+#: partials/rental/wizard-nav/nav-step-2.php:43
 #: partials/rental/wizard-nav/nav-step-2.php:45
 msgid "Addons"
 msgstr ""
@@ -7168,13 +5035,20 @@ msgstr ""
 msgid "Select vehicle/add-ons"
 msgstr ""
 
-#: listings/classified/filter/actions.php:6 
+#: listings/classified/filter/actions.php:6
 #: listings/motorcycles/filter/actions.php:7
 msgid "matches"
 msgstr ""
 
 #: listings/classified/filter/featured.php:16
 msgid "Featured Classified"
+msgstr ""
+
+#: listings/classified/filter/sidebar.php:93
+#: listings/classified/filter/sidebar.php:103
+#: listings/motorcycles/filter/sidebar.php:88
+#: listings/motorcycles/filter/sidebar.php:98
+msgid "Max"
 msgstr ""
 
 #: listings/motorcycles/filter/sidebar.php:27
@@ -7187,6 +5061,10 @@ msgstr ""
 
 #: listings/boats/filter/sidebar.php:37
 msgid "Less options"
+msgstr ""
+
+#: listings/boats/filter/sidebar.php:63
+msgid "Items"
 msgstr ""
 
 #: listings/filter/types/price.php:42
@@ -7202,9 +5080,7 @@ msgid "Motors"
 msgstr ""
 
 #. Description of the theme
-msgid ""
-"Automotive, Cars, Vehicle, Boat Dealership, Classifieds WordPress Theme by "
-"StylemixThemes."
+msgid "Motors theme"
 msgstr ""
 
 #. URI of the theme

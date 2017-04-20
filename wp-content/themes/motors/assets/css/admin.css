@@ -233,7 +233,7 @@ body.stm-template-motorcycle .hidden-on {
   display: none;
 }
 
-#widgets-right #stm_boats_car {
+body.stm-template-boats #widgets-right #stm_boats_car {
   display: block;
 }
 
@@ -272,36 +272,4 @@ body.stm-template-listing #widgets-right #stm_listing_car {
 .rtl .stm_checkbox_repeater > p button {
     right: auto;
     left: -10px;
-}
-
-label[for="stm_genuine_price-hide"],
-#stm_genuine_price {
-    display: none;
-}
-
-/*Hide rent car from other layouts*/
-label[for="butterbean-ui-stm_product_manager-hide"],
-#butterbean-ui-stm_product_manager {
-    display: none;
-}
-
-body.stm-template-car_rental label[for="butterbean-ui-stm_product_manager-hide"] {
-    display: inline-block;
-}
-
-body.stm-template-car_rental #butterbean-ui-stm_product_manager {
-    display: block;
-}
-
-/*Hide boats meta fields*/
-body.stm-template-boats #butterbean-control-vin_number,
-body.stm-template-boats #butterbean-control-city_mpg,
-body.stm-template-boats #butterbean-control-highway_mpg,
-body.stm-template-boats #butterbean-control-registration_date,
-body.stm-template-boats #butterbean-control-history,
-body.stm-template-boats #butterbean-control-history_link,
-body.stm-template-boats #butterbean-control-certified_logo_1,
-body.stm-template-boats #butterbean-control-certified_logo_2_link,
-body.stm-template-boats #butterbean-control-certified_logo_2 {
-    display: none;
 }

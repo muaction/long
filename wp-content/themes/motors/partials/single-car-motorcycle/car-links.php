@@ -5,11 +5,6 @@ $show_share = get_theme_mod('show_share', true);
 $show_test_drive = get_theme_mod( 'show_test_drive', true );
 $stm_car_link_quote = get_theme_mod('stm_car_link_quote', '#1471332454395-0e51ff9f-8682');
 
-$show_quote_phone = get_theme_mod('show_quote_phone', true);
-$show_trade_in = get_theme_mod('show_trade_in', true);
-$show_calculator = get_theme_mod('show_calculator', true);
-$show_report = get_theme_mod('show_report', true);
-
 
 $links                       = array();
 
@@ -29,29 +24,23 @@ if ( $show_test_drive ) {
 	);
 }
 
-if($show_quote_phone) {
-    $links['stm-moto-icon-phone-chat'] = array(
-        'link' => '#get-a-call',
-        'modal' => 'data-toggle="modal" data-target="#get-car-price"',
-        'text' => esc_html__('Quote by Phone', 'motors')
-    );
-}
+$links['stm-moto-icon-phone-chat'] = array(
+	'link' => '#get-a-call',
+	'modal' => 'data-toggle="modal" data-target="#get-car-price"',
+	'text' => esc_html__( 'Quote by Phone', 'motors' )
+);
 
-if($show_trade_in) {
-    $links['stm-moto-icon-trade'] = array(
-        'link' => '#trade-offer',
-        'modal' => 'data-toggle="modal" data-target="#trade-offer"',
-        'text' => esc_html__('Trade Your Value', 'motors')
-    );
-}
+$links['stm-moto-icon-trade'] = array(
+	'link' => '#trade-offer',
+	'modal' => 'data-toggle="modal" data-target="#trade-offer"',
+	'text' => esc_html__( 'Trade Your Value', 'motors' )
+);
 
-if($show_calculator) {
-    $links['stm-moto-icon-cash'] = array(
-        'link' => '#calc',
-        'modal' => 'data-toggle="modal" data-target="#get-car-calculator"',
-        'text' => esc_html__('Сalculate Payment', 'motors')
-    );
-}
+$links['stm-moto-icon-cash'] = array(
+	'link' => '#calc',
+	'modal' => 'data-toggle="modal" data-target="#get-car-calculator"',
+	'text' => esc_html__( 'Сalculate Payment', 'motors' )
+);
 
 if($show_share) {
 	$links['stm-moto-icon-share'] = array(
@@ -60,7 +49,7 @@ if($show_share) {
 	);
 }
 
-if(!empty($history_link) and $show_report) {
+if(!empty($history_link)) {
 	$links['stm-moto-icon-report'] = array(
 		'link' => esc_url($history_link),
 		'text' => esc_html__( 'History report', 'motors' )

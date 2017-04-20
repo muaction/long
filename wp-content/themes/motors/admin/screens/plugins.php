@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php
 	$tgm_page_plugins = new TGM_Plugin_Activation();
 
-    $tgm_page_plugins->install_plugins_page();
+	$tgm_page_plugins->install_plugins_page();
 
 	?>
 </div>

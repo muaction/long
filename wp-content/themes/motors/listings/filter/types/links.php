@@ -5,7 +5,6 @@
         <?php foreach ($filter_links as $filter_link) :
             $options = $filter['options'];
             $slug = $filter_link['slug'];
-
             if (!empty($options[$slug])) :
                 $filter_links_cats = $options[$slug];
                 if (!empty($filter_links_cats)): ?>
@@ -26,9 +25,6 @@
                                  id="<?php echo esc_attr($filter_link['slug']); ?>">
                                 <ul class="list-style-3">
                                     <?php foreach ($filter_links_cats as $key => $filter_links_cat):
-                                        if(empty($key)) {
-                                            continue;
-                                        }
                                         $count = '0';
                                         if (!empty($filter_links_cat['count'])) {
                                             $count = $filter_links_cat['count'];

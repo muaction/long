@@ -20,7 +20,7 @@ function stm_require_plugins()
             'slug' => 'stm_vehicles_listing',
             'source' => $plugins_path . '/stm_vehicles_listing.zip',
             'required' => true,
-            'version' => '4.4'
+            'version' => '4.3.2'
         ),
         array(
             'name' => 'Custom Icons by Stylemixthemes',
@@ -34,7 +34,7 @@ function stm_require_plugins()
             'slug' => 'stm_importer',
             'source' => $plugins_path . '/stm_importer.zip',
             'required' => true,
-            'version' => '3.4'
+            'version' => '3.1'
         ),
         array(
             'name' => 'WPBakery Visual Composer',
@@ -55,6 +55,12 @@ function stm_require_plugins()
         array(
             'name' => 'Breadcrumb NavXT',
             'slug' => 'breadcrumb-navxt',
+            'required' => true,
+            'force_activation' => false,
+        ),
+        array(
+            'name' => 'Bookly Lite',
+            'slug' => 'bookly-responsive-appointment-booking-tool',
             'required' => true,
             'force_activation' => false,
         ),
@@ -92,15 +98,6 @@ function stm_require_plugins()
         );
     }
 
-    if(stm_is_car_dealer() or stm_get_current_layout() == 'service') {
-        $plugins[] = array(
-            'name' => 'Bookly Lite',
-            'slug' => 'bookly-responsive-appointment-booking-tool',
-            'required' => true,
-            'force_activation' => false,
-        );
-    }
-
     /*If plans*/
     if (stm_is_listing()) {
         $plugins[] = array(
@@ -113,7 +110,7 @@ function stm_require_plugins()
     }
 
     $config = array(
-        'id' => 'tgm_message_update_new3r',
+        'id' => 'tgm_message_update_new',
         'strings' => array(
             'nag_type' => 'update-nag'
         )

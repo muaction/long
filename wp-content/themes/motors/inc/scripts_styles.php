@@ -49,14 +49,14 @@ function stm_load_theme_ss() {
 	wp_deregister_script( 'listings-add-car' );
 
 
-	if( get_theme_mod( 'site_style' ) != 'site_style_default' and is_dir( $upload_dir['basedir'] . '/stm_uploads' )  ) {
-        wp_enqueue_style( 'stm-skin-custom', $stm_upload_dir . '/skin-custom.css', null, get_option('stm_custom_style', '4'), 'all' );
-    } else {
-        if($layout == 'boats') {
-            wp_enqueue_style( 'stm-theme-style-boats', get_template_directory_uri() . '/assets/css/boats/app.css', null, STM_THEME_VERSION, 'all' );
-        } elseif($layout == 'motorcycle') {
-            wp_enqueue_style( 'stm-theme-style-sass', get_template_directory_uri() . '/assets/css/motorcycle/app.css', null, STM_THEME_VERSION, 'all' );
-        } else {
+	if( get_theme_mod( 'site_style' ) == 'site_style_custom' and is_dir( $upload_dir['basedir'] . '/stm_uploads' )  ) {
+		wp_enqueue_style( 'stm-skin-custom', $stm_upload_dir . '/skin-custom.css', null, STM_THEME_VERSION, 'all' );
+	} else {
+		if($layout == 'boats') {
+			wp_enqueue_style( 'stm-theme-style-boats', get_template_directory_uri() . '/assets/css/boats/app.css', null, STM_THEME_VERSION, 'all' );
+		} elseif($layout == 'motorcycle') {
+			wp_enqueue_style( 'stm-theme-style-sass', get_template_directory_uri() . '/assets/css/motorcycle/app.css', null, STM_THEME_VERSION, 'all' );
+		} else {
 			wp_enqueue_style( 'stm-theme-style-sass', get_template_directory_uri() . '/assets/css/app.css', null, STM_THEME_VERSION, 'all' );
             if(stm_is_listing()) {
                 wp_enqueue_style('stm-theme-style-listing-sass', get_template_directory_uri() . '/assets/css/listing/app.css', null, STM_THEME_VERSION, 'all');
@@ -68,6 +68,8 @@ function stm_load_theme_ss() {
         }
 	}
 
+	wp_register_style( 'stm-site_style_green', get_template_directory_uri() . '/assets/css/site_style_green.css', null, STM_THEME_VERSION, 'all' );
+	
 	wp_enqueue_style( 'stm-theme-frontend-customizer', get_template_directory_uri() . '/assets/css/frontend_customizer.css', null, STM_THEME_VERSION, 'all' );
 
 	// Animations
@@ -75,6 +77,20 @@ function stm_load_theme_ss() {
 
 	if( get_theme_mod( 'site_style' ) && get_theme_mod( 'site_style' ) != 'site_style_default' && get_theme_mod( 'site_style' ) != 'site_style_custom' ){
 		wp_enqueue_style( STM_THEME_SLUG . '-' . get_theme_mod( 'site_style' ) );
+	}
+	
+	//Theme color schemes
+	$color_scheme = get_theme_mod('site_style', 'site_style_default');
+	
+	if($color_scheme != 'site_style_default' and $color_scheme != 'site_style_custom') {
+		if(stm_is_boats()) {
+			wp_enqueue_style( 'stm-theme-predefined-color-scheme', get_template_directory_uri() . '/assets/css/boats/' . $color_scheme . '.css', null, STM_THEME_VERSION, 'all' );
+		} else {
+			wp_enqueue_style( 'stm-theme-predefined-color-scheme', get_template_directory_uri() . '/assets/css/' . $color_scheme . '.css', null, STM_THEME_VERSION, 'all' );
+            if(stm_is_listing()) {
+                wp_enqueue_style('stm-theme-listing-predefined-color-scheme', get_template_directory_uri() . '/assets/css/listing/' . $color_scheme . '.css', null, STM_THEME_VERSION, 'all');
+            }
+		}
 	}
 
 	// Theme main stylesheet

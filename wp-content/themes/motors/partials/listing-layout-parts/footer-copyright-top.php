@@ -3,7 +3,6 @@
 		<div class="clearfix">
 			<div class="stm-footer-search-inventory">
 				<?php $terms = stm_get_footer_terms();
-                    $placeholder = '';
 					if(!empty($terms['names']) and !empty($terms['slugs'])): ?>
 
 					<?php if(!empty($_GET['stm-footer-search-name'])) {
@@ -11,8 +10,6 @@
 					} else {
 						$value='';
 					};
-
-					$placeholder = '';
 
 					if(!empty($terms['placeholder'])) {
 						$placeholder = $terms['placeholder'];

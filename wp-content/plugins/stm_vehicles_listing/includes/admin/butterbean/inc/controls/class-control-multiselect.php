@@ -62,7 +62,6 @@ class ButterBean_Control_Multiselect extends ButterBean_Control {
         parent::to_json();
 
         $value = $this->get_value();
-
         if(!empty($value)) {
             $value = explode(',', $value);
         }

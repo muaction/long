@@ -22,7 +22,7 @@ if(!empty($show_compare) and $show_compare): ?>
 			<a
 				href="#"
 				class="add-to-compare"
-				title="<?php esc_html_e('So sánh xe', 'motors'); ?>"
+				title="<?php esc_html_e('Add to compare', 'motors'); ?>"
 				data-id="<?php echo esc_attr(get_the_ID()); ?>"
 				data-title="<?php echo esc_attr(get_the_title()); ?>">
 				<i class="fa fa-plus"></i>

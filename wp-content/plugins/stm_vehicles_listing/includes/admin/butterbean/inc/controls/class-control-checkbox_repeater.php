@@ -116,6 +116,7 @@ class ButterBean_Control_Checkbox_Repeater extends ButterBean_Control {
 			}
 		}
 
+
         $this->json['link'] = get_site_url() . "/wp-admin/edit-tags.php?taxonomy=stm_additional_features&post_type=listings";
         $this->json['values'] = $values;
 

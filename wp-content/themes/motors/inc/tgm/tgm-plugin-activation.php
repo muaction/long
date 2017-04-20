@@ -2505,15 +2505,6 @@ if (!class_exists('TGMPA_List_Table')) {
         {
             printf(wp_kses_post(__('No plugins to install, update or activate. <a href="%1$s">Return to the Dashboard</a>', 'motors')), esc_url(self_admin_url()));
             echo '<style type="text/css">#adminmenu .wp-submenu li.current { display: none !important; }</style>';
-            ?>
-            <script type="text/javascript">
-                (function($){
-                    $(document).ready(function(){
-                        window.location.href = "<?php echo esc_url(admin_url('admin.php?page=stm-admin-demos')); ?>";
-                    })
-                })(jQuery)
-            </script>
-            <?php
         }
 
         /**

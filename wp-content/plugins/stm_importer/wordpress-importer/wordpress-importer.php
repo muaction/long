@@ -784,13 +784,8 @@ class WP_Import extends WP_Importer {
 			$menu_id = is_array( $menu_id ) ? $menu_id['term_id'] : $menu_id;
 		}
 
-        foreach ( $item['postmeta'] as $meta ){
-            if (defined('PHP_MAJOR_VERSION') && PHP_MAJOR_VERSION >= 7){
-                ${$meta['key']} = $meta['value'];
-            }else{
-                $$meta['key'] = $meta['value'];
-            }
-        }
+		foreach ( $item['postmeta'] as $meta )
+			$$meta['key'] = $meta['value'];
 
 		if ( 'taxonomy' == $_menu_item_type && isset( $this->processed_terms[intval($_menu_item_object_id)] ) ) {
 			$_menu_item_object_id = $this->processed_terms[intval($_menu_item_object_id)];

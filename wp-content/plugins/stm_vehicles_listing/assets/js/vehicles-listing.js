@@ -462,8 +462,8 @@
 			$(tabId).addClass('active');
 		});
 
-		/*Open/Delete icons*/
-        $(document).on('click', '.stm_vehicles_listing_icon .stm_delete_icon', function(e){
+		/*Open icons*/
+		$(document).on('click', '.stm_vehicles_listing_icon .stm_delete_icon', function(e){
             $(this).closest('.stm_form_wrapper_icon').find('input[name="font"]').val('');
 
             $(this).closest('.stm_form_wrapper_icon').find('i').removeAttr('class');
@@ -476,7 +476,7 @@
             e.stopPropagation();
             return false;
         });
-
+		
 		var currentTarget = '';
 		$(document).on('click', '.stm_vehicles_listing_icon', function(e){
 			e.preventDefault();

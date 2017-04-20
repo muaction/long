@@ -2385,8 +2385,8 @@ function vc_stm_elements()
                             'heading' => __('Period', 'motors'),
                             'param_name' => 'pt_' . $i . '_periods_period',
                             'value' => array(
-                                __('Month', 'motors') => esc_html__('month', 'motors'),
-                                __('Yearly', 'motors') => esc_html__('yearly', 'motors')
+                                __('Month', 'motors') => 'month',
+                                __('Yearly', 'motors') => 'yearly'
                             ),
                             'admin_label' => true,
                         ),
@@ -2770,25 +2770,6 @@ function vc_stm_elements()
                 )
             ));
         } else {
-            vc_map(array(
-                'name' => __('STM Car Features', 'motors'),
-                'base' => 'stm_car_listing_features',
-                'icon' => 'stm_car_listing_features',
-                'category' => __('STM Single Motorcycle', 'motors'),
-                'params' => array(
-                    array(
-                        'type' => 'textfield',
-                        'heading' => __('Title', 'motors'),
-                        'param_name' => 'title',
-                    ),
-                    array(
-                        'type' => 'css_editor',
-                        'heading' => __('Css', 'motors'),
-                        'param_name' => 'css',
-                        'group' => __('Design options', 'motors')
-                    )
-                )
-            ));
             vc_map(array(
                 'name' => __('STM Icon Counter', 'motors'),
                 'base' => 'stm_icon_counter_boats',
@@ -3960,10 +3941,6 @@ if (class_exists('WPBakeryShortCode')) {
             }
         } else {
             class WPBakeryShortCode_Stm_Icon_Counter_Boats extends WPBakeryShortCode
-            {
-            }
-
-            class WPBakeryShortCode_Stm_Car_Listing_Features extends WPBakeryShortCode
             {
             }
 

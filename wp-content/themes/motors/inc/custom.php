@@ -1308,7 +1308,6 @@ function stm_setup_listing_options()
             'slug' => 'price',
             'font' => '',
             'numeric' => true,
-            'slider' => true,
             'use_on_single_listing_page' => true,
             'use_on_car_listing_page' => true,
             'use_on_car_archive_listing_page' => true,
@@ -1517,11 +1516,6 @@ if (!function_exists('stm_importer_done_function')) {
             $blog_page = get_page_by_title('Blog');
             if (isset($blog_page->ID)) {
                 update_option('page_for_posts', $blog_page->ID);
-            }
-
-            $dealers = get_page_by_title('Dealers list');
-            if (isset($dealers->ID)) {
-                set_theme_mod('dealer_list_page', $dealers->ID);
             }
 
             if (class_exists('RevSlider')) {
@@ -3305,88 +3299,8 @@ if (!function_exists('stm_print_styles_color')) {
         $css_listing = '';
 
         $layout = stm_get_current_layout();
-        $site_color_style = get_theme_mod('site_style');
 
-        $predefined_colors = array(
-            'dealer' => array(
-                'site_style_blue' => array(
-                    'primary' => '#7c9fda',
-                    'secondary' => '#dd8411'
-                ),
-                'site_style_light_blue' => array(
-                    'primary' => '#2ea6b8',
-                    'secondary' => '#2ea6b8'
-                ),
-                'site_style_orange' => array(
-                    'primary' => '#58ba3a',
-                    'secondary' => '#58ba3a'
-                ),
-                'site_style_red' => array(
-                    'primary' => '#e41515',
-                    'secondary' => '#e41515'
-                ),
-                'site_style_yellow' => array(
-                    'primary' => '#ecbf24',
-                    'secondary' => '#22b7d2'
-                ),
-            ),
-            'classified' => array(
-                'site_style_blue' => array(
-                    'primary' => '#7c9fda', /*light blue*/
-                    'secondary' => '#7c9fda',
-                    'primary_listing' => '#7c9fda',
-                    'secondary_listing' => '#121e24', /*Dark one*/
-                ),
-                'site_style_light_blue' => array(
-                    'primary' => '#2ea6b8',
-                    'secondary' => '#2ea6b8',
-                    'primary_listing' => '#2ea6b8',
-                    'secondary_listing' => '#1d2428'
-                ),
-                'site_style_orange' => array(
-                    'primary' => '#2d8611',
-                    'secondary' => '#2d8611',
-                    'primary_listing' => '#2d8611',
-                    'secondary_listing' => '#202a30'
-                ),
-                'site_style_red' => array(
-                    'primary' => '#e41515',
-                    'secondary' => '#e41515',
-                    'primary_listing' => '#e41515',
-                    'secondary_listing' => '#333'
-                ),
-                'site_style_yellow' => array(
-                    'primary' => '#ecbf24',
-                    'secondary' => '#22b7d2',
-                    'primary_listing' => '#ecbf24',
-                    'secondary_listing' => '#333'
-                ),
-            ),
-            'boats' => array(
-                'site_style_blue' => array(
-                    'primary' => '#31a3c6',
-                    'secondary' => '#ffa07a',
-                    'third' => '#211133',
-                ),
-                'site_style_light_blue' => array(
-                    'primary' => '#31a3c6',
-                    'secondary' => '#21d99b',
-                    'third' => '#004015',
-                ),
-                'site_style_orange' => array(
-                    'primary' => '#31a3c6',
-                    'secondary' => '#58ba3a',
-                    'third' => '#102d40',
-                ),
-                'site_style_red' => array(
-                    'primary' => '#31a3c6',
-                    'secondary' => '#e41515',
-                    'third' => '#232628',
-                )
-            ),
-        );
-
-        if ($site_color_style != 'site_style_default') {
+        if (get_theme_mod('site_style') == 'site_style_custom') {
 
             $colors_differences = false;
             $colors_arr = array();
@@ -3400,7 +3314,6 @@ if (!function_exists('stm_print_styles_color')) {
 
             $theme_path = get_template_directory_uri() . '/assets/';
 
-            /*Motorcycle*/
             if ($layout == 'motorcycle') {
                 $custom_style_css = $wp_filesystem->get_contents(get_template_directory() . '/assets/css/motorcycle/app.css');
                 $base_color = get_theme_mod('site_style_base_color', '#df1d1d');
@@ -3444,7 +3357,6 @@ if (!function_exists('stm_print_styles_color')) {
                 );
                 $css .= $custom_style_css;
             } else {
-
                 if ($layout !== 'boats') {
 
                     /*Rental*/
@@ -3471,17 +3383,10 @@ if (!function_exists('stm_print_styles_color')) {
                     $css .= $custom_style_css;
 
 
-                    /*Dealer*/
+
                     $custom_style_css = $wp_filesystem->get_contents(get_template_directory() . '/assets/css/app.css');
-
-                    if($site_color_style == 'site_style_custom') {
-                        $base_color = get_theme_mod('site_style_base_color', '#183650');
-                        $secondary_color = get_theme_mod('site_style_secondary_color', '#34ccff');
-                    } else {
-                        $base_color = $predefined_colors['dealer'][$site_color_style]['primary'];
-                        $secondary_color = $predefined_colors['dealer'][$site_color_style]['secondary'];
-                    }
-
+                    $base_color = get_theme_mod('site_style_base_color', '#183650');
+                    $secondary_color = get_theme_mod('site_style_secondary_color', '#34ccff');
 
                     $colors_arr[] = $base_color;
                     $colors_arr[] = $secondary_color;
@@ -3490,41 +3395,26 @@ if (!function_exists('stm_print_styles_color')) {
                         array(
                             '#cc6119',
                             '#6c98e1',
-                            '#567ab4',
                             '#6c98e1',
                             '#1b92a8',
                             '204, 97, 25',
-                            '#22b7d2',
-                            '#ecbf24',
                             '../'
                         ),
                         array(
                             $base_color,
                             $secondary_color,
                             'rgba(' . stm_hex2rgb($secondary_color) . ', 0.75)',
-                            'rgba(' . stm_hex2rgb($secondary_color) . ', 0.75)',
                             'rgba(' . stm_hex2rgb($secondary_color) . ', 0.8)',
                             stm_hex2rgb($base_color),
-                            $base_color,
-                            $secondary_color,
                             $theme_path,
                         ),
                         $custom_style_css
                     );
                     $css .= $custom_style_css;
 
-                    /*Listing*/
                     $custom_style_css = $wp_filesystem->get_contents(get_template_directory() . '/assets/css/listing/app.css');
-
-                    if($site_color_style == 'site_style_custom') {
-                        $base_color_listing = get_theme_mod('site_style_base_color_listing', '#1bc744');
-                        $secondary_color_listing = get_theme_mod('site_style_secondary_color_listing', '#153e4d');
-                    } else {
-                        $base_color = $predefined_colors['classified'][$site_color_style]['primary'];
-                        $secondary_color = $predefined_colors['classified'][$site_color_style]['secondary'];
-                        $base_color_listing = $predefined_colors['classified'][$site_color_style]['primary_listing'];
-                        $secondary_color_listing = $predefined_colors['classified'][$site_color_style]['secondary_listing'];
-                    }
+                    $base_color_listing = get_theme_mod('site_style_base_color_listing', '#1bc744');
+                    $secondary_color_listing = get_theme_mod('site_style_secondary_color_listing', '#153e4d');
 
                     $colors_arr[] = $base_color_listing;
                     $colors_arr[] = $secondary_color_listing;
@@ -3564,22 +3454,12 @@ if (!function_exists('stm_print_styles_color')) {
                     );
                     $css_listing .= $custom_style_css;
 
-                    if(stm_is_listing()) {
-                        $css .= $css_listing;
-                    }
+                    $css .= $css_listing;
                 } else {
-                    /*Boats*/
                     $custom_style_css = $wp_filesystem->get_contents(get_template_directory() . '/assets/css/boats/app.css');
-
-                    if($site_color_style == 'site_style_custom') {
-                        $base_color = get_theme_mod('site_style_base_color', '#31a3c6');
-                        $secondary_color = get_theme_mod('site_style_secondary_color', '#ceac61');
-                        $third_color = get_theme_mod('site_style_base_color_listing', '#002568');
-                    } else {
-                        $base_color = $predefined_colors['boats'][$site_color_style]['primary'];
-                        $secondary_color = $predefined_colors['boats'][$site_color_style]['secondary'];
-                        $third_color = $predefined_colors['boats'][$site_color_style]['third'];
-                    }
+                    $base_color = get_theme_mod('site_style_base_color', '#31a3c6');
+                    $secondary_color = get_theme_mod('site_style_secondary_color', '#ceac61');
+                    $third_color = get_theme_mod('site_style_base_color_listing', '#002568');
 
                     $colors_arr[] = $base_color;
                     $colors_arr[] = $secondary_color;
@@ -3630,10 +3510,24 @@ if (!function_exists('stm_print_styles_color')) {
 
                 $custom_style_file = $upload_dir['basedir'] . '/stm_uploads/skin-custom.css';
 
-                $wp_filesystem->put_contents($custom_style_file, $css_to_filter, FS_CHMOD_FILE);
+                if ($custom_style_file) {
+                    $custom_style_content = $wp_filesystem->get_contents($custom_style_file);
 
-                $current_style = get_option('stm_custom_style', '4');
-                update_option('stm_custom_style', $current_style + 1);
+                    if (is_array($colors_arr) && !empty($colors_arr)) {
+                        foreach ($colors_arr as $color) {
+                            $color_find = strpos($custom_style_content, $color);
+                            if (!$color_find && !$colors_differences) {
+                                $colors_differences = true;
+                            }
+                        }
+                    }
+
+                    if ($colors_differences) {
+                        $wp_filesystem->put_contents($custom_style_file, $css_to_filter, FS_CHMOD_FILE);
+                    }
+                } else {
+                    $wp_filesystem->put_contents($custom_style_file, $css_to_filter, FS_CHMOD_FILE);
+                }
             }
         }
     }
@@ -4248,7 +4142,7 @@ if (!function_exists('stm_filter_add_links')) {
         return $taxes;
     }
 
-    //add_filter('stm_listings_filter_taxonomies', 'stm_filter_add_links');
+    add_filter('stm_listings_filter_taxonomies', 'stm_filter_add_links');
 }
 
 if (!function_exists('stm_listings_filter_classified_title')) {
@@ -4315,22 +4209,6 @@ function stm_listing_pre_get_vehicles($query_vars)
 
         if (!empty($_GET['stm-footer-search-name'])) {
             $query_vars['s'] = $_GET['stm-footer-search-name'];
-        }
-
-        if(!empty($_GET['stm_features'])) {
-            $features = [];
-            foreach($_GET['stm_features'] as $feature) {
-                $features[] = sanitize_title($feature);
-            }
-
-            $query_vars['tax_query'][] = array(
-                'relation' => 'OR',
-                array(
-                    'taxonomy' => 'stm_additional_features',
-                    'field'    => 'slug',
-                    'terms'    => $features
-                )
-            );
         }
     }
 
@@ -4536,52 +4414,8 @@ add_action('wp_loaded', 'stm_pmxi_disable_rich_editor');
 function stm_pmxi_disable_rich_editor()
 {
     if (is_admin()) {
-        if(!empty($_GET['page'])) {
-            if ($_GET['page'] == 'pmxi-admin-manage' or $_GET['page'] == 'pmxi-admin-import') {
-                add_filter('user_can_richedit', '__return_false', 50);
-            }
-        }
-    }
-}
-
-/*WPML duplicate*/
-add_action('icl_make_duplicate', 'stm_duplicate_wpml_post', 1, 4);
-
-function stm_duplicate_wpml_post($master_post_id, $lang, $post_array, $id) {
-
-    $post_id = $master_post_id;
-    $taxonomies = [];
-
-    $filter_options = get_option( 'stm_vehicle_listing_options' );
-    foreach ( $filter_options as $filter_option ) {
-        if ( $filter_option['numeric'] ) {
-            continue;
-        }
-
-        $slug = $filter_option['slug'];
-        $terms = wp_get_post_terms( $post_id, $slug );
-
-        if(!empty($terms) and !is_wp_error($terms)) {
-            foreach($terms as $term) {
-                if(empty($taxonomies[$slug])) {
-                    $taxonomies[$slug] = [];
-                }
-
-                $term_id = $term->term_id;
-                $binded_id = icl_object_id($term_id, $slug, TRUE, $lang);
-                $binded_term = get_term($binded_id, $slug);
-
-                if(!empty($binded_term) and !is_wp_error($binded_term)) {
-                    $taxonomies[$slug][] = $binded_term->slug;
-                }
-            }
-        }
-
-    }
-
-    if(!empty($taxonomies)) {
-        foreach ($taxonomies as $meta_key=>$meta_value) {
-            update_post_meta($id, $meta_key, implode(',', $meta_value));
+        if (!empty($_GET['page']) and $_GET['page'] == 'pmxi-admin-manage') {
+            add_filter('user_can_richedit', '__return_false', 50);
         }
     }
 }

@@ -311,15 +311,15 @@ if ($listing_filter_position == 'right') {
                 </a>
             </div>
             <div class="stm-sort-by-options clearfix">
-                <span><?php esc_html_e('Sắp Xếp:', 'motors'); ?></span>
+                <span><?php esc_html_e('Sort by:', 'motors'); ?></span>
                 <div class="stm-select-sorting">
                     <select>
-                        <option value="date_high" selected><?php esc_html_e('Theo ngày: Mới nhất', 'motors'); ?></option>
-                        <option value="date_low"><?php esc_html_e('Theo ngày: Cũ Nhất', 'motors'); ?></option>
-                        <option value="price_low"><?php esc_html_e('Theo giá: Thấp Nhất', 'motors'); ?></option>
-                        <option value="price_high"><?php esc_html_e('Theo giá: Cao Nhất', 'motors'); ?></option>
-                        <option value="mileage_low"><?php esc_html_e('Kilomet : Thấp Nhất', 'motors'); ?></option>
-                        <option value="mileage_high"><?php esc_html_e('Kilomet : Cao Nhất', 'motors'); ?></option>
+                        <option value="date_high" selected><?php esc_html_e('Date: newest first', 'motors'); ?></option>
+                        <option value="date_low"><?php esc_html_e('Date: oldest first', 'motors'); ?></option>
+                        <option value="price_low"><?php esc_html_e('Price: lower first', 'motors'); ?></option>
+                        <option value="price_high"><?php esc_html_e('Price: highest first', 'motors'); ?></option>
+                        <option value="mileage_low"><?php esc_html_e('Mileage: lowest first', 'motors'); ?></option>
+                        <option value="mileage_high"><?php esc_html_e('Mileage: highest first', 'motors'); ?></option>
                     </select>
                 </div>
             </div>

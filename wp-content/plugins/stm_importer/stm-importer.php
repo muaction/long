@@ -6,7 +6,7 @@ Description: STM Importer
 Author: Stylemix Themes
 Author URI: http://stylemixthemes.com/
 Text Domain: stm_importer
-Version: 3.4
+Version: 3.1
 */
 
 if ( !function_exists('stm_demo_import'))

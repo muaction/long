@@ -112,7 +112,7 @@ function stm_cron_hook() {
 				foreach($additional_fields as $additional_key => $additional_field){
 					if($additional_key == 'vin') {
 						$additional_key = 'vin_number';
-						$history_link = 'http://clients.automanager.com/scripts/autocheckreport.aspx?VID=' . $additional_field;
+						$history_link = 'http://www.carfax.com/cfm/ccc_DisplayHistoryRpt.cfm?partner=AMG_1&VIN=' . $additional_field;
 						update_post_meta( $post_to_insert_id, 'history_link', $history_link );
 					}
 					update_post_meta( $post_to_insert_id, $additional_key, $additional_field );

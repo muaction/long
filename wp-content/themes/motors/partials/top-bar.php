@@ -11,7 +11,6 @@ if(!empty($top_bar) and $top_bar):
 
 			<?php if(function_exists('icl_get_languages')):
 				$langs = icl_get_languages('skip_missing=1&orderby=id&order=asc');
-
 			endif; ?>
 			<div class="clearfix top-bar-wrapper">
 			<!--LANGS-->
@@ -59,58 +58,6 @@ if(!empty($top_bar) and $top_bar):
 					</div>
 				<?php endif; ?>
 			<?php endif; ?>
-
-				<!-- Header Top bar Login -->
-				<?php if(!empty($top_bar_login) and $top_bar_login): ?>
-					<?php if(!stm_is_listing()): ?>
-						<?php if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ): ?>
-							<div class="pull-right hidden-xs">
-								<div class="header-login-url">
-									<?php if(is_user_logged_in()): ?>
-										<a class="logout-link" href="<?php echo esc_url(wp_logout_url(home_url())); ?>" title="<?php _e('Log out', 'motors'); ?>">
-											<i class="fa fa-icon-stm_icon_user"></i>
-											<?php _e('Log out', 'motors'); ?>
-										</a>
-									<?php else: ?>
-										<a href="<?php echo esc_url(get_permalink( get_option( 'woocommerce_myaccount_page_id' ) )); ?>">
-											<i class="fa fa-user"></i><span class="vt-top"><?php _e('Login', 'motors'); ?></span>
-										</a>
-										<span class="vertical-divider"></span>
-										<a href="<?php echo esc_url(get_permalink( get_option( 'woocommerce_myaccount_page_id' ) )); ?>"><?php _e('Register', 'motors'); ?></a>
-									<?php endif; ?>
-								</div>
-							</div>
-						<?php endif; ?>
-					<?php else: ?>
-						<?php
-							$login_page = get_theme_mod( 'login_page', 1718);
-							if(function_exists('icl_object_id')) {
-								$id   = icl_object_id( $login_page, 'page', false, ICL_LANGUAGE_CODE );
-								if(is_page($id)) {
-									$login_page = $id;
-								}
-							}
-						?>
-						<?php if ( !empty($login_page) ): ?>
-							<div class="pull-right hidden-xs">
-								<div class="header-login-url">
-									<?php if(is_user_logged_in()): ?>
-										<a class="logout-link" href="<?php echo esc_url(wp_logout_url(home_url())); ?>" title="<?php _e('Log out', 'motors'); ?>">
-											<i class="fa fa-icon-stm_icon_user"></i>
-											<?php _e('Log out', 'motors'); ?>
-										</a>
-									<?php else: ?>
-										<a href="<?php echo esc_url(get_permalink( $login_page )); ?>">
-											<i class="fa fa-user"></i><span class="vt-top"><?php _e('Login', 'motors'); ?></span>
-										</a>
-										<span class="vertical-divider"></span>
-										<a href="<?php echo esc_url(get_permalink( $login_page )); ?>"><?php _e('Register', 'motors'); ?></a>
-									<?php endif; ?>
-								</div>
-							</div>
-						<?php endif; ?>
-					<?php endif; ?>
-				<?php endif; ?>
 
 				<?php $socials = stm_get_header_socials('top_bar_socials_enable'); ?>
 				<!-- Header top bar Socials -->

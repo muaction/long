@@ -12,6 +12,12 @@ jQuery(document).ready(function ($) {
         })
     });
 
+    $(".stm_iconpicker").fontIconPicker({
+        theme: "fip-bootstrap",
+        emptyIcon: false,
+        source: stm_icons_array
+    });
+
     $(".stm-multiple-checkbox-wrapper input[type='checkbox']").on("change", function () {
 
         var checkbox_values = jQuery(this).parents(".customize-control").find("input[type='checkbox']:checked").map(function () {
@@ -91,6 +97,7 @@ jQuery(document).ready(function ($) {
         '#customize-control-header_secondary_phone_label_2,' +
         '#customize-control-header_secondary_phone_2,' +
         '#customize-control-header_address,' +
+        '#customize-control-header_address_url,' +
         '#customize-control-header_layout_break_1,' +
         '#customize-control-header_sticky,' +
         '#customize-control-header_style,' +

@@ -97,7 +97,7 @@ if (!empty($filter_selected)):
                 <?php foreach ($terms as $term): ?>
                     <?php $image = get_option('stm_taxonomy_listing_image_' . $term->term_id);
                     if ($multiply) {
-                        $link = stm_get_listing_archive_link() . '?' . $filter_selected . '[] = ' . $term->slug;
+                        $link = stm_get_listing_archive_link() . '?' . $filter_selected . '[' . $term->slug . '] = ✓';
                     } else {
                         $link = stm_get_listing_archive_link() . '?' . $filter_selected . '=' . $term->slug;
                     }

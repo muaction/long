@@ -11,7 +11,7 @@ if(stm_is_boats()) {
 	}
 
 	$car_already_added_to_compare = '';
-	$car_compare_status           = esc_html__( 'So sánh xe', 'motors' );
+	$car_compare_status           = esc_html__( 'Add to compare', 'motors' );
 
 	if ( ! empty( $cars_in_compare ) and in_array( get_the_ID(), $cars_in_compare ) ) {
 		$car_already_added_to_compare = 'active';

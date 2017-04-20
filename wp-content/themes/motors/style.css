@@ -3,13 +3,16 @@
 	Theme URI: http://motors.stylemixthemes.com/
 	Author: StylemixThemes
 	Author URI: http://stylemixthemes.com/
-	Description: Automotive, Cars, Vehicle, Boat Dealership, Classifieds WordPress Theme by StylemixThemes.
-	Version: 3.4
+	Description: Motors theme
+	Version: 3.3.2
 	License: GNU General Public License v2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	Tags: blue, black, red, dark, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, sticky-post, theme-options
 	Text Domain: motors
 */
+
+/*In order to save fixes list, last update styles for car dealer
+will be added here, and in next update they will be moved in app.css*/
 
 /* Automanager styles */
 .main-menu .header-menu > li > ul > li > ul a {
@@ -120,6 +123,80 @@ body .vc_row[data-vc-full-width].vc_parallax {
 .stm-template-listing .listing-list-loop .image .image-inner,
 .stm-directory-grid-loop .image {
     overflow: hidden;
+}
+
+/* Featured badge */
+.stm-badge-directory {
+    position: absolute;
+    right: -65px;
+    padding: 0 55px;
+    top: 20px;
+    width: 200px;
+    height: 33px;
+    line-height: 33px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #1bc744;
+    color: #fff !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stm-featured-top-cars-title {
+    margin-bottom: 25px;
+    position: relative;
+    padding-right: 120px;
+    border-bottom: 3px solid #1bc744;
+}
+
+.stm-featured-top-cars-title .heading-font:after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    right: -14px;
+    height: 100%;
+    width: 32px;
+    background-color: #1bc744;
+    -moz-transform: skew(45deg, 0deg);
+    -o-transform: skew(45deg, 0deg);
+    -ms-transform: skew(45deg, 0deg);
+    -webkit-transform: skew(45deg, 0deg);
+    transform: skew(45deg, 0deg);
+    z-index: -1;
+}
+
+.stm-featured-top-cars-title .heading-font {
+    position: relative;
+    display: inline-block;
+    padding: 3px 16px;
+    color: #fff;
+    background-color: #1bc744;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.stm-featured-top-cars-title a {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 13px;
+    color: #777;
+}
+
+.stm-special-car-top-on,
+.stm-isotope-sorting-featured-top .listing-list-loop {
+    border-bottom: 3px solid #1bc744;
+}
+
+.car-listing-row .stm-isotope-sorting-featured-top .car-meta-top {
+    border-bottom: 3px solid #1bc744;
 }
 
 body.stm-boxed .single-add-to-compare.single-add-to-compare-visible {
@@ -1296,70 +1373,4 @@ body:not(.stm-template-listing) .stm-border-top-unit .title {
 .modal-body .stm-sell-a-car-form input[type="submit"] {
     height: 46px;
     line-height: 14px;
-}
-
-/*Automanager*/
-body.automanager-listing-page .wpb_tabs br {
-    display: none;
-}
-
-@media (max-width: 1350px) {
-    .stm-single-car-page:before,
-    .stm-single-car-page:after,
-    .stm-simple-parallax .stm-simple-parallax-gradient:before,
-    .stm-simple-parallax .stm-simple-parallax-gradient:after {
-        z-index: -1;
-    }
-}
-
-@media (max-width: 767px) {
-    table > tbody tr td.compare-value-hover .h5:before {
-        content: attr(data-option)':';
-        display: inline;
-        font-size: 14px;
-    }
-}
-
-
-/*Multiple select*/
-.stm-multiple-select {
-    padding-top: 4px;
-    margin-bottom: 15px;
-    overflow: hidden;
-}
-
-.select2-container .select2-selection--multiple .select2-selection__rendered {
-    overflow: visible;
-}
-
-.stm-multiple-select .select2-container--default .select2-selection--multiple {
-    padding: 5px 7px 2px;
-    border-radius: 0;
-}
-
-.select2-container--default .select2-selection--multiple .select2-selection__choice {
-    max-width: 100%;
-    padding: 3px 10px;
-    margin: 3px 5px 8px 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    background-color: transparent;
-    border: 0;
-    -webkit-box-shadow: 0 1px 3px rgba(59, 62, 68, 0.5);
-    -moz-box-shadow: 0 1px 3px rgba(59, 62, 68, 0.5);
-    box-shadow: 0 1px 3px rgba(59, 62, 68, 0.5);
-}
-
-.select2-container--default .select2-selection--multiple .select2-selection__choice:first-child {
-}
-
-.stm-multiple-select .select2-search {
-    display: block;
-    margin-bottom: 0;
-}
-
-.stm-multiple-select .select2-search .select2-search__field {
-    margin: 5px 0 0 5px;
-    height: 20px;
-    line-height: 20px;
 }
